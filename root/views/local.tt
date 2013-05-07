@@ -51,14 +51,14 @@
 		<h4 class="largura12 align-center"><br><br>Lugares para visitar<br><br></h4>
     			<div class="largura4 local-lugares bg-cinza">
     				<figure>
-					<img src="images/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo">
+					<img src="images/turismo-1.png" alt="Linha Turismo" title="Linha Turismo">
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
-						Outro cartão postal da cidade é a Ópera de Arame, um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. 
-						Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se 
-						da por meio de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, 
-						das 8h às 20h.
+						A Linha Turismo é uma linha de ônibus especial que percorre os principais pontos turísticos da cidade, em um percurso de aproximadamente 
+						45 km, que dura cerca de duas horas e meia. A linha funciona de terça-feira a domingo das 9h às 17h30, e o valor do passeio é de R$ 27,00. 
+						Esse preço garante ao passageiro um embarque e quatro reembarques, possibilitando que o viajante escolha alguns dos pontos que queira 
+						conhecer melhor.
 					</p>
 				</div>
     				<p>Linha Turismo<a class="bt-mais bt-lilas float-right">–</a></p>
@@ -66,75 +66,68 @@
 
     			<div class="largura4 local-lugares bg-cinza">
     				<figure>
-					<img src="images/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo">
+					<img src="images/turismo-2.png" alt="Linha Turismo" title="Linha Turismo">
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
-						Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, 
-						Outro cartão postal da cidade é a Ópera de Arame, um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. 
-						Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se da por meio 
-						de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, das 8h às 20h.
+						A Torre Panorâmica de Curitiba é uma torre de telecomunicações que abriga o museu do Telefone e um mirante de 360° aberto a visitação publica. 
+						Inaugurada em 1991 a torre possui 109,5 metros de altura, funcionando de terça a domingo das 10h às 19h. A entrada custa R$ 3,00 por pessoa.
 					</p>
 				</div>
-    				<p>Linha Turismo<a class="bt-mais bt-lilas float-right">–</a></p>
+    				<p>Torre Panorâmica<a class="bt-mais bt-lilas float-right">–</a></p>
     			</div>
     			
 			<div class="largura4 local-lugares bg-cinza">
     				<figure>
-					<img src="images/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo">
+					<img src="images/turismo-3.png" alt="Linha Turismo" title="Linha Turismo">
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
-						Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, 
-						Outro cartão postal da cidade é a Ópera de Arame, um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. 
-						Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se da por meio 
-						de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, das 8h às 20h.
+						O Jardim Botânico é um dos principais cartões postais de Curitiba. Com uma área de cerca de 245 mil m², possui vastos jardins geométricos, 
+						além de um bosque de araucárias e de uma estufa de três abóbadas, que abriga plantas característica da Floresta Atlântica. 
+						O Jardim Botânico funciona de terça a domingo das 06h às 21h.
 					</p>
 				</div>
-    				<p>Linha Turismo<a class="bt-mais bt-lilas float-right">–</a></p>
+    				<p>Jardim Botânico<a class="bt-mais bt-lilas float-right">–</a></p>
     			</div>
 
     			<div class="largura4 local-lugares bg-cinza">
     				<figure>
-					<img src="images/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo">
+					<img src="images/turismo-4.png" alt="Linha Turismo" title="Linha Turismo">
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
-						Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, 
-						Outro cartão postal da cidade é a Ópera de Arame, um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. 
-						Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se da por meio 
-						de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, das 8h às 20h.
+						 Um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. Situada no local onde funcionava 
+						 uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se da por meio de uma ponte de 
+						 ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, das 8h às 20h.
 					</p>
 				</div>
-    				<p>Linha Turismo<a class="bt-mais bt-lilas float-right">–</a></p>
+    				<p>Ópera de Arame<a class="bt-mais bt-lilas float-right">–</a></p>
     			</div>
 
     			<div class="largura4 local-lugares bg-cinza">
     				<figure>
-					<img src="images/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo">
+					<img src="images/turismo-5.png" alt="Linha Turismo" title="Linha Turismo">
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
-						Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, 
-						Outro cartão postal da cidade é a Ópera de Arame, um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. 
-						Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se da por meio 
-						de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, das 8h às 20h.
+						Situada no chamado Centro Histórico de Curitiba, é composta por diversas barracas que contam com os mais diversos produtos de artesanato, 
+						além de comidas variadas. A feira só funciona aos domingos, das 9h às 14h.
 					</p>
 				</div>
-    				<p>Linha Turismo<a class="bt-mais bt-lilas float-right">–</a></p>
+    				<p>Feirinha do Largo da Ordem<a class="bt-mais bt-lilas float-right">–</a></p>
     			</div>
 
     			<div class="largura4 local-lugares bg-cinza">
     				<figure>
-					<img src="images/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo">
+					<img src="images/turismo-6.png" alt="Linha Turismo" title="Linha Turismo">
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
-						Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, 
-						Outro cartão postal da cidade é a Ópera de Arame, um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. 
-						Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se da por meio 
-						de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, das 8h às 20h.
-				</p>
+						O Barigui é um dos maiores e o mais freqüentado parque de Curitiba. Sábados, domingos e feriados o parque é um dos principais pontos
+						de encontro da cidade e, durante a semana, é muito comum as caminhadas em volta do lago. São muitas as opções de 
+						entretenimento e lazer no Barigui.						
+					</p>
 			</div>
-    			<p>Linha Turismo<a class="bt-mais bt-lilas float-right">–</a></p>
+    			<p>Parque Barigui<a class="bt-mais bt-lilas float-right">–</a></p>
     		</div>
