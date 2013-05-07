@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<!--[if lt IE 9]><script src="dist/html5shiv.js"></script><![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>YAPC::Brasil 2013</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <link href='http://fonts.googleapis.com/css?family=Signika:400,700,600,300|Special+Elite' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
     	<a id="body-bg"></a>
     	<div id"page">
 	    	
@@ -23,7 +5,7 @@
 	    		<div><!-- wrapper -->
 	    			<div class="largura6 align-right">
 	    				<figure class="largura4 float-right" id="logo-yapc">
-	    					<img src="img/logo-yapc.png" alt="YAPC::Brasil 2013" alt="YAPC::Brasil 2013">
+	    					<img src="images/logo-yapc.png" alt="YAPC::Brasil 2013" alt="YAPC::Brasil 2013">
 	    				</figure>
 	    				<h1 class="align-right">YAPC::Brasil 2013</h1>
 	    				<h2 class="align-right">Yet Another Perl Conference 2013<br>15 e 16 de Novembro, em Curitiba, PR</h2>
@@ -42,7 +24,7 @@
 	    	<header class="full" id="nav">
 				<div><!-- wrapper -->
 					<figure class="largura4" id="logo-yapc-sticky">
-						<img src="img/logo-yapc-sticky.png" alt="YAPC::Brasil 2013" alt="YAPC::Brasil 2013">
+						<img src="images/logo-yapc-sticky.png" alt="YAPC::Brasil 2013" alt="YAPC::Brasil 2013">
 					</figure>
 					<nav class="largura6 float-right">
 						<a id="programacao-menu">Programação</a>
@@ -157,7 +139,7 @@
 						<a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=pt-BR&amp;geocode=&amp;q=Rua+Silveira+Peixoto,+1297,+Curitiba+-+Paran%C3%A1,+Rep%C3%BAblica+Federativa+do+Brasil&amp;aq=0&amp;oq=Rua+Silveira+Peixoto+1297&amp;sll=37.0625,-95.677068&amp;sspn=40.732051,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Silveira+Peixoto,+1297+-+Batel,+Curitiba+-+Paran%C3%A1,+80240-120,+Rep%C3%BAblica+Federativa+do+Brasil&amp;t=m&amp;z=14&amp;ll=-25.443545,-49.286335" class="largura4 bt-lilas" target="_blank">Clique para ver no Google Maps</a>
 	    			</div>
 	    			<h3 class="largura6 float-none">Curitiba</h3><br><br>
-					<figure class="largura6"><img src="img/mapa-rit.jpg" alt="Mapa da Rede Integrada de Transporte" title="Mapa da Rede Integrada de Transporte"></figure>
+					<figure class="largura6"><img src="images/mapa-rit.jpg" alt="Mapa da Rede Integrada de Transporte" title="Mapa da Rede Integrada de Transporte"></figure>
 	    			<div class="largura6">
 	    				<h4>Andando em Curitiba</h4><br>
 	    				<p>
@@ -167,7 +149,7 @@
 	    			</div>
 					<h4 class="largura12 align-center"><br><br>Lugares para visitar<br><br></h4>
 	    			<div class="largura4 local-lugares bg-cinza">
-	    				<figure><img src="img/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo"></figure>
+	    				<figure><img src="images/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo"></figure>
 						<div class="o-que-mais bg-cinza">
 							<p>Outro cartão postal da cidade é a Ópera de Arame, um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se da por meio de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, das 8h às 20h.</p>
 						</div>
@@ -177,7 +159,7 @@
 	    				</p>
 	    			</div>
 	    			<div class="largura4 local-lugares bg-cinza">
-	    				<figure><img src="img/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo"></figure>
+	    				<figure><img src="images/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo"></figure>
 						<div class="o-que-mais bg-cinza">
 							<p>Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se da por meio de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, das 8h às 20h.</p>
 						</div>
@@ -187,7 +169,7 @@
 	    				</p>
 	    			</div>
 	    			<div class="largura4 local-lugares bg-cinza">
-	    				<figure><img src="img/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo"></figure>
+	    				<figure><img src="images/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo"></figure>
 						<div class="o-que-mais bg-cinza">
 							<p>Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se da por meio de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, das 8h às 20h.</p>
 						</div>
@@ -197,7 +179,7 @@
 	    				</p>
 	    			</div>
 	    			<div class="largura4 local-lugares bg-cinza">
-	    				<figure><img src="img/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo"></figure>
+	    				<figure><img src="images/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo"></figure>
 						<div class="o-que-mais bg-cinza">
 							<p>Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se da por meio de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, das 8h às 20h.</p>
 						</div>
@@ -207,7 +189,7 @@
 	    				</p>
 	    			</div>
 	    			<div class="largura4 local-lugares bg-cinza">
-	    				<figure><img src="img/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo"></figure>
+	    				<figure><img src="images/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo"></figure>
 						<div class="o-que-mais bg-cinza">
 							<p>Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se da por meio de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, das 8h às 20h.</p>
 						</div>
@@ -217,7 +199,7 @@
 	    				</p>
 	    			</div>
 	    			<div class="largura4 local-lugares bg-cinza">
-	    				<figure><img src="img/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo"></figure>
+	    				<figure><img src="images/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo"></figure>
 						<div class="o-que-mais bg-cinza">
 							<p>Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se da por meio de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, das 8h às 20h.</p>
 						</div>
@@ -257,34 +239,34 @@
 	    		<div><!-- wrapper -->
 	    			<h3 class="largura6 float-none">Patrocinadores</h3><br><br>
 	    			<div class="align-center">
-						<figure class="largura6"><img src="img/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
-						<figure class="largura6"><img src="img/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura6"><img src="images/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura6"><img src="images/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 	    			</div>
 	    			<div class="align-center">
-						<figure class="largura4"><img src="img/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
-						<figure class="largura4"><img src="img/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
-						<figure class="largura4"><img src="img/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
-						<figure class="largura4"><img src="img/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
-						<figure class="largura4"><img src="img/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
-						<figure class="largura4"><img src="img/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura4"><img src="images/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura4"><img src="images/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura4"><img src="images/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura4"><img src="images/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura4"><img src="images/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura4"><img src="images/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 	    			</div>
 	    			<div class="align-center">
-						<figure class="largura3"><img src="img/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
-						<figure class="largura3"><img src="img/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
-						<figure class="largura3"><img src="img/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
-						<figure class="largura3"><img src="img/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura3"><img src="images/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura3"><img src="images/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura3"><img src="images/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura3"><img src="images/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 	    			</div>
 	    			<div class="align-center">
-						<figure class="largura2"><img src="img/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
-						<figure class="largura2"><img src="img/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
-						<figure class="largura2"><img src="img/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
-						<figure class="largura2"><img src="img/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura2"><img src="images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura2"><img src="images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura2"><img src="images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura2"><img src="images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 	    			</div>
 	    			<div class="align-center">
-						<figure class="largura1"><img src="img/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
-						<figure class="largura1"><img src="img/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
-						<figure class="largura1"><img src="img/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
-						<figure class="largura1"><img src="img/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura1"><img src="images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura1"><img src="images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura1"><img src="images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+						<figure class="largura1"><img src="images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 	    			</div>
 	    		</div><!-- /wrapper -->
 	    	</section><!-- /.full -->
@@ -292,16 +274,10 @@
 	    	<section class="full" id="patrocinadores-barra">
 	    		<div>
 	    			<h5 class="largura3">Patrocinadores</h5>
-					<figure class="largura2"><img src="img/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
-					<figure class="largura2"><img src="img/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+					<figure class="largura2"><img src="images/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+					<figure class="largura2"><img src="images/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 					<a class="bt-mais bt-lilas float-right">+</a>
 	    		</div>
 	    	</section>
 	    	
 		</div><!-- /#page -->
-        <script src="js/vendor/jquery-1.9.1.min.js"></script>
-		<script src="js/jquery.sticky.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-    </body>
-</html>
