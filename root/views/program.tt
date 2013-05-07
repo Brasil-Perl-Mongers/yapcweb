@@ -16,71 +16,51 @@
     	<div id="programacao-sexta-content">
 
     		<ul class="align-center">
-    			<li class="largura2 quando">sexta</li>
-    			<li class="largura4 quem">Thiago Glauco Sanchez (Thiago Glauco Sanchez)</li>
-    			<li class="largura5 o-que">Plagiarism detection using HBase: How a data-rich application finally found a Big-Data solution</li>
+    			<li class="largura2 quando">hora</li>
+    			<li class="largura4 quem">Palestrante</li>
+    			<li class="largura5 o-que">Título</li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
     			<li class="largura12 o-que-mais-content">
-    				A Política Nacional de Resíduos Sólidos estabelece princípios, objetivos, diretrizes, metas e ações, e importantes instrumentos, 
-				tais como este Plano Nacional de Resíduos Sólidos, que está em processo de construção e contemplará os diversos tipos de resíduos 
-				gerados,alternativas de gestão e gerenciamento passíveis de implementação, bem como metas para diferentes cenários, programas, 
-				projetos e ações correspondentes. E é nesta concepção que se espera consolidar uma ferramenta de análise gerencial que possa mensurar 
-				a relação custo, desperdício e retorno para a região do que foi tornado resíduo, de modo a permitir o controle de entrada, processamento 
-				e saída destes resíduos dos municipíos.
+    				Descrição
     			</li>
     		</ul>
     		
 		<ul class="align-center">
-    			<li class="largura2 quando">14:30h</li>
-    			<li class="largura4 quem">Thiago Glauco Sanchez (Thiago Glauco Sanchez)</li>
-    			<li class="largura5 o-que">Plagiarism detection using HBase: How a data-rich application finally found a Big-Data solution</li>
+    			<li class="largura2 quando">hora</li>
+    			<li class="largura4 quem">Palestrante</li>
+    			<li class="largura5 o-que">Título</li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
     			<li class="largura12 o-que-mais-content">
-    				A Política Nacional de Resíduos Sólidos estabelece princípios, objetivos, diretrizes, metas e ações, e importantes instrumentos, 
-				tais como este Plano Nacional de Resíduos Sólidos, que está em processo de construção e contemplará os diversos tipos de resíduos 
-				gerados,alternativas de gestão e gerenciamento passíveis de implementação, bem como metas para diferentes cenários, programas, 
-				projetos e ações correspondentes. E é nesta concepção que se espera consolidar uma ferramenta de análise gerencial que possa mensurar 
-				a relação custo, desperdício e retorno para a região do que foi tornado resíduo, de modo a permitir o controle de entrada, processamento 
-				e saída destes resíduos dos municipíos.
+    				Descrição
     			</li>
     		</ul>
     	</div>
     	
 	<div id="programacao-sabado-content">
     		<ul class="align-center">
-    			<li class="largura2 quando">sabado</li>
-    			<li class="largura4 quem">Thiago Glauco Sanchez (Thiago Glauco Sanchez)</li>
-    			<li class="largura5 o-que">Plagiarism detection using HBase: How a data-rich application finally found a Big-Data solution</li>
+    			<li class="largura2 quando">hora</li>
+    			<li class="largura4 quem">Palestrante</li>
+    			<li class="largura5 o-que">Título</li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
     			<li class="largura12 o-que-mais-content">
-    				A Política Nacional de Resíduos Sólidos estabelece princípios, objetivos, diretrizes, metas e ações, e importantes instrumentos, 
-				tais como este Plano Nacional de Resíduos Sólidos, que está em processo de construção e contemplará os diversos tipos de resíduos 
-				gerados,alternativas de gestão e gerenciamento passíveis de implementação, bem como metas para diferentes cenários, programas, projetos 
-				e ações correspondentes. E é nesta concepção que se espera consolidar uma ferramenta de análise gerencial que possa mensurar a 
-				relação custo, desperdício e retorno para a região do que foi tornado resíduo, de modo a permitir o controle de entrada, processamento 
-				e saída destes resíduos dos municipíos.
+    				Descrição
     			</li>
     		</ul>
     		<ul class="align-center">
-    			<li class="largura2 quando">14:30h</li>
-    			<li class="largura4 quem">Thiago Glauco Sanchez (Thiago Glauco Sanchez)</li>
-    			<li class="largura5 o-que">Plagiarism detection using HBase: How a data-rich application finally found a Big-Data solution</li>
+    			<li class="largura2 quando">hora</li>
+    			<li class="largura4 quem">Palestrante</li>
+    			<li class="largura5 o-que">Título</li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
     			<li class="largura12 o-que-mais-content">
-    				A Política Nacional de Resíduos Sólidos estabelece princípios, objetivos, diretrizes, metas e ações, e importantes instrumentos, 
-				tais como este Plano Nacional de Resíduos Sólidos, que está em processo de construção e contemplará os diversos tipos de resíduos gerados
-				,alternativas de gestão e gerenciamento passíveis de implementação, bem como metas para diferentes cenários, programas, projetos e ações 
-				correspondentes. E é nesta concepção que se espera consolidar uma ferramenta de análise gerencial que possa mensurar a relação custo, 
-				desperdício e retorno para a região do que foi tornado resíduo, de modo a permitir o controle de entrada, processamento e saída 
-				destes resíduos dos municipíos.
+    				Descrição
     			</li>
     		</ul>
 	</div>
