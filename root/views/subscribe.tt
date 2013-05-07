@@ -1,0 +1,18 @@
+<h3 class="largura6 float-none">Inscrições</h3>
+<br><br>
+<div class="largura4 bg-cinza align-center inscricoes-valores">
+	<span>
+		até 31/08<br>
+		<span>R$ 50,00</span>
+	</span>
+</div>
+<div class="largura4 bg-cinza align-center inscricoes-valores">
+	<span>
+		a partir de 01/09<br>
+		<span>R$ 70,00</span>
+	</span>
+</div>
+<div class="largura4">
+	<p>Faça sua inscrição para o YAPC 2013 pelo site EventBrite.</p><br>
+	<a href="#" class="largura2 bt-lilas" target="_blank">Inscrever-se</a>
+</div>

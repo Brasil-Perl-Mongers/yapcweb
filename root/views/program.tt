@@ -1,0 +1,100 @@
+<div class="largura6">
+	<h3>Programação</h3>
+    	<h4 class="align-right">O Universo Científico</h4>
+</div>
+<div class="largura6 programacao-datas">
+	<a class="largura2 bt-lilas float-right" id="programacao-sabado">16 :: sábado</a>
+	<a class="largura2 bt-lilas float-right" id="programacao-sexta">15 :: sexta</a>
+</div>
+<div class="largura12 programacao-tabela">
+	<ul class="header bg-cinza align-center">
+		<li class="largura2">QUANDO?</li>
+		<li class="largura4">QUEM?</li>
+		<li class="largura6">O QUE?</li>
+    	</ul>
+
+    	<div id="programacao-sexta-content">
+
+    		<ul class="align-center">
+    			<li class="largura2 quando">sexta</li>
+    			<li class="largura4 quem">Thiago Glauco Sanchez (Thiago Glauco Sanchez)</li>
+    			<li class="largura5 o-que">Plagiarism detection using HBase: How a data-rich application finally found a Big-Data solution</li>
+    			<li class="largura1 o-que-mais">
+    				<a class="bt-mais bt-lilas float-right"></a>
+    			</li>
+    			<li class="largura12 o-que-mais-content">
+    				A Política Nacional de Resíduos Sólidos estabelece princípios, objetivos, diretrizes, metas e ações, e importantes instrumentos, 
+				tais como este Plano Nacional de Resíduos Sólidos, que está em processo de construção e contemplará os diversos tipos de resíduos 
+				gerados,alternativas de gestão e gerenciamento passíveis de implementação, bem como metas para diferentes cenários, programas, 
+				projetos e ações correspondentes. E é nesta concepção que se espera consolidar uma ferramenta de análise gerencial que possa mensurar 
+				a relação custo, desperdício e retorno para a região do que foi tornado resíduo, de modo a permitir o controle de entrada, processamento 
+				e saída destes resíduos dos municipíos.
+    			</li>
+    		</ul>
+    		
+		<ul class="align-center">
+    			<li class="largura2 quando">14:30h</li>
+    			<li class="largura4 quem">Thiago Glauco Sanchez (Thiago Glauco Sanchez)</li>
+    			<li class="largura5 o-que">Plagiarism detection using HBase: How a data-rich application finally found a Big-Data solution</li>
+    			<li class="largura1 o-que-mais">
+    				<a class="bt-mais bt-lilas float-right"></a>
+    			</li>
+    			<li class="largura12 o-que-mais-content">
+    				A Política Nacional de Resíduos Sólidos estabelece princípios, objetivos, diretrizes, metas e ações, e importantes instrumentos, 
+				tais como este Plano Nacional de Resíduos Sólidos, que está em processo de construção e contemplará os diversos tipos de resíduos 
+				gerados,alternativas de gestão e gerenciamento passíveis de implementação, bem como metas para diferentes cenários, programas, 
+				projetos e ações correspondentes. E é nesta concepção que se espera consolidar uma ferramenta de análise gerencial que possa mensurar 
+				a relação custo, desperdício e retorno para a região do que foi tornado resíduo, de modo a permitir o controle de entrada, processamento 
+				e saída destes resíduos dos municipíos.
+    			</li>
+    		</ul>
+    	</div>
+    	
+	<div id="programacao-sabado-content">
+    		<ul class="align-center">
+    			<li class="largura2 quando">sabado</li>
+    			<li class="largura4 quem">Thiago Glauco Sanchez (Thiago Glauco Sanchez)</li>
+    			<li class="largura5 o-que">Plagiarism detection using HBase: How a data-rich application finally found a Big-Data solution</li>
+    			<li class="largura1 o-que-mais">
+    				<a class="bt-mais bt-lilas float-right"></a>
+    			</li>
+    			<li class="largura12 o-que-mais-content">
+    				A Política Nacional de Resíduos Sólidos estabelece princípios, objetivos, diretrizes, metas e ações, e importantes instrumentos, 
+				tais como este Plano Nacional de Resíduos Sólidos, que está em processo de construção e contemplará os diversos tipos de resíduos 
+				gerados,alternativas de gestão e gerenciamento passíveis de implementação, bem como metas para diferentes cenários, programas, projetos 
+				e ações correspondentes. E é nesta concepção que se espera consolidar uma ferramenta de análise gerencial que possa mensurar a 
+				relação custo, desperdício e retorno para a região do que foi tornado resíduo, de modo a permitir o controle de entrada, processamento 
+				e saída destes resíduos dos municipíos.
+    			</li>
+    		</ul>
+    		<ul class="align-center">
+    			<li class="largura2 quando">14:30h</li>
+    			<li class="largura4 quem">Thiago Glauco Sanchez (Thiago Glauco Sanchez)</li>
+    			<li class="largura5 o-que">Plagiarism detection using HBase: How a data-rich application finally found a Big-Data solution</li>
+    			<li class="largura1 o-que-mais">
+    				<a class="bt-mais bt-lilas float-right"></a>
+    			</li>
+    			<li class="largura12 o-que-mais-content">
+    				A Política Nacional de Resíduos Sólidos estabelece princípios, objetivos, diretrizes, metas e ações, e importantes instrumentos, 
+				tais como este Plano Nacional de Resíduos Sólidos, que está em processo de construção e contemplará os diversos tipos de resíduos gerados
+				,alternativas de gestão e gerenciamento passíveis de implementação, bem como metas para diferentes cenários, programas, projetos e ações 
+				correspondentes. E é nesta concepção que se espera consolidar uma ferramenta de análise gerencial que possa mensurar a relação custo, 
+				desperdício e retorno para a região do que foi tornado resíduo, de modo a permitir o controle de entrada, processamento e saída 
+				destes resíduos dos municipíos.
+    			</li>
+    		</ul>
+	</div>
+</div>
+   <a class="bt-lilas largura4 float-right" id="quer-palestrar">Quer palestrar? Clique aqui</a>
+   	<div class="largura4 bg-cinza" id="quer-palestrar-form">
+    		<form action="" method="post">
+    			Sua proposta será avaliada e em breve entraremos em contato.<br><br>
+    			<input type="text" placeholder="Nome" name="nomePalestrante">
+    			<input type="text" placeholder="E-mail" name="emailPalestrante">
+    			<input type="text" placeholder="Título da palestra" name="tituloPalestrante">
+    			<textarea placeholder="Resumo da palestra" name="resumoPalestrante"></textarea>
+    			<input type="submit" value="Enviar" name="submit" class="bt-lilas">
+    		</form>
+    		<a id="quer-fechar">Fechar formulário</a>
+	</div>
+<div id="quer-overlay"></div>

@@ -1,0 +1,28 @@
+<h3 class="largura6 float-none">Patrocinadores</h3><br><br>
+<div class="align-center">
+	<figure class="largura6"><img src="images/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura6"><img src="images/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+</div>
+<div class="align-center">
+	<figure class="largura4"><img src="images/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura4"><img src="images/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura4"><img src="images/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+</div>
+<div class="align-center">
+	<figure class="largura3"><img src="images/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura3"><img src="images/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura3"><img src="images/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura3"><img src="images/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+</div>
+<div class="align-center">
+	<figure class="largura2"><img src="images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura2"><img src="images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura2"><img src="images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura2"><img src="images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+</div>
+<div class="align-center">
+	<figure class="largura1"><img src="images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura1"><img src="images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura1"><img src="images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura1"><img src="images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+</div>

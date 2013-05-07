@@ -1,0 +1,30 @@
+<div class="largura6 align-right">
+	<figure class="largura4 float-right" id="logo-yapc">
+		<img src="images/logo-yapc.png" alt="YAPC::Brasil 2013" alt="YAPC::Brasil 2013">
+	</figure>
+	<h1 class="align-right">YAPC::Brasil 2013</h1>
+	<h2 class="align-right">Yet Another Perl Conference 2013<br>15 e 16 de Novembro, em Curitiba, PR</h2>
+</div>
+<div class="largura6">
+	<p>
+		Curitiba hospeda em 2013 a oitava edição da YAPC::Brasil, oferecendo à comunidade de usuários palestras e debates sobre o estado da arte,
+		as práticas e tecnologias voltadas para captura, armazenamento, busca, compartilhamento, análise, e visualização de dados científicos.
+		
+		<br><br>
+			
+		A YAPC::Brasil (Yet Another Perl Conference :: Brasil) é um evento social para integrar a comunidade de desenvolvedores em linguagem Perl e usuários. 
+		A edição 2013 está estruturada para fomentar o diálogo e a colaboração entre desenvolvedores Perl e profissionais das demais áreas de conhecimento 
+		que stão experimentando lidar com grandes volumes de informação gerados por experimentos científicos.
+
+		<br><br>
+					
+		A interdisciplinaridade é uma prioridade para a comunidade Perl, expressa em seu lema “há mais de uma maneira de fazê-lo” 
+		(“There's more than one way to do it”). Tanto os core hackers da linguagem quanto seus usuários ocasionais são oriundos das mais diversas 
+		formações acadêmicas: Computação, Biologia, Física, Química, Engenharia, Farmácia, etc.
+
+		<br><br>
+			
+		A revolução científica atual exige o processamento de grandes volumes de dados com diversos graus de complexidade, portanto é essencial 
+		que exista uma maior sinergia entre profissionais de diferentes áreas que possam trocar conhecimentos.
+	</p>
+</div>

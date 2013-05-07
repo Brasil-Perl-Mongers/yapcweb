@@ -1,0 +1,124 @@
+<h3 class="largura6 float-none">Local</h3><br><br>
+
+<iframe class="largura6" width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Rua+Silveira+Peixoto,+1297,+Curitiba+-+Paran%C3%A1,+Rep%C3%BAblica+Federativa+do+Brasil&amp;aq=0&amp;oq=Rua+Silveira+Peixoto+1297&amp;sll=37.0625,-95.677068&amp;sspn=40.732051,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Silveira+Peixoto,+1297+-+Batel,+Curitiba+-+Paran%C3%A1,+80240-120,+Rep%C3%BAblica+Federativa+do+Brasil&amp;t=m&amp;z=14&amp;ll=-25.443545,-49.286335&amp;output=embed">
+</iframe>
+<div class="largura6">
+	<h4>O YAPC::Brasil 2013 será em Curitiba,<br>no Hotel Slaviero Full Jazz</h4><br>
+		<p>
+			Ouça, ao dar seus primeiros passos no lobby. Veja, nas paredes e nos móveis. Sinta, nos corredores, no carpete e nas cadeiras do bar. 
+			Assista a um show no seu apartamento, e tenha certeza: o jazz mora aqui. Em Curitiba, você pode ficar em um hotel comum, ou em um hotel 
+			que é Full Jazz.
+			
+			<br><br>
+
+			O Slaviero Full Jazz está no Batel, bairro nobre de Curitiba, e transmite a experiência do jazz na decoração de todos os seus apartamentos. 
+			Um hotel para ouvir, ver, sentir e sempre querer voltar.
+		</p>
+		
+		<br>
+		<a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=pt-BR&amp;geocode=&amp;q=Rua+Silveira+Peixoto,+1297,+Curitiba+-+Paran%C3%A1,+Rep%C3%BAblica+Federativa+do+Brasil&amp;aq=0&amp;oq=Rua+Silveira+Peixoto+1297&amp;sll=37.0625,-95.677068&amp;sspn=40.732051,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Silveira+Peixoto,+1297+-+Batel,+Curitiba+-+Paran%C3%A1,+80240-120,+Rep%C3%BAblica+Federativa+do+Brasil&amp;t=m&amp;z=14&amp;ll=-25.443545,-49.286335" class="largura4 bt-lilas" target="_blank">Clique para ver no Google Maps</a>
+</div>
+
+<h3 class="largura6 float-none">Curitiba</h3><br><br>
+	<figure class="largura6"><img src="images/mapa-rit.jpg" alt="Mapa da Rede Integrada de Transporte" title="Mapa da Rede Integrada de Transporte"></figure>
+    		<div class="largura6">
+    			<h4>Andando em Curitiba</h4><br>
+    				<p>
+    					A Rede Integrada de Transporte (RIT) permite ao usuário a utilização de mais de uma linha de ônibus com o pagamento de apenas uma tarifa. 
+					O processo de integração ocorre a partir de terminais de integração onde o cidadão pode desembarcar de uma linha e embarcar em qualquer 
+					outra dentro daquele espaço sem um novo pagamento. Assim, o usuário pode compor o seu próprio trajeto para se deslocar por diversos bairros 
+					de Curitiba e  municípios da Região Metropolitana. Ao todo, são 14 cidades interligadas por esta rede de linhas que proporciona ampla mobilidade 
+					a mais de 2 milhões de pessoas diariamente.
+    				</p><br>
+			<a href="http://www.urbs.curitiba.pr.gov.br/transporte/rede-integrada-de-transporte/32" class="largura4 bt-lilas" target="_blank">Clique para ver o mapa ampliado</a>
+    		</div>
+		<h4 class="largura12 align-center"><br><br>Lugares para visitar<br><br></h4>
+    			<div class="largura4 local-lugares bg-cinza">
+    				<figure>
+					<img src="images/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo">
+				</figure>
+				<div class="o-que-mais bg-cinza">
+					<p>
+						Outro cartão postal da cidade é a Ópera de Arame, um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. 
+						Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se 
+						da por meio de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, 
+						das 8h às 20h.
+					</p>
+				</div>
+    				<p>Linha Turismo<a class="bt-mais bt-lilas float-right">–</a></p>
+    			</div>
+
+    			<div class="largura4 local-lugares bg-cinza">
+    				<figure>
+					<img src="images/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo">
+				</figure>
+				<div class="o-que-mais bg-cinza">
+					<p>
+						Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, 
+						Outro cartão postal da cidade é a Ópera de Arame, um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. 
+						Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se da por meio 
+						de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, das 8h às 20h.
+					</p>
+				</div>
+    				<p>Linha Turismo<a class="bt-mais bt-lilas float-right">–</a></p>
+    			</div>
+    			
+			<div class="largura4 local-lugares bg-cinza">
+    				<figure>
+					<img src="images/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo">
+				</figure>
+				<div class="o-que-mais bg-cinza">
+					<p>
+						Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, 
+						Outro cartão postal da cidade é a Ópera de Arame, um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. 
+						Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se da por meio 
+						de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, das 8h às 20h.
+					</p>
+				</div>
+    				<p>Linha Turismo<a class="bt-mais bt-lilas float-right">–</a></p>
+    			</div>
+
+    			<div class="largura4 local-lugares bg-cinza">
+    				<figure>
+					<img src="images/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo">
+				</figure>
+				<div class="o-que-mais bg-cinza">
+					<p>
+						Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, 
+						Outro cartão postal da cidade é a Ópera de Arame, um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. 
+						Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se da por meio 
+						de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, das 8h às 20h.
+					</p>
+				</div>
+    				<p>Linha Turismo<a class="bt-mais bt-lilas float-right">–</a></p>
+    			</div>
+
+    			<div class="largura4 local-lugares bg-cinza">
+    				<figure>
+					<img src="images/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo">
+				</figure>
+				<div class="o-que-mais bg-cinza">
+					<p>
+						Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, 
+						Outro cartão postal da cidade é a Ópera de Arame, um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. 
+						Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se da por meio 
+						de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, das 8h às 20h.
+					</p>
+				</div>
+    				<p>Linha Turismo<a class="bt-mais bt-lilas float-right">–</a></p>
+    			</div>
+
+    			<div class="largura4 local-lugares bg-cinza">
+    				<figure>
+					<img src="images/local-foto.jpg" alt="Linha Turismo" title="Linha Turismo">
+				</figure>
+				<div class="o-que-mais bg-cinza">
+					<p>
+						Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, Outro cartão postal da cidade é a Ópera de Arame, 
+						Outro cartão postal da cidade é a Ópera de Arame, um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. 
+						Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se da por meio 
+						de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, das 8h às 20h.
+				</p>
+			</div>
+    			<p>Linha Turismo<a class="bt-mais bt-lilas float-right">–</a></p>
+    		</div>
