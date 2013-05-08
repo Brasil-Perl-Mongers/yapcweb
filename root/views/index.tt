@@ -62,10 +62,10 @@
     	<hr>
     	<section class="full" id="patrocinadores-barra">
     		<div>
-    			<h5 class="largura3">Patrocinadores</h5>
+    			<h5 class="largura6 align-right" >Patrocinadores</h5>
 			<figure class="largura2"><img src="images/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 			<figure class="largura2"><img src="images/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
-			<a class="bt-mais bt-lilas float-right">+</a>
+			<!--<a class="bt-mais bt-lilas float-right">+</a>-->
     		</div>
     	</section>    	
 </div><!-- /#page -->

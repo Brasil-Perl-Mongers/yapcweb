@@ -14,7 +14,7 @@ body {
 	width:20px;
 	height:20px;
 	background:#ddd;
-/*	display:none;*/
+	display:none;
 }
 body,
 input,
@@ -352,6 +352,10 @@ textarea {
 	height: 150px;
 	overflow-x: hidden;
 }
+.local-lugares figure {
+	overflow:hidden;
+	height:169px;
+}
 .local-lugares .o-que-mais p {
 	font-size: 12px;
 	line-height: 16px;
@@ -375,9 +379,6 @@ textarea {
 	background: url(../images/noise.png) center center repeat #ffffff;
 	position:fixed;
 	bottom:0;
-}
-#patrocinadores-barra > div {
-	max-width:640px;
 }
 #patrocinadores-barra h5,
 #patrocinadores-barra a {

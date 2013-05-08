@@ -1,4 +1,8 @@
-<h3 class="largura6 float-none">Patrocinadores</h3><br><br>
+<div class="largura12 float-none">
+	<h3 class="largura6" >Patrocinadores</h3>
+	<a href="#" class="bt-lilas largura5">Quer Patrocinar? Clique e saiba mais</a>
+</div>
+<br><br><br>
 <div class="align-center">
 	<figure class="largura6"><img src="images/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 	<figure class="largura6"><img src="images/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
