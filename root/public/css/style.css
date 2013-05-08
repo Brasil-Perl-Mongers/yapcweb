@@ -1,10 +1,10 @@
 body {
 	font-weight:300;
-	background:url(../img/noise.png) center center repeat #ffffff;
+	background:url(../images/noise.png) center center repeat #ffffff;
 	color:#333333;
 }
 .body-bg {
-	background:url(../img/grid.png) center center repeat #ffffff !important;
+	background:url(../images/grid.png) center center repeat #ffffff !important;
 }
 #body-bg {
 	position:fixed;
@@ -14,7 +14,7 @@ body {
 	width:20px;
 	height:20px;
 	background:#ddd;
-	display:none;
+/*	display:none;*/
 }
 body,
 input,
@@ -58,6 +58,10 @@ p {
 	font-size:14px;
 	line-height:18px;
 }
+p a {
+	color:#ff5500;
+	font-weight:700;
+}
 a:hover {
 	text-decoration:none;
 }
@@ -66,7 +70,7 @@ img {
 	width:100%;
 }
 hr {
-	background:url(../img/hr.png) center top no-repeat;
+	background:url(../images/hr.png) center top no-repeat;
 	height:23px;
 }
 section {
@@ -96,7 +100,7 @@ section {
 	margin:0 auto;
 }
 .shadow-top {
-	background:url(../img/shadow-top.png) center top repeat-x;
+	background:url(../images/shadow-top.png) center top repeat-x;
 }
 .largura1,
 .largura2,
@@ -201,7 +205,7 @@ header,
 	z-index:99;
 }
 #o-evento {
-	background: url(../img/noise.png) center center repeat #8080ff;
+	background: url(../images/noise.png) center center repeat #8080ff;
 	margin-bottom: -3px;
 }
 #o-evento h1,
@@ -222,7 +226,7 @@ header,
 	cursor:pointer;
 }
 #nav {
-	background:url(../img/nav-bg.png) center top repeat-x #8080ff;
+	background:url(../images/nav-bg.png) center top repeat-x #8080ff;
 	margin-bottom:-3px;
 }
 nav {
@@ -237,7 +241,7 @@ nav a {
 }
 nav a:hover,
 nav .active {
-	background:url(../img/nav-bg.png) center bottom repeat-x;
+	background:url(../images/nav-bg.png) center bottom repeat-x;
 }
 figure {
 	display:inline-block;
@@ -246,7 +250,7 @@ figure {
 	background: #dddddd;
 }
 .programacao-datas .active {
-	background: url(../img/nav-bg.png) center bottom repeat-x #8080ff;
+	background: url(../images/nav-bg.png) center bottom repeat-x #8080ff;
 	height: 45px;
 }
 .programacao-tabela {
@@ -368,7 +372,7 @@ textarea {
 }
 #patrocinadores-barra {
 	padding: 0;
-	background: url(../img/noise.png) center center repeat #ffffff;
+	background: url(../images/noise.png) center center repeat #ffffff;
 	position:fixed;
 	bottom:0;
 }
