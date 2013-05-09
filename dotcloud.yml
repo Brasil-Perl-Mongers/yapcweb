@@ -2,5 +2,3 @@ www:
     approot: root
     type: perl
     prebuild: ./prebuild.sh
-    config:
-      uwsgi_processes: 2

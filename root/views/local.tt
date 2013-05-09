@@ -14,14 +14,13 @@
 <div class="largura6">
 	<h4>O YAPC::Brasil 2013 será em Curitiba,<br>no Hotel Slaviero Full Jazz</h4><br>
 		<p>
-			O Hotel Slaviero, local da edição deste ano do YAPC::Brasil foi escolhido pelas excelentes instalações e ambientes disponíveis
-			para a realização do evento. O hotel é singular pela sua temática que remete aos famosos bares e pubs de Jazz de antigamente.
-			O hotel conta ainda com o melhor bar de Jazz da cidade, podendo ser um ótimo local para botar o papo em dia.
+			O <a href="http://www.slavierohoteis.com.br/br/curitiba/slaviero-full-jazz_9_hoteis.aspx" target="_blank">Hotel Slaviero</a>, local da edição deste ano do YAPC::Brasil 
+			foi escolhido pelas excelentes instalações e ambientes disponíveis para a realização do evento. O hotel é singular pela sua temática que remete aos 
+			famosos bares e pubs de Jazz de antigamente. O hotel conta ainda com o melhor bar de Jazz da cidade, podendo ser um ótimo local para botar o papo em dia.
 			
 			<br><br>
 
-			O Slaviero Full Jazz está no Batel, bairro nobre de Curitiba, e transmite a experiência do jazz na decoração de todos os seus apartamentos. 
-			Um hotel para ouvir, ver, sentir e sempre querer voltar.
+			O Slaviero Full Jazz está no Batel, bairro nobre de Curitiba, estando pŕoximo a uma grande variedade de bares, restaurantes, shoppings e casas noturnas.
 		</p>
 		
 		<br>
@@ -37,10 +36,8 @@
     				<p>
     					A Rede Integrada de Transporte permite ao usuário a utilização de mais de uma linha de ônibus com o pagamento de apenas uma tarifa. 
 					O processo de integração ocorre a partir de terminais de integração onde o cidadão pode desembarcar de uma linha e embarcar em qualquer 
-					outra dentro daquele espaço sem um novo pagamento. Assim, você poderá compor o seu próprio trajeto para se deslocar para o local do evento.
-    				<br><br>
-					Se você pretende utilizar da rede pública de transporte de Curitiba, aconselhamos você a utiliza o aplicativo
-					<a target="_blank" href="http://busaocuritibano.com.br/#!/">Busão Curitiba</a>, assim você poderá achar as melhores linhas de ônibus,
+					outra dentro daquele espaço sem um novo pagamento. Aconselhamos você a utiliza o aplicativo 
+					<a target="_blank" href="http://busaocuritibano.com.br/#!/">Busão Curitibano</a>, assim você poderá achar as melhores linhas de ônibus,
 					conferir os horários e acompanhar em tempo real a posição dos ônibus pela cidade.
 				</p>
 
@@ -48,7 +45,7 @@
 
 			<a href="http://www.urbs.curitiba.pr.gov.br/" class="largura4 bt-lilas" target="_blank">Clique para ver mais informações</a>
     		</div>
-		<h4 class="largura12 align-center"><br><br>Lugares para visitar<br><br></h4>
+		<h4 class="largura12 align-center"><br><br>Quer trazer a família junto? Veja alguns dos lugares para visitar em Curitiba<br><br></h4>
     			<div class="largura4 local-lugares bg-cinza">
     				<figure>
 					<img src="images/turismo-1.png" alt="Linha Turismo" title="Linha Turismo">
@@ -66,7 +63,7 @@
 
     			<div class="largura4 local-lugares bg-cinza">
     				<figure>
-					<img src="images/turismo-2.png" alt="Linha Turismo" title="Linha Turismo">
+					<img src="images/turismo-2.png" alt="Torre Panorâmica" title="Torre Panorâmica">
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
@@ -79,11 +76,11 @@
     			
 			<div class="largura4 local-lugares bg-cinza">
     				<figure>
-					<img src="images/turismo-3.png" alt="Linha Turismo" title="Linha Turismo">
+					<img src="images/turismo-3.png" alt="Jardim Botânico" title="Jardim Botânico">
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
-						O Jardim Botânico é um dos principais cartões postais de Curitiba. Com uma área de cerca de 245 mil m², possui vastos jardins geométricos, 
+						Um dos principais cartões postais de Curitiba. Com uma área de cerca de 245 mil m², possui vastos jardins geométricos, 
 						além de um bosque de araucárias e de uma estufa de três abóbadas, que abriga plantas característica da Floresta Atlântica. 
 						O Jardim Botânico funciona de terça a domingo das 06h às 21h.
 					</p>
@@ -93,7 +90,7 @@
 
     			<div class="largura4 local-lugares bg-cinza">
     				<figure>
-					<img src="images/turismo-4.png" alt="Linha Turismo" title="Linha Turismo">
+					<img src="images/turismo-4.png" alt="Ópera de Arame" title="Ópera de Arame">
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
@@ -107,7 +104,7 @@
 
     			<div class="largura4 local-lugares bg-cinza">
     				<figure>
-					<img src="images/turismo-5.png" alt="Linha Turismo" title="Linha Turismo">
+					<img src="images/turismo-5.png" alt="Feirinha do Largo da Ordem" title="Feirinha do Largo da Ordem">
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
@@ -120,7 +117,7 @@
 
     			<div class="largura4 local-lugares bg-cinza">
     				<figure>
-					<img src="images/turismo-6.png" alt="Linha Turismo" title="Linha Turismo">
+					<img src="images/turismo-6.png" alt="Parque Barigui" title="Parque Barigui">
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
@@ -128,6 +125,52 @@
 						de encontro da cidade e, durante a semana, é muito comum as caminhadas em volta do lago. São muitas as opções de 
 						entretenimento e lazer no Barigui.						
 					</p>
+				</div>
+				<p>Parque Barigui<a class="bt-mais bt-lilas float-right">–</a></p>
 			</div>
-    			<p>Parque Barigui<a class="bt-mais bt-lilas float-right">–</a></p>
+
+			<div class="largura4 local-lugares bg-cinza">
+				<figure>
+					<img src="images/turismo-7.png" alt="Mercado Municipal" title="Mercado Municipal">
+				</figure>
+				<div class="o-que-mais bg-cinza">
+					<p>
+						Fundado em 02 de agosto de 1958, até hoje o Mercado Municipal é o principal e mais tradicional endereço para compras de Curitiba. 
+						Nas bancas de hortigranjeiros e nas lojas de delicatessens, é possível encontrar produtos como: bebidas, queijos e vinhos de diversas 
+						procedências, ervas medicinais, temperos e especiarias, iguarias, conservas, pescados, embutidos, carnes exóticas e com cortes especiais.
+					</p>
+				</div>
+				<p>Mercado Municipal<a class="bt-mais bt-lilas float-right">–</a></p>
+			</div>
+
+                        <div class="largura4 local-lugares bg-cinza">
+				<figure>
+					<img src="images/turismo-8.png" alt="Passeio Público" title="Passeio Público">
+				</figure>
+				<div class="o-que-mais bg-cinza">
+					<p>
+						Primeiro parque público de Curitiba, foi inaugurado pelo presidente da Província do Paraná, Alfredo d’Escragnolle Taunay, 
+						em 2 de maio de 1886. Foi a primeira grande obra de saneamento da cidade, transformando um charco num espaço de lazer, com lagos, 
+						pontes e ilhas em meio ao verde. Zoológico pioneiro de Curitiba, abriga até hoje pequenos animais. Seu portão é cópia do que 
+						existiu no Cemitério de Cães de Paris. 
+					</p>
+				</div>
+				<p>Passeio Público<a class="bt-mais bt-lilas float-right">–</a></p>
+                        </div>
+
+                        <div class="largura4 local-lugares bg-cinza">
+				<figure>
+					<img src="images/turismo-9.png" alt="Museu Oscar Niemeyer" title="Museo Oscar Niemeyer">
+				</figure>
+				<div class="o-que-mais bg-cinza">
+					<p>
+						O complexo de dois prédios, instalado em uma área de trinta e cinco mil metros quadrados (dos quais dezenove mil dedicados 
+						à área de exposições), é um verdadeiro exemplo da Arquitetura aliada à Arte. A instituição tem como foco as artes visuais, 
+						a arquitetura e o design. Pela sua grandiosidade, beleza e pela importância do acervo, atualmente representa uma instituição 
+						cultural com projeção nacional e internacional.
+					</p>
+				</div>
+				<p>Museo Oscar Niemeyer<a class="bt-mais bt-lilas float-right">–</a></p>
+                        </div>
+															
     		</div>
