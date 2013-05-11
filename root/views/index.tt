@@ -3,7 +3,7 @@
    	<section class="full shadow-top" id="o-evento">
     		<div><!-- wrapper -->
 
-		<% INCLUDE about_event.tt %>
+		<% INCLUDE about.tt %>
 
     		</div><!-- /wrapper -->
     	</section><!-- /.full -->

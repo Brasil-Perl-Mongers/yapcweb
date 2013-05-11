@@ -215,6 +215,8 @@ header,
 }
 #o-evento p {
 	color:#ffffff;
+	font-size:105%;
+	text-align:justify;
 }
 #logo-yapc {
 	top:-40px;
