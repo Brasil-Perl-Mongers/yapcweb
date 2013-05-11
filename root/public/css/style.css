@@ -213,10 +213,17 @@ header,
 	color:#dddddd;
 	display:inline-block;
 }
+/* Modificado por Leprevost 11-05-13
+ * modificação: inserção
+ * atributo: text-align:justify
+ * atributo: text-justify:inter-word
+ * razão: deixar o texto em Éventos justificado
+ * */
 #o-evento p {
 	color:#ffffff;
 	font-size:105%;
 	text-align:justify;
+	text-justify:inter-word;
 }
 #logo-yapc {
 	top:-40px;
@@ -340,6 +347,14 @@ input[type="submit"] {
 textarea {
 	height: 100px;
 }
+/*Inserido por Leprevost 11-05-13
+ * Para Justificar o texto em 'Locais'
+ * */
+#local {
+	text-align:justify;
+	text-justify:inter-word;
+}
+
 .local-lugares {
 	margin-bottom:20px;
 }
@@ -361,6 +376,8 @@ textarea {
 .local-lugares .o-que-mais p {
 	font-size: 12px;
 	line-height: 16px;
+	text-align:justify;
+	text-justify:inter-word;
 }
 .inscricoes-valores > span {
 	font-size: 30px;
