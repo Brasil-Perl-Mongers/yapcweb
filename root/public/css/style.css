@@ -222,13 +222,15 @@ header,
  * modificação: inserção
  * atributo: text-align:justify
  * atributo: text-justify:inter-word
- * razão: deixar o texto em Éventos justificado
+ * atributo: line-height
+ * razão: deixar o texto sobre o evento justificado e espaçado
  * */
 #o-evento p {
 	color:#ffffff;
 	font-size:105%;
 	text-align:justify;
 	text-justify:inter-word;
+	line-height:130%;
 }
 #logo-yapc {
 	top:-40px;
@@ -261,6 +263,13 @@ nav .active {
 }
 figure {
 	display:inline-block;
+}
+/*Inserido por Leprevost 05-15-13
+* Para ajustar a posição da bandeira'
+* efeito: aumntou a barra do menu abaixo.
+*/
+#bandeira-menu {
+ 	padding-top:23px;
 }
 .bg-cinza {
 	background: #dddddd;
@@ -451,7 +460,7 @@ iframe {
 		width:39.667%;
 	}
 }
-@media (max-width:480px) {
+@media (max-width:640px) {
 	.largura6 {
 		width:96%;
 		float:none;

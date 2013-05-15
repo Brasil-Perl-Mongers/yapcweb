@@ -26,7 +26,9 @@
 	<figure class="largura2"><img src="images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 </div>
 <div class="align-center">
-	<figure class="largura1"><img src="images/hexabio.png" alt="Hexabio Bioinformática" title="Hexabio Bioinformática"></figure>
+	<a href="http://www.hexabio.com.br" target="_blank">
+		<figure class="largura1"><img src="images/hexabio.png" alt="Hexabio Bioinformática" title="Hexabio Bioinformática"></figure>
+	</a>
 	<figure class="largura1"><img src="images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 	<figure class="largura1"><img src="images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 	<figure class="largura1"><img src="images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
