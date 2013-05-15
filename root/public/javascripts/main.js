@@ -4,9 +4,21 @@ jQuery(document).ready(function($) {
 	});
 	$('[class*="largura"]').find('[class*="largura"]').addClass('largura-filho');
 	$('.largura-filho.float-right').removeClass('largura-filho').addClass('largura-filho-right');
-	$('.largura-filho:last-child, .largura-filho-right:last-child').addClass('margin-none');
+	$('.largura-filho:last-child, .largura-filho-right:last-child, .local-lugares:nth-child(3n)').addClass('margin-none');
 	$('.o-que-mais').addClass('margin-none');
 	$('.programacao-tabela ul:last-child').addClass('border-none');
+	
+	//o-que-mais dos lugares pra visitar
+	$('.local-lugares .bt-mais').html('+');
+	$('.local-lugares .o-que-mais').hide();
+	$('.local-lugares .bt-mais').click(function(){
+		$('.local-lugares .o-que-mais').slideUp(function(){
+			$(this).next().children('.local-lugares .bt-mais').html('+');
+		});
+		$(this).parent().prev('.local-lugares .o-que-mais:not(:visible)').slideDown(function(){
+			$(this).next().children('.local-lugares .bt-mais').html('–');
+		});
+	});
 	
 	//tabs da programação
 	$('.programacao-tabela div:not(:first)').hide();
@@ -53,13 +65,6 @@ jQuery(document).ready(function($) {
 		$('#quer-overlay').animate({'opacity':'0'}).hide();
 	});
 	
-	//o-que-mais dos lugares pra visitar
-	$(".local-lugares .o-que-mais").hide();
-	$(".local-lugares .bt-mais").click(function(){
-		$(".local-lugares .o-que-mais").slideUp();
-		$(this).parent().prev(".local-lugares .o-que-mais:not(:visible)").slideDown();
-	});
-	
 	//funções da nav
 	$('nav a').click(function(){
 		var IDlimpa = $(this).attr('id').replace('-menu','');
@@ -89,7 +94,6 @@ jQuery(document).ready(function($) {
 			$('#patrocinadores-barra').fadeOut();
 		}
 	});
-	
 	
 	//logo-yapc-sticky
 	var logoYapcSticky = $('#logo-yapc-sticky');

@@ -1,8 +1,8 @@
 <div class="largura12 float-none">
 	<h3 class="largura6" >Patrocinadores</h3>
-	<a href="/docs/patrocinio.pdf" download="patrocinio-yapc2013.pdf" class="bt-lilas largura5">Quer Patrocinar? Clique e saiba mais</a>
+	<a href="/docs/patrocinio.pdf" class="bt-lilas">Quer Patrocinar? Clique e saiba mais</a>
+	<br><br>
 </div>
-<br><br><br>
 
 <div class="align-center">
 	<figure class="largura6"><img src="images/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>

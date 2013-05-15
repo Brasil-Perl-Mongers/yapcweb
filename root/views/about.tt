@@ -1,5 +1,5 @@
 <div class="largura6 align-right">
-	<figure class="largura4 float-right" id="logo-yapc">
+	<figure id="logo-yapc">
 		<img src="images/logo-yapc.png" alt="YAPC::Brasil 2013" alt="YAPC::Brasil 2013">
 	</figure>
 	<h1 class="align-right">YAPC::Brasil 2013</h1>

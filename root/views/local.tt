@@ -24,7 +24,7 @@
 		</p>
 		
 		<br>
-		<a href="http://goo.gl/maps/DLMyh" class="largura4 bt-lilas" target="_blank">Clique para ver no Google Maps</a>
+		<a href="http://goo.gl/maps/DLMyh" class="bt-lilas" target="_blank">Clique para ver no Google Maps</a>
 </div>
 
 <div class="largura12" style="margin-top:40px">
@@ -46,9 +46,10 @@
 
 			<br>
 
-			<a href="http://www.urbs.curitiba.pr.gov.br/" class="largura4 bt-lilas" target="_blank">Clique para ver mais informações</a>
+			<<a href="http://www.urbs.curitiba.pr.gov.br/" class="bt-lilas" target="_blank">Clique para ver mais informações</a>
     		</div>
 		<h4 class="largura12 align-center"><br><br>Quer trazer a família junto? Veja alguns dos lugares para visitar em Curitiba<br><br></h4>
+		<div class="largura12">
     			<div class="largura4 local-lugares bg-cinza">
     				<figure>
 					<img src="images/turismo-1.png" alt="Linha Turismo" title="Linha Turismo">
@@ -175,5 +176,5 @@
 				</div>
 				<p>Museo Oscar Niemeyer<a class="bt-mais bt-lilas float-right">–</a></p>
                         </div>
-															
-    		</div>
+		</div>															
+    	</div>

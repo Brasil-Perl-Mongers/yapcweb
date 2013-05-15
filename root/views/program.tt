@@ -3,8 +3,8 @@
     	<h4 class="align-right">O Universo Científico</h4>
 </div>
 <div class="largura6 programacao-datas">
-	<a class="largura2 bt-lilas float-right" id="programacao-sabado">16 :: sábado</a>
-	<a class="largura2 bt-lilas float-right" id="programacao-sexta">15 :: sexta</a>
+	<a class="bt-lilas float-right" id="programacao-sabado">16 :: sábado</a>
+	<a class="bt-lilas float-right" id="programacao-sexta">15 :: sexta</a>
 </div>
 <div class="largura12 programacao-tabela">
 	<ul class="header bg-cinza align-center">
@@ -65,7 +65,8 @@
     		</ul>
 	</div>
 </div>
-   <a class="bt-lilas largura4 float-right" id="quer-palestrar">Quer palestrar? Clique aqui</a>
+<div class="largura12">
+   <a class="bt-lilas float-right" id="quer-palestrar">Quer palestrar? Clique aqui</a>
    	<div class="largura4 bg-cinza" id="quer-palestrar-form">
     		<form action="" method="post">
     			Sua proposta será avaliada e em breve entraremos em contato.<br><br>
@@ -77,4 +78,5 @@
     		</form>
     		<a id="quer-fechar">Fechar formulário</a>
 	</div>
+</div>
 <div id="quer-overlay"></div>
