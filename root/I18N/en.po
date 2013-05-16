@@ -1,0 +1,20 @@
+# yapcweb .po file
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: leprevost@cpan.org\n"
+"POT-Creation-Date: 2013-16-42 03:05\n"
+"PO-Revision-Date: 2013-16-42 03:05\n"
+"Last-Translator: Felipe da Veiga Leprevost <leprevost@cpan.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Programação"
+msgstr "Program"
+
+msgid "Patrocinadores"
+msgstr "Sponsors"
+
+msgid "Inscrições"
+msgstr "Registration"

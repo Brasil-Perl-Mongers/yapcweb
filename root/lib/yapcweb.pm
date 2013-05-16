@@ -1,6 +1,8 @@
 package yapcweb;
 
 use Dancer ':syntax';
+use Dancer::Plugin::I18N;
+use HTTP::AcceptLanguage;
 
 our $VERSION = '0.1';
 
@@ -14,6 +16,8 @@ hook before_template => sub {
 
 
 get '/' => sub {
+
+	my $accept_language = HTTP::AcceptLanguage->new(request->accept_language);
     template 'index';
 };
 

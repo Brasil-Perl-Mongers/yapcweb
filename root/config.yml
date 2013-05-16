@@ -25,5 +25,9 @@ engines:
    template_toolkit:
      encoding:  'utf8'
 
+plugins:
+    I18N:
+        directory: I18N
+
 session: YAML
 
