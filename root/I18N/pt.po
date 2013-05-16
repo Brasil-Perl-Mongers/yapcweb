@@ -11,4 +11,5 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Patrocinadores"
-msgstr "Sponsors"
+msgstr "Patrocinadores"
+

@@ -28,6 +28,7 @@ engines:
 plugins:
     I18N:
         directory: I18N
+        setlocale: "LC_TIME"
 
 session: YAML
 

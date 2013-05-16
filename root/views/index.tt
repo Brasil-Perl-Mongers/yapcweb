@@ -1,4 +1,5 @@
-<% languages('en') %>
+<% languages(session.user_lang) %>
+
 <a id="body-bg"></a>
 	<div id"page">
    	<section class="full shadow-top" id="o-evento">
@@ -15,9 +16,9 @@
 			<img src="images/logo-yapc-sticky.png" alt="YAPC::Brasil 2013" alt="YAPC::Brasil 2013">
 		</figure>
 		<nav class="largura6 float-right">
-			<a id="programacao-menu"> <% l('Programação') %> </a>
-			<a id="local-menu"> <% l('Local') %> </a>
-			<a id="inscricoes-menu"> <% l('Inscrições') %> </a>
+			<a id="programacao-menu"> Programação </a>
+			<a id="local-menu"> Local </a>
+			<a id="inscricoes-menu"> Inscrições </a>
 			<a id="patrocinadores-menu"> <% l('Patrocinadores') %> </a>
 			<a id="bandeira-menu" href="#"><img src="images/br.png"></a>
 		</nav>
