@@ -19,6 +19,7 @@ WriteMakefile(
 		'Plack::Request' 		=> 0,
 		'Template'   			=> 0,
 		'HTTP::AcceptLanguage'	=> 0,
+		'Dancer::Plugin::I18N'	=> 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'yapcweb-*' },

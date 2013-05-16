@@ -1,6 +1,6 @@
 {
     "push_branch": null, 
-    "application": "webperl", 
-    "version": "0.9.4", 
+    "application": "yapcweb", 
+    "version": "0.9.5", 
     "push_protocol": "rsync"
 }
