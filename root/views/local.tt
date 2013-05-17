@@ -1,5 +1,5 @@
 <div class="largura12">
-	<h3 class="largura6 float-none">Local</h3><br><br>
+	<h3 class="largura6 float-none"> <% l('Local') %> </h3><br><br>
 </div>
 <!--
 <iframe class="largura6" width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Rua+Silveira+Peixoto,+1297,+Curitiba+-+Paran%C3%A1,+Rep%C3%BAblica+Federativa+do+Brasil&amp;aq=0&amp;oq=Rua+Silveira+Peixoto+1297&amp;sll=37.0625,-95.677068&amp;sspn=40.732051,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Silveira+Peixoto,+1297+-+Batel,+Curitiba+-+Paran%C3%A1,+80240-120,+Rep%C3%BAblica+Federativa+do+Brasil&amp;t=m&amp;z=14&amp;ll=-25.443545,-49.286335&amp;output=embed">
@@ -12,9 +12,9 @@
 
 
 <div class="largura6">
-	<h4>O YAPC::Brasil 2013 será em Curitiba,<br>no Hotel Slaviero Full Jazz</h4><br>
+	<h4> <% l('O YAPC::Brasil 2013 será em Curitiba,') %> <br> <% l('no Hotel Slaviero Full Jazz') %> </h4><br>
 		<p>
-			O <a href="http://www.slavierohoteis.com.br/br/curitiba/slaviero-full-jazz_9_hoteis.aspx" target="_blank">Hotel Slaviero</a>, local da edição deste ano do YAPC::Brasil 
+			O <a href="http://goo.gl/z1kcX" target="_blank">Hotel Slaviero</a>, local da edição deste ano do YAPC::Brasil 
 			foi escolhido pelas excelentes instalações e ambientes disponíveis para a realização do evento. O hotel é singular pela sua temática que remete aos 
 			famosos bares e pubs de Jazz de antigamente. O hotel conta ainda com o melhor bar de Jazz da cidade, podendo ser um ótimo local para botar o papo em dia.
 			

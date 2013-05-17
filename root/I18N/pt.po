@@ -1,4 +1,4 @@
-# yapcweb .po file
+# yapcweb pt.po file
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
@@ -10,6 +10,113 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Patrocinadores"
-msgstr "Patrocinadores"
+# index
+msgid "Programação"
+msgstr ""
 
+# index
+msgid "Local"
+msgstr ""
+
+# index
+msgid "Inscrições"
+msgstr ""
+
+# index
+msgid "Patrocinadores"
+msgstr ""
+
+# about
+msgid "15 e 16 de Novembro, em Curitiba, PR"
+msgstr ""
+
+#about
+msgid "Seja Bem vindo a mais uma edição do principal evento da comunidade Perl do Brasil, o YAPC::Brasil."
+msgstr ""
+
+#about 
+msgid "O tema da edição de 2013 é O Universo Científico."
+msgstr ""
+
+#about
+msgid "O YAPC é um evento social para integrar a comunidade de desenvolvedores em linguagem Perl,"
+msgstr ""
+
+#about
+msgid "seus usuários e interessados na área de tecnologia."
+msgstr ""
+
+#about
+msgid "Buscamos este ano promover o diálogo e a colaboração entre desenvolvedores Perl e profissionais das demais áreas de conhecimento que lidam com diferentes áreas da ciência,"
+msgstr ""
+
+#about
+msgid "oferecendo à comunidade palestras e debates sobre o estado da arte, as práticas e tecnologias voltadas ao processamento, armazenamento, compartilhamento, análise, "
+msgstr ""
+
+#about
+msgid "e visualização de dados científicos."
+msgstr ""
+
+## program ##
+msgid "O Universo Científico"
+msgstr ""
+
+msgid "15 :: sexta"
+msgstr ""
+
+msgid "16 :: sábado"
+msgstr ""
+
+msgid "QUANDO?"
+msgstr ""
+
+msgid "QUEM?"
+msgstr ""
+
+msgid "QUANDO?"
+msgstr ""
+
+msgid "Quer palestrar? Clique aqui"
+msgstr ""
+
+msgid "Nome"
+msgstr ""
+
+msgid "E-mail"
+msgstr ""
+
+msgid "Título da Palestra"
+msgstr ""
+
+msgid "Resumo da palestra"
+msgstr ""
+
+msgid "Enviar"
+msgstr ""
+
+msgid "Sua proposta será avaliada e em breve entraremos em contato."
+msgstr ""
+
+msgid "Fechar formulário"
+msgstr ""
+
+msgid "Quer Patrocinar? Clique e saiba mais"
+msgstr ""
+
+## local ##
+msgid "O YAPC::Brasil 2013 será em Curitiba,"
+msgstr ""
+
+msgid "no Hotel Slaviero Full Jazz"
+msgstr ""
+
+## enroll ##
+msgid "até 14/08"
+msgstr ""
+
+msgid "a partir de 15/08"
+msgstr ""
+
+msgid "Inscrever-se"
+msgstr ""
