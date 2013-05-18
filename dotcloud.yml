@@ -1,4 +1,0 @@
-www:
-    approot: root
-    type: perl
-    prebuild: ./prebuild.sh
