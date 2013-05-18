@@ -16,7 +16,7 @@ O desenvolvimento deste site teve como colaboradores:
 
 * Felipe da Veiga Leprevost (Curitiba-pm)
 * Eduardo Lemons Francisco (Curitiba-pm)
-* Eduardo Oliver Miura (Curitiba-pm)
+* Eduardo Oliver Miura (Websedigner)
 * Bruno Dias Ramos (Curitiba-pm)
 * Aramis Fernandes (Curitiba-pm)
 
