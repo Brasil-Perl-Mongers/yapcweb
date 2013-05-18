@@ -29,14 +29,6 @@ plugins:
     I18N:
         directory: I18N
         setlocale: "LC_TIME"
-    Email:
-      transport:
-        SMTP:
-          ssl: 1
-          host: 'smtp.gmail.com'
-          port: 465
-          sasl_username: 'mailer@hexabio.com.br'
-          sasl_password: 'ha7GDt%4sfDLod0*D&5d3#D$'
 
 session: YAML
 
