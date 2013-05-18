@@ -68,12 +68,13 @@
 <div class="largura12">
    <a class="bt-lilas float-right" id="quer-palestrar"> <% l('Quer palestrar? Clique aqui') %> </a>
    	<div class="largura4 bg-cinza" id="quer-palestrar-form">
-    		<form action="" method="post">
+    		<form action="#" method="post">
     			 <% l('Sua proposta será avaliada e em breve entraremos em contato.') %> <br><br>
     			<input type="text" placeholder=" <% l('Nome') %> " name="nomePalestrante">
     			<input type="text" placeholder=" <% l('E-mail') %> " name="emailPalestrante">
     			<input type="text" placeholder=" <% l('Título da palestra') %> " name="tituloPalestrante">
     			<textarea placeholder=" <% l('Resumo da palestra') %> " name="resumoPalestrante"></textarea>
+			<input type="text" placeholder="Escreva o resultado: 15 - 10" name="verifica">
     			<input type="submit" value=" <% l('Enviar') %> " name="submit" class="bt-lilas">
     		</form>
     		<a id="quer-fechar"> <% l('Fechar formulário') %> </a>

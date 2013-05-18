@@ -27,9 +27,15 @@
 </div>
 <div class="align-center">
 	<a href="http://www.hexabio.com.br" target="_blank">
-		<figure class="largura1"><img src="images/hexabio.png" alt="Hexabio Bioinformática" title="Hexabio Bioinformática"></figure>
+		<figure class="largura1">
+			<img src="images/hexabio.png" alt="Hexabio Bioinformática" title="Hexabio Bioinformática">
+		</figure>
 	</a>
-	<figure class="largura1"><img src="images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<a href="http://www.softwarepublico.gov.br/ver-comunidade?community_id=11809545" target="_blank">
+		<figure class="largura1">
+			<img src="images/fila.png" alt="Comunidade Fila Sistema de Atendimento © Oktiva" title="Comunidade Fila Sistema de Atendimento © Oktiva">
+		</figure>
+	</a>
 	<figure class="largura1"><img src="images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 	<figure class="largura1"><img src="images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 </div>
