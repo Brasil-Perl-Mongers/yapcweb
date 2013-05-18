@@ -70,10 +70,11 @@
    	<div class="largura4 bg-cinza" id="quer-palestrar-form">
     		<form action="" method="post">
     			 <% l('Sua proposta será avaliada e em breve entraremos em contato.') %> <br><br>
-    			<input type="text" placeholder=" <% l('Nome') %> " name="nomePalestrante">
-    			<input type="text" placeholder=" <% l('E-mail') %> " name="emailPalestrante">
-    			<input type="text" placeholder=" <% l('Título da palestra') %> " name="tituloPalestrante">
-    			<textarea placeholder=" <% l('Resumo da palestra') %> " name="resumoPalestrante"></textarea>
+    			<input type="text" placeholder=" <% l('Nome') %> " name="nomePalestrante" required>
+    			<input type="mail" placeholder=" <% l('E-mail') %> " name="emailPalestrante" required>
+    			<input type="text" placeholder=" <% l('Título da palestra') %> " name="tituloPalestrante" required>
+    			<textarea placeholder=" <% l('Resumo da palestra') %> " name="resumoPalestrante" required></textarea>
+			<input type="text" placeholder=" <% l('Escreva o resultado: 15 - 10') %> " name="verificaPalestrante" required>
 			<input type="submit" value=" <% l('Enviar') %> " name="submit" class="bt-lilas">
     		</form>
     		<a id="quer-fechar"> <% l('Fechar formulário') %> </a>

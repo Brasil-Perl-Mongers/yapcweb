@@ -35,54 +35,34 @@ get '/:opt_lang' => sub {
 
 post '/' => sub {
 
-	my %talk;
+	if (params->{verificaPalestrante} eq '5') {
+		
+		my %talk;
 
-	$talk{name}		= params->{nomePalestrante};
-	$talk{email}	= params->{emailPalestrante};
-	$talk{title}	= params->{tituloPalestrante};
-	$talk{abstract}	= params->{resumoPalestrante};
+		$talk{name}		= params->{nomePalestrante};
+		$talk{email}	= params->{emailPalestrante};
+		$talk{title}	= params->{tituloPalestrante};
+		$talk{abstract}	= params->{resumoPalestrante};
+	
+		# para a organização
+		email {
+			from 	=> 'mailer@hexabio.com.br',
+			to   	=> 'yapc-curitiba@googlegroups.com',
+			subject	=> 'Nova Palestra',
+			body	=> "Nome: $talk{name}\nE-mail: $talk{email}\nTítulo: $talk{title}\nResumo: $talk{abstract}\n",
+		};
+	
+		# para o palestrante
+	    email {
+	        from    => 'mailer@hexabio.com.br',
+	        to      => "$talk{email}",
+	        subject => 'Palestra Enviada',
+	        body    => "Olá $talk{name}!\nSua palestra entitulada: \'$talk{title}\' foi enviada com sucesso.\n\nIremos avaliar sua proposta e logo retornaremos uma resposta.",
+	    };
+	}
 
-	email {
-		from 	=> 'YAPC Brasil',
-		to   	=> 'yapc-curitiba@googlegroups.com',
-		subject	=> 'Nova Palestra',
-		body	=> "Nome: $talk{name}\nE-mail: $talk{email}\nTítulo: $talk{title}\nResumo: $talk{abstract}\n",
-	};
+	return redirect '/';
 
-    email {
-        from    => 'YAPC Brasil',
-        to      => "$talk{email}",
-        subject => 'Palestra Enviada',
-        body    => "Olá $talk{name},\n sua palestra entitulada: $talk{abstract} foi enviada com sucesso.\nIremos avaliar sua proposta e logo retornaremos uma resposta.",
-    };
-
-	redirect '/';	
 };
 
 true;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
