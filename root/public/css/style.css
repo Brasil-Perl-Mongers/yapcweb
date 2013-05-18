@@ -1,0 +1,617 @@
+body {
+	font-weight:300;
+	background:url(../images/noise.png) center center repeat #ffffff;
+	color:#333333;
+}
+.body-bg {
+	background:url(../images/grid.png) center center repeat #ffffff !important;
+}
+#body-bg {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:99999;
+	width:20px;
+	height:20px;
+	background:#ddd;
+	display:none;
+}
+body,
+input,
+textarea {
+	font-family:'Signika';
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+	color:#ff5500;
+}
+h1,
+h2,
+h3,
+h4 {
+	width:100%;
+}
+h5 {
+	font-size:26px;
+	text-align:left;
+}
+h1,
+h3,
+h5 {
+	font-family:'Special Elite';
+}
+h1,
+h3 {
+	font-size:50px;
+	font-weight:400;
+	text-align:right;
+}
+h2,
+h4 {
+	font-size:20px;
+	font-weight:700;
+}
+p {
+	font-size:14px;
+	line-height:18px;
+}
+p a {
+	color:#ff5500;
+	font-weight:700;
+}
+a:hover {
+	text-decoration:none;
+}
+img {
+	display:block;
+	width:100%;
+}
+hr {
+	background:url(../images/hr.png) center top no-repeat;
+	height:23px;
+}
+section {
+	padding:80px 0 20px;
+}
+.bt-lilas {
+	font-weight: 700;
+	text-shadow: 1px 1px 2px #010203;
+	background: #8080ff;
+	color: white;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	text-align:center;
+	cursor:pointer;
+	display:inline-block;
+	padding:0 10px;
+}
+.bt-mais {
+	font-size:48px;
+	width:40px !important;
+	padding:0 !important;
+}
+.full {
+	width:100%;
+	display:inline-block;
+}
+.full > div {
+	max-width:960px;
+	margin:0 auto;
+	zoom:1;
+}
+.full > div:before,
+.full > div:after {
+	content: ' 0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	font-size: 0;
+	line-height: 0;
+	width: 0;
+	height: 0;
+}
+.full > div:after {
+	clear:both;
+}
+.shadow-top {
+	background:url(../images/shadow-top.png) center top repeat-x;
+}
+.largura1,
+.largura2,
+.largura3,
+.largura4,
+.largura5,
+.largura6,
+.largura7,
+.largura8,
+.largura9,
+.largura10,
+.largura11,
+.largura12 {
+	margin:0 1%;
+	float:left;
+	width:100%;
+}
+/*
+.largura1 { max-width:60px; }
+.largura2 { max-width:140px; }
+.largura3 { max-width:220px; }
+.largura4 { max-width:300px; }
+.largura5 { max-width:380px; }
+.largura6 { max-width:460px; }
+.largura7 { max-width:540px; }
+.largura8 { max-width:620px; }
+.largura9 { max-width:700px; }
+.largura10 { max-width:780px; }
+.largura11 { max-width:860px; }
+.largura12 { max-width:940px; }
+*/
+.largura1 { width:6.333%; }
+.largura2 { width:14.667%; }
+.largura3 { width:23%; }
+.largura4 { width:31.333%; }
+.largura5 { width:39.667%; }
+.largura6 { width:48%; }
+.largura7 { width:56.333%; }
+.largura8 { width:64.667%; }
+.largura9 { width:73%; }
+.largura10 { width:81.333%; }
+.largura11 { width:89.667%; }
+.largura12 { width:98%; }
+.largura-filho {
+	margin:0 20px 0 0;
+	/*margin:0 2% 0 0;*/
+}
+.largura-filho-right {
+	margin:0 0 0 20px;
+	/*margin:0 0 0 2%;*/
+}
+.margin-none {
+	margin:0;
+}
+.border-none {
+	border:0 !important;
+}
+.float-left {
+	float:left;
+}
+.float-right {
+	float:right;
+	margin-left:20px;
+}
+.float-none {
+	float:none;
+}
+.align-left {
+	text-align:left;
+}
+.align-center {
+	text-align:center;
+}
+.align-right {
+	text-align:right;
+}
+.align-center figure {
+	float: none;
+	margin: 0 8px;
+	padding: 0;
+	display: inline-block;
+}
+header,
+#o-evento,
+#logo-yapc-sticky {
+	z-index:99;
+}
+#o-evento {
+	background: url(../images/noise.png) center center repeat #8080ff;
+	margin-bottom: -3px;
+}
+#o-evento h1,
+#o-evento h2 {
+	color:#dddddd;
+	display:inline-block;
+}
+#o-evento p {
+	color:#ffffff;
+}
+/* Modificado por Leprevost 11-05-13
+ * modificação: inserção
+ * atributo: text-align:justify
+ * atributo: text-justify:inter-word
+ * atributo: line-height
+ * razão: deixar o texto sobre o evento justificado e espaçado
+ * */
+#o-evento p {
+	color:#ffffff;
+	font-size:105%;
+	text-align:justify;
+	text-justify:inter-word;
+	line-height:130%;
+}
+#logo-yapc {
+	top:-40px;
+	max-width:300px;
+}
+#logo-yapc-sticky {
+	position:absolute;
+	top:0;
+	left:0;
+	cursor:pointer;
+}
+#nav {
+	background:url(../images/nav-bg.png) center bottom repeat-x #8080ff;
+	margin-bottom:-3px;
+}
+nav {
+	font-size: 18px;
+	color: white;
+}
+nav a {
+	padding: 0 10px;
+	height: 58px;
+	line-height: 58px;
+	display: inline-block;
+}
+nav a:hover,
+nav a:active,
+nav .active {
+	background:url(../images/nav-bg.png) center bottom repeat-x;
+}
+figure {
+	display:inline-block;
+}
+/*Inserido por Leprevost 05-15-13
+* Para ajustar a posição da bandeira'
+* efeito: aumntou a barra do menu abaixo.
+*/
+#bandeira-menu {
+ 	padding-top:23px;
+}
+.bg-cinza {
+	background: #dddddd;
+}
+.programacao-datas .active,
+.bt-lilas:active {
+	background: url(../images/nav-bg.png) center bottom repeat-x #8080ff;
+}
+.programacao-datas .active {
+	height: 45px;
+}
+.programacao-tabela {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.programacao-tabela ul {
+	display:inline-block;
+	width:100%;
+	padding: 30px 0;
+	border-bottom: 3px solid #dddddd;
+}
+.programacao-tabela .header {
+	font-size: 20px;
+	line-height: 40px;
+	padding:0;
+	border:0;
+}
+.programacao-tabela .quando {
+	font-size: 40px;
+	font-weight: 700;
+}
+.programacao-tabela .quem {
+	font-size: 18px;
+	line-height: 22px;
+}
+.programacao-tabela .o-que {
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 400;
+}
+.programacao-tabela .o-que-mais-content {
+	font-size: 14px;
+	line-height: 18px;
+	padding-top:30px;
+	display:none;
+}
+#quer-fechar {
+	position: absolute;
+	bottom: 30px;
+	left: 20px;
+}
+#quer-overlay {
+	position:fixed;
+	width:100%;
+	height:100%;
+	background:white;
+	z-index:99;
+	top:0;
+	left:0;
+	opacity:0;
+	display:none;
+}
+#quer-palestrar-form {
+	position: fixed;
+	bottom: 0;
+	right: -320px;
+	opacity:0;
+	margin:0;
+	z-index:999;
+}
+#quer-palestrar-form form {
+	margin: 20px;
+	font-size: 14px;
+	text-align: right;
+}
+input,
+textarea {
+	height: 40px;
+	width: 96%;
+	margin: 5px 0;
+	padding: 0 2%;
+	line-height: 20px;
+	font-size: 12px;
+}
+input[type="text"] {
+	
+}
+input[type="submit"] {
+	width: auto;
+	padding: 0 15px;
+	font-size: 14px;
+	text-shadow: none;
+}
+textarea {
+	height: 100px;
+}
+.local-lugares {
+	margin-bottom:20px !important;
+}
+.local-lugares > p {
+	line-height:40px;
+	padding-left:10px;
+}
+.local-lugares .o-que-mais {
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	height: 150px;
+	overflow-x: hidden;
+}
+.local-lugares figure {
+	overflow:hidden;
+	height:169px;
+}
+.local-lugares .o-que-mais p {
+	font-size: 12px;
+	line-height: 16px;
+}
+/*Inserido por Leprevost 11-05-13
+ * Para Justificar o texto em 'Locais'
+ * */
+#local {
+	text-align:justify;
+	text-justify:inter-word;
+}
+.inscricoes-valores {
+	margin-bottom:20px !important;
+}
+.inscricoes-valores > span {
+	font-size: 30px;
+	margin: 50px 0;
+	display: block;
+}
+.inscricoes-valores span {
+	font-weight: 700;
+}
+.inscricoes-valores span span {
+	font-size: 60px;
+}
+#patrocinadores figure {
+	margin:20px 0.5%;
+}
+#patrocinadores-barra {
+	padding: 0;
+	background: url(../images/noise.png) center center repeat #ffffff;
+	position:fixed;
+	bottom:0;
+}
+#patrocinadores-barra h5,
+#patrocinadores-barra a {
+	margin-top:30px;
+}
+iframe {
+	margin-bottom:40px !important;
+}
+@media (max-width:768px) {
+	h1,
+	h3 {
+		font-size:36px;
+	}
+	h2,
+	h4 {
+		font-size:16px;
+	}
+	nav {
+		width:56.333% !important;
+		font-size:14px;
+	}
+	nav a {
+		height:48px;
+		line-height:48px;
+	}
+	.local-lugares {
+		width:48% !important;
+		margin:0 1%;
+	}
+	.local-lugares figure {
+		text-align: center;
+		width: 100%;
+	}
+	.inscricoes-valores > span {
+		font-size:24px;
+	}
+	.inscricoes-valores span span {
+		font-size:48px;
+	}
+	#quer-palestrar-form {
+		width:39.667%;
+	}
+}
+@media (max-width:640px) {
+	.largura6 {
+		width:96%;
+		float:none;
+	}
+	.largura4 {
+		width:45% !important;
+	}
+	.largura1, .largura2, .largura3, .largura4, .largura5, .largura6, .largura7, .largura8, .largura9, .largura10, .largura11, .largura12 {
+		margin:0 2%;
+	}
+	h1, h2, h3, h4 {
+		text-align:center !important;
+	}
+	h1, h3 {
+	
+	}
+	h2, h4 {
+		margin:10px 0 20px;
+	}
+	.programacao-datas {
+		text-align: center;
+		display: inline-block;
+		margin: 0;
+		width: 100%;
+	}
+	.programacao-datas a {
+		margin: 0 2%;
+		width: 46%;
+		padding: 0;
+	}
+	section {
+		padding: 70px 0 20px;
+	}
+	.local-lugares p {
+		font-size:12px;
+	}
+	.programacao-tabela .header {
+		display:none !important;
+	}
+	.programacao-tabela .quando {
+		font-size: 18px;
+		width: 94% !important;
+		line-height: 22px;
+	}
+	.programacao-tabela .quem {
+		font-size: 18px;
+		width: 94% !important;
+	}
+	.programacao-tabela .o-que {
+		font-size: 18px;
+		line-height: 22px;
+		font-weight: 400;
+		width: 94% !important;
+	}
+	.programacao-tabela .o-que-mais {
+		display:none;
+	}
+	.programacao-tabela .o-que-mais-content {
+		padding-top: 0;
+		display: list-item;
+		width: 94% !important;
+	}
+	#quer-palestrar-form {
+		width: 67% !important;
+	}
+	#logo-yapc {
+		top: -20px;
+		width: 100%;
+		max-width: 100%;
+		text-align: center !important;
+	}
+	#logo-yapc img {
+		width: 150px;
+		display: inline-block;
+	}
+	#logo-yapc-sticky {
+		display:none !important;
+	}
+	nav {
+		width: 96% !important;
+		text-align: center;
+	}
+	.local-lugares figure img {
+		height:100%;
+		width:auto;
+	}
+	.largura12 > .bt-lilas {
+		width:96%;
+	}
+	.bt-lilas {
+		padding: 0;
+		width: 98%;
+		margin: 0 1%;
+	}
+	#quer-palestrar {
+		float:none;
+	}
+	.inscricoes-bt {
+		width: 98% !important;
+		margin: 0;
+	}
+	#patrocinadores-barra h5,
+	#patrocinadores-barra a {
+		margin-top: 10px;
+		width: 56.333%;
+		float:left;
+	}
+}
+@media (max-width:320px) {
+	.local-lugares {
+		float: none;
+		width: 96% !important;
+	}
+	.bt-lilas {
+		font-size: 17px;
+	}
+	.inscricoes-valores {
+		float: none;
+		width: 94% !important;
+		padding: 5px 0;
+	}
+	.inscricoes-valores > span {
+		margin: 0;
+	}
+	nav a {
+		width: 50%;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+		float: left;
+		height: 28px;
+		line-height: 28px;
+	}
+	#patrocinadores-barra {
+		display:none !important;
+	}
+	#quer-palestrar-form {
+		width: 100% !important;
+	}
+	body {
+		background:#ffffff;
+	}
+}
+@media (max-width:240px) {
+	h1, h3 {
+		font-size:28px;
+	}
+	.bt-lilas {
+		font-size: 13px;
+		font-weight: 400;
+		text-shadow: none;
+	}
+}
