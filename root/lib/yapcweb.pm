@@ -2,6 +2,7 @@ package yapcweb;
 
 use Dancer ':syntax';
 use Dancer::Plugin::I18N;
+use Dancer::Plugin::Email;
 use HTTP::AcceptLanguage;
 
 our $VERSION = '0.1';
@@ -30,6 +31,36 @@ get '/:opt_lang' => sub {
 	session user_lang => $opt_lang;
 
 	template 'index';
+};
+
+
+post '/' => sub {
+	
+	if (params->{verifica} eq '5') {
+		
+		my %talk;
+
+		$talk{name}		= params->{nomePalestrante};
+		$talk{email}	= params->{emailPalestrante};
+		$talk{title}	= params->{tituloPalestrante};
+		$talk{abstract}	= params->{resumoPalestrante};
+
+		email {
+			from		=> 'foo-bar',
+			to			=> 'yapc-curitiba@googlegroups.com',
+			subject		=> 'Nova Palestra',
+			body		=> "Nome: $talk{name}\nE-mail: $talk{email}\nTítulo: $talk{title}\nResumo: $talk{abstract}\n",
+		};
+
+        email {
+            from        => 'YAPC::Brasil',
+            to          => "$talk{email}",
+            subject     => 'Palestra Cadastrada',
+            body        => "Olá $talk{name},\nObrigado por enviar sua palestra.\nSua proposta foi enviada e está sendo avaliada, em breve retornaremos com uma resposta.",
+        };
+	}
+
+	return redirect '/';
 };
 
 true;
