@@ -1,0 +1,151 @@
+# yapcweb pt.po file
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: leprevost@cpan.org\n"
+"POT-Creation-Date: 2013-16-42 03:05\n"
+"PO-Revision-Date: 2013-16-42 03:05\n"
+"Last-Translator: Felipe da Veiga Leprevost <leprevost@cpan.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+## index ##
+msgid "Programação"
+msgstr ""
+
+msgid "Local"
+msgstr ""
+
+msgid "Inscrições"
+msgstr ""
+
+msgid "Patrocinadores"
+msgstr ""
+
+## about ##
+msgid "15 e 16 de Novembro, em Curitiba, PR"
+msgstr ""
+
+msgid "Seja Bem vindo a mais uma edição do principal evento da comunidade Perl do Brasil, o YAPC::Brasil."
+msgstr ""
+
+msgid "O tema da edição de 2013 é O Universo Científico."
+msgstr ""
+
+msgid "O YAPC é um evento social para integrar a comunidade de desenvolvedores em linguagem Perl,"
+msgstr ""
+
+msgid "seus usuários e interessados na área de tecnologia."
+msgstr ""
+
+msgid "Buscamos este ano promover o diálogo e a colaboração entre desenvolvedores Perl e profissionais das demais áreas de conhecimento que lidam com diferentes áreas da ciência,"
+msgstr ""
+
+msgid "oferecendo à comunidade palestras e debates sobre o estado da arte, as práticas e tecnologias voltadas ao processamento, armazenamento, compartilhamento, análise, "
+msgstr ""
+
+msgid "e visualização de dados científicos."
+msgstr ""
+
+## program ##
+msgid "O Universo Científico"
+msgstr ""
+
+msgid "15 :: sexta"
+msgstr ""
+
+msgid "16 :: sábado"
+msgstr ""
+
+msgid "QUANDO?"
+msgstr ""
+
+msgid "QUEM?"
+msgstr ""
+
+msgid "O QUE?"
+msgstr ""
+
+msgid "Quer palestrar? Clique aqui"
+msgstr ""
+
+msgid "Nome"
+msgstr ""
+
+msgid "E-mail"
+msgstr ""
+
+msgid "Título da Palestra"
+msgstr ""
+
+msgid "Resumo da palestra"
+msgstr ""
+
+msgid "Enviar"
+msgstr ""
+
+msgid "Sua proposta será avaliada e em breve entraremos em contato."
+msgstr ""
+
+msgid "Fechar formulário"
+msgstr ""
+
+msgid "Quer Patrocinar? Clique e saiba mais"
+msgstr ""
+
+## local ##
+msgid "O YAPC::Brasil 2013 será em Curitiba,"
+msgstr ""
+
+msgid "no Hotel Slaviero Full Jazz"
+msgstr ""
+
+msgid "Clique para ver no Google Maps"
+msgstr ""
+
+msgid "Andando por Curitiba"
+msgstr ""
+
+msgid "Clique para ver mais informações"
+msgstr ""
+
+msgid "Quer trazer a família junto? Veja alguns dos lugares para visitar em Curitiba"
+msgstr ""
+
+msgid "Linha Turismo"
+msgstr ""
+
+msgid "Torre Panorâmica"
+msgstr ""
+
+msgid "Jardim Botânico"
+msgstr ""
+
+msgid "Ópera de Arame"
+msgstr ""
+
+msgid "Feirinha do Largo da Ordem"
+msgstr ""
+
+msgid "Parque Barigui"
+msgstr ""
+
+msgid "Mercado Municipal"
+msgstr ""
+
+msgid "Passeio Público"
+msgstr ""
+
+msgid "Museu Oscar Niemeyer"
+msgstr ""
+
+## enroll ##
+msgid "até 14/08"
+msgstr ""
+
+msgid "a partir de 15/08"
+msgstr ""
+
+msgid "Inscrever-se"
+msgstr ""
