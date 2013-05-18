@@ -1,21 +1,27 @@
 # yapcweb en.po file
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0\n"
+"Project-Id-Version: YAPC::Brasil 1.0\n"
 "Report-Msgid-Bugs-To: leprevost@cpan.org\n"
 "POT-Creation-Date: 2013-16-42 03:05\n"
-"PO-Revision-Date: 2013-16-42 03:05\n"
-"Last-Translator: Felipe da Veiga Leprevost <leprevost@cpan.org>\n"
+"PO-Revision-Date: 2013-05-18 14:43-0300\n"
+"Last-Translator: eddy85br <eduardoeddy@hotmail.com>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language-Team: curitiba-pm\n"
+"X-Generator: Poedit 1.5.5\n"
+"Language: en_US\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: C:\\Users\\Eduardo\\Documents\\GitHub\\yapcweb\\I18N\n"
+"X-Poedit-SearchPath-0: .\n"
 
-## index ##
+# # index ##
 msgid "Programação"
 msgstr "Program"
 
 msgid "Local"
-msgstr ""
+msgstr "Location"
 
 msgid "Inscrições"
 msgstr "Enrollment"
@@ -23,32 +29,51 @@ msgstr "Enrollment"
 msgid "Patrocinadores"
 msgstr "Sponsors"
 
-## about ##
+# # about ##
 msgid "15 e 16 de Novembro, em Curitiba, PR"
 msgstr "November 15-16, Curitiba, PR"
 
-msgid "Seja Bem vindo a mais uma edição do principal evento da comunidade Perl do Brasil, o YAPC::Brasil."
-msgstr "Welcome to another edition of the main event of the Brazilian Perl community, the YAPC::Brazil."
+msgid ""
+"Seja Bem vindo a mais uma edição do principal evento da comunidade Perl do "
+"Brasil, o YAPC::Brasil."
+msgstr ""
+"Welcome to another edition of the main event of the Brazilian Perl "
+"community, the YAPC::Brazil."
 
 msgid "O tema da edição de 2013 é O Universo Científico."
 msgstr "This year edition's theme is The Scientific Universe."
 
-msgid "O YAPC é um evento social para integrar a comunidade de desenvolvedores em linguagem Perl,"
-msgstr "YAPC is a social event that integrates the community of developers that use Perl,"
+msgid ""
+"O YAPC é um evento social para integrar a comunidade de desenvolvedores em "
+"linguagem Perl,"
+msgstr ""
+"YAPC is a social event that integrates the community of developers that use "
+"Perl,"
 
 msgid "seus usuários e interessados na área de tecnologia."
 msgstr "ts users and other people interested in IT."
 
-msgid "Buscamos este ano promover o diálogo e a colaboração entre desenvolvedores Perl e profissionais das demais áreas de conhecimento que lidam com diferentes áreas da ciência,"
-msgstr "This year we are looking to promote dialog and collaboration between Perl developers and professionals from other areas of knowledge that deal with different scientific areas,"
+msgid ""
+"Buscamos este ano promover o diálogo e a colaboração entre desenvolvedores "
+"Perl e profissionais das demais áreas de conhecimento que lidam com "
+"diferentes áreas da ciência,"
+msgstr ""
+"This year we are looking to promote dialog and collaboration between Perl "
+"developers and professionals from other areas of knowledge that deal with "
+"different scientific areas,"
 
-msgid "oferecendo à comunidade palestras e debates sobre o estado da arte, as práticas e tecnologias voltadas ao processamento, armazenamento, compartilhamento, análise, "
-msgstr "offering speeches and debates about the state of art, practices and technologies aimed to processing, storing, sharing, analysis"
+msgid ""
+"oferecendo à comunidade palestras e debates sobre o estado da arte, as "
+"práticas e tecnologias voltadas ao processamento, armazenamento, "
+"compartilhamento, análise, "
+msgstr ""
+"offering speeches and debates about the state of art, practices and "
+"technologies aimed to processing, storing, sharing, analysis"
 
 msgid "e visualização de dados científicos."
 msgstr " and visualization of scientific data."
 
-## program ##
+# # program ##
 msgid "O Universo Científico"
 msgstr "The Scientific Universe"
 
@@ -91,11 +116,11 @@ msgstr "Your proposal will be evaluated and soon we will be contacting you."
 msgid "Fechar formulário"
 msgstr "Close"
 
-## sponsors ##
+# # sponsors ##
 msgid "Quer Patrocinar? Clique e saiba mais"
 msgstr "Want to sponsor? Click and read more"
 
-## local ##
+# # local ##
 msgid "O YAPC::Brasil 2013 será em Curitiba,"
 msgstr "YAPC::Brasil will happend in Curitiba,"
 
@@ -103,45 +128,48 @@ msgid "no Hotel Slaviero Full Jazz"
 msgstr "on Slaviero Full Jazz Hotel"
 
 msgid "Clique para ver no Google Maps"
-msgstr ""
+msgstr "Click to see at Google Maps"
 
 msgid "Andando por Curitiba"
-msgstr ""
+msgstr "Walking around on Curitiba"
 
 msgid "Clique para ver mais informações"
-msgstr ""
+msgstr "Click to see more informations"
 
-msgid "Quer trazer a família junto? Veja alguns dos lugares para visitar em Curitiba"
+msgid ""
+"Quer trazer a família junto? Veja alguns dos lugares para visitar em Curitiba"
 msgstr ""
+"Do you want to bring your family together? See some landmarks to visit at "
+"Curitiba"
 
 msgid "Linha Turismo"
-msgstr ""
+msgstr "Tourism Bus Line"
 
 msgid "Torre Panorâmica"
-msgstr ""
+msgstr "Panoramic Tower"
 
 msgid "Jardim Botânico"
-msgstr ""
+msgstr "Botanical Garden"
 
 msgid "Ópera de Arame"
-msgstr ""
+msgstr "Wired Opera Theater"
 
 msgid "Feirinha do Largo da Ordem"
-msgstr ""
+msgstr "Largo da Ordem Fair"
 
 msgid "Parque Barigui"
-msgstr ""
+msgstr "Barigui Park"
 
 msgid "Mercado Municipal"
-msgstr ""
+msgstr "Municipal Market"
 
 msgid "Passeio Público"
-msgstr ""
+msgstr "Public Park"
 
 msgid "Museu Oscar Niemeyer"
-msgstr ""
+msgstr "Oscar Niwmeyer Museum"
 
-## enroll ##
+# # enroll ##
 msgid "até 14/08"
 msgstr "until 14/08"
 
