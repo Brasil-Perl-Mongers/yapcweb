@@ -1,0 +1,6 @@
+{
+    "push_branch": null, 
+    "application": "yapcweb", 
+    "version": "0.9.5", 
+    "push_protocol": "rsync"
+}

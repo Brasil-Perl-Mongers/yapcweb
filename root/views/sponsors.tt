@@ -1,0 +1,35 @@
+<div class="largura12 float-none">
+	<h3 class="largura6" > <% l('Patrocinadores') %> </h3>
+	<a href="/docs/patrocinio.pdf" class="bt-lilas"> <% l('Quer Patrocinar? Clique e saiba mais') %> </a>
+	<br><br>
+</div>
+
+<div class="align-center">
+	<figure class="largura6"><img src="images/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura6"><img src="images/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+</div>
+<div class="align-center">
+	<figure class="largura4"><img src="images/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura4"><img src="images/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura4"><img src="images/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+</div>
+<div class="align-center">
+	<figure class="largura3"><img src="images/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura3"><img src="images/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura3"><img src="images/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura3"><img src="images/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+</div>
+<div class="align-center">
+	<figure class="largura2"><img src="images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura2"><img src="images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura2"><img src="images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura2"><img src="images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+</div>
+<div class="align-center">
+	<a href="http://www.hexabio.com.br" target="_blank">
+		<figure class="largura1"><img src="images/hexabio.png" alt="Hexabio Bioinformática" title="Hexabio Bioinformática"></figure>
+	</a>
+	<figure class="largura1"><img src="images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura1"><img src="images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<figure class="largura1"><img src="images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+</div>
