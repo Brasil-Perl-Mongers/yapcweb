@@ -74,7 +74,7 @@
     			<input type="text" placeholder=" <% l('E-mail') %> " name="emailPalestrante">
     			<input type="text" placeholder=" <% l('Título da palestra') %> " name="tituloPalestrante">
     			<textarea placeholder=" <% l('Resumo da palestra') %> " name="resumoPalestrante"></textarea>
-    			<input type="submit" value=" <% l('Enviar') %> " name="submit" class="bt-lilas">
+			<input type="submit" value=" <% l('Enviar') %> " name="submit" class="bt-lilas">
     		</form>
     		<a id="quer-fechar"> <% l('Fechar formulário') %> </a>
 	</div>
