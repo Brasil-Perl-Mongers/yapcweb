@@ -8,7 +8,7 @@
 <div class="largura6">
 	<p>
 		<% l('Seja Bem vindo a mais uma edição do principal evento da comunidade Perl do Brasil, o YAPC::Brasil.') %>
-		<% l('O tema da edição de 2013 é O Universo Científico.') %>
+		<% l('O tema da edição de 2013 é <strong>O Universo Científico</strong>.') %>
 	</p>
 	<br />
 	<br />

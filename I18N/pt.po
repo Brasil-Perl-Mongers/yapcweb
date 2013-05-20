@@ -1,21 +1,20 @@
 # yapcweb pt.po file
 msgid ""
 msgstr ""
-"Project-Id-Version: YAPC :: Brasil 1.0\n"
+"Project-Id-Version: YAPC::Brasil 1.0\n"
 "Report-Msgid-Bugs-To: leprevost@cpan.org\n"
 "POT-Creation-Date: 2013-16-42 03:05\n"
-"PO-Revision-Date: 2013-05-18 14:36-0300\n"
+"PO-Revision-Date: 2013-05-19 19:42-0300\n"
 "Last-Translator: eddy85br <eduardoeddy@hotmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language-Team: curitiba-pm\n"
-"Language: pt_BR\n"
+"Language: pt\n"
 "X-Generator: Poedit 1.5.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-Basepath: C:\\Users\\Eduardo\\Documents\\GitHub\\yapcweb\\I18N\n"
+"X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\n"
-"X-Poedit-SearchPath-1: .\n"
 
 # # index ##
 msgid "Programação"
@@ -39,7 +38,7 @@ msgid ""
 "Brasil, o YAPC::Brasil."
 msgstr ""
 
-msgid "O tema da edição de 2013 é O Universo Científico."
+msgid "O tema da edição de 2013 é <strong>O Universo Científico</strong>."
 msgstr ""
 
 msgid ""
@@ -108,6 +107,7 @@ msgstr ""
 msgid "Fechar formulário"
 msgstr ""
 
+# # patrocinadores ##
 msgid "Quer Patrocinar? Clique e saiba mais"
 msgstr ""
 
@@ -127,8 +127,7 @@ msgstr ""
 msgid "Clique para ver mais informações"
 msgstr ""
 
-msgid ""
-"Quer trazer a família junto? Veja alguns dos lugares para visitar em Curitiba"
+msgid "Quer trazer a família junto? Veja alguns dos lugares para visitar em Curitiba"
 msgstr ""
 
 msgid "Linha Turismo"
@@ -156,6 +155,121 @@ msgid "Passeio Público"
 msgstr ""
 
 msgid "Museu Oscar Niemeyer"
+msgstr ""
+
+msgid "O Hotel Slaviero, local da edição deste ano do YAPC::Brasil foi escolhido pelas excelentes instalações e ambientes disponíveis para a realização do evento."
+msgstr ""
+
+msgid "O hotel é singular pela sua temática que remete aos famosos bares e pubs de Jazz de antigamente."
+msgstr ""
+
+msgid "O hotel conta ainda com o melhor bar de Jazz da cidade, podendo ser um ótimo local para botar o papo em dia."
+msgstr ""
+
+msgid "O Slaviero Full Jazz está no Batel, bairro nobre de Curitiba, estando próximo a uma grande variedade de bares, restaurantes, shoppings e casas noturnas."
+msgstr ""
+
+msgid "A Rede Integrada de Transporte permite ao usuário a utilização de mais de uma linha de ônibus com o pagamento de apenas uma tarifa."
+msgstr ""
+
+msgid "O processo de integração ocorre a partir de terminais de integração onde a pessoa pode trocar de linha de ônibus sem custo adicional."
+msgstr ""
+
+msgid "Aconselhamos você a utiliza o aplicativo <a target="_blank" href="http://busaocuritibano.com.br/#!/">Busão Curitibano</a>,"
+msgstr ""
+
+msgid ""
+"assim você poderá achar as melhores linhas de ônibus, conferir os horários e "
+"acompanhar em tempo real a posição dos ônibus pela cidade."
+msgstr ""
+
+msgid "Uma linha de ônibus especial que percorre os principais pontos turísticos da cidade, em um percurso de aproximadamente 45 km."
+msgstr ""
+
+msgid " A linha funciona de terça-feira a domingo das 9h às 17h30, e o valor do passeio é de R$ 27,00."
+msgstr ""
+
+msgid " Esse preço garante ao passageiro um embarque e quatro reembarques, possibilitando que o viajante escolha os pontos que queira conhecer melhor."
+msgstr ""
+
+msgid "A Torre Panorâmica de Curitiba é uma torre de telecomunicações que abriga o museu do Telefone e um mirante de 360° aberto a visitação publica."
+msgstr ""
+
+msgid " Inaugurada em 1991 a torre possui 109,5 metros de altura, funcionando de terça a domingo das 10h às 19h. A entrada custa R$ 3,00 por pessoa."
+msgstr ""
+
+msgid "Um dos principais cartões postais de Curitiba. Com uma área de cerca de 245 mil m², possui vastos jardins geométricos,"
+msgstr ""
+
+msgid " além de um bosque de araucárias e de uma estufa de três abóbadas, que abriga plantas característica da Floresta Atlântica."
+msgstr ""
+
+msgid " O Jardim Botânico funciona de terça a domingo das 06h às 21h."
+msgstr ""
+
+msgid "Um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente."
+msgstr ""
+
+msgid " Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras,"
+msgstr ""
+
+msgid " e o acesso anfiteatro se da por meio de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro."
+msgstr ""
+
+msgid " Está aberto para visitação de terça a domingo, das 8h às 20h."
+msgstr ""																								    
+
+msgid "Situada no chamado Centro Histórico de Curitiba, é composta por diversas barracas que contam com os mais diversos produtos de artesanato,"
+msgstr ""
+
+msgid " além de comidas variadas. A feira só funciona aos domingos, das 9h às 14h."
+msgstr ""
+
+msgid "O Barigui é um dos maiores e o mais frequentado parque de Curitiba"
+msgstr ""
+
+msgid " Sábados, domingos e feriados o parque é um dos principais pontos de encontro da cidade e, durante a semana,"
+msgstr "" 
+
+msgid " é muito comum as caminhadas em volta do lago. São muitas as opções de entretenimento e lazer no Barigui."
+msgstr ""
+
+msgid "Fundado em 02 de agosto de 1958, até hoje o Mercado Municipal é o principal e mais tradicional endereço para compras de Curitiba."
+msgstr ""
+
+msgid " Nas bancas de hortigranjeiros e nas lojas de delicatessens, é possível encontrar produtos como:"
+msgstr ""
+
+msgid " bebidas, queijos e vinhos de diversas procedências, temperos e especiarias, iguarias, pescados, carnes exóticas e com cortes especiais."
+msgstr ""
+
+msgid "Primeiro parque público de Curitiba, foi inaugurado pelo presidente da Província do Paraná, Alfredo d’Escragnolle Taunay, em 2 de maio de 1886."
+msgstr ""
+
+msgid " Foi a primeira grande obra de saneamento da cidade, transformando um charco num espaço de lazer, com lagos, pontes e ilhas em meio ao verde."
+msgstr ""
+
+msgid " Zoológico pioneiro de Curitiba, abriga até hoje pequenos animais. Seu portão é cópia do que existiu no Cemitério de Cães de Paris."
+msgstr ""
+
+msgid ""
+"O Slaviero Full Jazz está no Batel, bairro nobre de Curitiba, estando "
+"pŕoximo a uma grande variedade de bares, restaurantes, shoppings e casas "
+"noturnas."
+msgstr ""
+
+msgid "O complexo de dois prédios, instalado em uma área de trinta e cinco mil metros quadrados (dos quais dezenove mil dedicados à área de exposições)"
+msgstr ""
+
+msgid ", é um verdadeiro exemplo da Arquitetura aliada à Arte. A instituição tem como foco as artes visuais, a arquitetura e o design."
+msgstr ""
+
+msgid " Pela sua grandiosidade, beleza e pela importância do acervo, atualmente representa uma instituição cultural com projeção nacional e internacional."
+msgstr ""
+
+msgid ""
+"assim você poderá achar as melhores linhas de ônibus, conferir os horários e "
+"acompanhar em tempo real a posição dos ônibus pela cidade."
 msgstr ""
 
 # # enroll ##

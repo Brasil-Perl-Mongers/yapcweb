@@ -4,17 +4,17 @@ msgstr ""
 "Project-Id-Version: YAPC::Brasil 1.0\n"
 "Report-Msgid-Bugs-To: leprevost@cpan.org\n"
 "POT-Creation-Date: 2013-16-42 03:05\n"
-"PO-Revision-Date: 2013-05-18 14:43-0300\n"
+"PO-Revision-Date: 2013-05-19 19:41-0300\n"
 "Last-Translator: eddy85br <eduardoeddy@hotmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language-Team: curitiba-pm\n"
+"Language: en\n"
 "X-Generator: Poedit 1.5.5\n"
-"Language: en_US\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-Basepath: C:\\Users\\Eduardo\\Documents\\GitHub\\yapcweb\\I18N\n"
-"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
 
 # # index ##
 msgid "Programação"
@@ -40,8 +40,8 @@ msgstr ""
 "Welcome to another edition of the main event of the Brazilian Perl "
 "community, the YAPC::Brazil."
 
-msgid "O tema da edição de 2013 é O Universo Científico."
-msgstr "This year edition's theme is The Scientific Universe."
+msgid "O tema da edição de 2013 é <strong>O Universo Científico</strong>."
+msgstr "This year edition's theme is <strong>The Scientific Universe</strong>."
 
 msgid ""
 "O YAPC é um evento social para integrar a comunidade de desenvolvedores em "
@@ -120,26 +120,27 @@ msgstr "Close"
 msgid "Quer Patrocinar? Clique e saiba mais"
 msgstr "Want to sponsor? Click and read more"
 
-# # local ##
+# # location ##
 msgid "O YAPC::Brasil 2013 será em Curitiba,"
-msgstr "YAPC::Brasil will happend in Curitiba,"
+msgstr "YAPC::Brasil will occur in Curitiba,"
 
 msgid "no Hotel Slaviero Full Jazz"
-msgstr "on Slaviero Full Jazz Hotel"
+msgstr "at Slaviero Full Jazz Hotel"
 
 msgid "Clique para ver no Google Maps"
 msgstr "Click to see at Google Maps"
 
 msgid "Andando por Curitiba"
-msgstr "Walking around on Curitiba"
+msgstr "Walking around in Curitiba"
 
+# # msgstr "Walking throught Curitiba"
 msgid "Clique para ver mais informações"
 msgstr "Click to see more informations"
 
 msgid ""
 "Quer trazer a família junto? Veja alguns dos lugares para visitar em Curitiba"
 msgstr ""
-"Do you want to bring your family together? See some landmarks to visit at "
+"Do you want to bring your family together? See some landmarks to visit in "
 "Curitiba"
 
 msgid "Linha Turismo"
@@ -152,10 +153,10 @@ msgid "Jardim Botânico"
 msgstr "Botanical Garden"
 
 msgid "Ópera de Arame"
-msgstr "Wired Opera Theater"
+msgstr "Wire Opera House"
 
 msgid "Feirinha do Largo da Ordem"
-msgstr "Largo da Ordem Fair"
+msgstr "Largo da Ordem Street Market"
 
 msgid "Parque Barigui"
 msgstr "Barigui Park"
@@ -164,17 +165,131 @@ msgid "Mercado Municipal"
 msgstr "Municipal Market"
 
 msgid "Passeio Público"
-msgstr "Public Park"
+msgstr "Public Garden (Park)"
 
 msgid "Museu Oscar Niemeyer"
-msgstr "Oscar Niwmeyer Museum"
+msgstr "Oscar Niemeyer Museum"
+
+msgid "O Hotel Slaviero, local da edição deste ano do YAPC::Brasil foi escolhido pelas excelentes instalações e ambientes disponíveis para a realização do evento."
+msgstr "The Slaviero Hotel, YAPC::Brazil's location this year was chosen for its excellent structure and environment available to the event fulfillment."
+
+msgid "O hotel é singular pela sua temática que remete aos famosos bares e pubs de Jazz de antigamente."
+msgstr " The Hotel is unique for its theme referring to the old and famous Jazz pubs."
+
+msgid "O hotel conta ainda com o melhor bar de Jazz da cidade, podendo ser um ótimo local para botar o papo em dia."
+msgstr "The Hotel also has the best Jazz bar in the city, providing a magnificent place for networking."
+
+msgid "O Slaviero Full Jazz está no Batel, bairro nobre de Curitiba, estando próximo a uma grande variedade de bares, restaurantes, shoppings e casas noturnas."
+msgstr "The Slaviero Full Jazz is located at Batel venue, a nobel area of Curitiba, being close to a large variety of bars, restaurants, shopping malls and night clubs"
+
+msgid "A Rede Integrada de Transporte permite ao usuário a utilização de mais de uma linha de ônibus com o pagamento de apenas uma tarifa."
+msgstr "The integrated bus network allows anyone to use more than one bus line by just paying one ticket."
+
+msgid "O processo de integração ocorre a partir de terminais de integração onde a pessoa pode trocar de linha de ônibus sem custo adicional."
+msgstr "The integration process happens when passing by one of the bus terminals, that way people can swich bus lines. "
+
+msgid "Aconselhamos você a utiliza o aplicativo <a target="_blank" href="http://busaocuritibano.com.br/#!/">Busão Curitibano</a>,"
+msgstr "We suggest the use of the app called <a target="_blank" href="http://busaocuritibano.com.br/#!/">Busão Curitibano</a>,"
+
+msgid ""
+"assim você poderá achar as melhores linhas de ônibus, conferir os horários e "
+"acompanhar em tempo real a posição dos ônibus pela cidade."
+msgstr ""
+" this way you'll find the best bus lines, check schedules and bus "
+"coordinates around the city in real time."
+
+msgid "Uma linha de ônibus especial que percorre os principais pontos turísticos da cidade, em um percurso de aproximadamente 45 km."
+msgstr "A special bus that drives throught the main touristic places in the city, a route with approximately 27 miles."
+
+msgid " A linha funciona de terça-feira a domingo das 9h às 17h30, e o valor do passeio é de R$ 27,00."
+msgstr " The route is available from tuesday to sunday, from 9am to 5:30pm, and it costs about R$ 27.00."
+
+msgid " Esse preço garante ao passageiro um embarque e quatro reembarques, possibilitando que o viajante escolha os pontos que queira conhecer melhor."
+msgstr " This tax allows the passenger to departure 5 times, allowing the visitor to pick some places to arrive and visit."
+
+msgid "A Torre Panorâmica de Curitiba é uma torre de telecomunicações que abriga o museu do Telefone e um mirante de 360° aberto a visitação publica."
+msgstr "Curitiba's Panoramic Tower is a telecom tower that holds Telephone Museum and a belvedere with 360 degree sight, open to visitors."
+
+msgid " Inaugurada em 1991 a torre possui 109,5 metros de altura, funcionando de terça a domingo das 10h às 19h. A entrada custa R$ 3,00 por pessoa."
+msgstr " Inaugurated in 1991, the tower is 109.5 meters high, running from tuesdays to sundays, from 10 a.m. to 7 p.m. Entry costs R$ 3,00."
+
+msgid "Um dos principais cartões postais de Curitiba. Com uma área de cerca de 245 mil m², possui vastos jardins geométricos,"
+msgstr "This is one of the main Curitiba's postcards. With an area of about 245.000 m², it has vast geometric gardens,"
+
+msgid " além de um bosque de araucárias e de uma estufa de três abóbadas, que abriga plantas característica da Floresta Atlântica."
+msgstr " and also a grove of araucaria pines and a three vaulted greenhouse, that keeps vegetation caracteristic from Rain Forest."
+
+msgid " O Jardim Botânico funciona de terça a domingo das 06h às 21h."
+msgstr " Botanical Garden runs from tuesdays to sundays, from 6 a.m. to 9 p.m."
+
+msgid "Um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente."
+msgstr "An anphitheater build with wire tubes and metal structures with transparent."
+
+msgid " Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras,"
+msgstr " Located in a place where an old stonemasonry used to run, Wire Opera House is on a park called Stonemasonry Park,"
+
+msgid " e o acesso anfiteatro se da por meio de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro."
+msgstr " and the access to aphitheater is made throught an iron bridge, that was build over a lake reaching theater's second floor."
+
+msgid " Está aberto para visitação de terça a domingo, das 8h às 20h."
+msgstr " Wire Opera House is open for visitors from tuesday to sunday, from 8 a.m. to 8 p.m." 
+
+msgid "Situada no chamado Centro Histórico de Curitiba, é composta por diversas barracas que contam com os mais diversos produtos de artesanato," 
+msgstr "Located in a place known as Curitiba's Historical Center, it is composed by lots of tents the sell the most variable handmade products,"
+
+msgid " além de comidas variadas. A feira só funciona aos domingos, das 9h às 14h."
+msgstr " and also different kinds of food. The street market run only on sundays, from 9 a.m. to 2 p.m."
+
+msgid "O Barigui é um dos maiores e o mais frequentado parque de Curitiba."
+msgstr "Barigui is one of the bigger and most visited park in Curitiba."
+
+msgid " Sábados, domingos e feriados o parque é um dos principais pontos de encontro da cidade e, durante a semana,"
+msgstr " Every weekend and in most holidays, this park is one of the main meeting points in the city and, during the week," 
+
+msgid " é muito comum as caminhadas em volta do lago. São muitas as opções de entretenimento e lazer no Barigui."
+msgstr " one can see many people walking around its lake. There are many options for entertainment and leisure in Barigui."
+
+msgid "Fundado em 02 de agosto de 1958, até hoje o Mercado Municipal é o principal e mais tradicional endereço para compras de Curitiba." 
+msgstr "Founded on August 02, 1958, until today the City Market is the main and most traditional address for shopping in Curitiba." 
+
+msgid " Nas bancas de hortigranjeiros e nas lojas de delicatessens, é possível encontrar produtos como:"
+msgstr "In horticulture stalls and shops of delicatessens, you can find products such as"
+
+msgid " bebidas, queijos e vinhos de diversas procedências, temperos e especiarias, iguarias, pescados, carnes exóticas e com cortes especiais."
+msgstr " cheeses, wines, fruist, vegetables, spices and more."
+
+msgid "Primeiro parque público de Curitiba, foi inaugurado pelo presidente da Província do Paraná, Alfredo d’Escragnolle Taunay, em 2 de maio de 1886." 
+msgstr "First park in Curitiba, was founded by Paraná's Province President, Alfredo d’Escragnolle Taunay, in May 2, 1886." 
+
+msgid " Foi a primeira grande obra de saneamento da cidade, transformando um charco num espaço de lazer, com lagos, pontes e ilhas em meio ao verde." 
+msgstr " It was the first big sanitation work, changing a pond into a leisure area, with lakes, bridges and islands between the green." 
+
+msgid " Zoológico pioneiro de Curitiba, abriga até hoje pequenos animais. Seu portão é cópia do que existiu no Cemitério de Cães de Paris."
+msgstr "  Pioneer Zoo in Curitiba, hosts until today some small animals. It's gate is a true copy from Paris Dogs' Cemetery."
+
+msgid "O complexo de dois prédios, instalado em uma área de trinta e cinco mil metros quadrados (dos quais dezenove mil dedicados à área de exposições)" 
+msgstr "The two building complex, installed on an area of 35,000 m² (of which 19,000 dedicated to exhibition)" 
+
+msgid ", é um verdadeiro exemplo da Arquitetura aliada à Arte. A instituição tem como foco as artes visuais, a arquitetura e o design." 
+msgstr ", its a true example of the union between Architecture and Art. The institution focuses on visual arts, arquitecture and design." 
+
+msgid " Pela sua grandiosidade, beleza e pela importância do acervo, atualmente representa uma instituição cultural com projeção nacional e internacional."
+msgstr " For its magnificence, beauty and importance of the collection, currently represents a cultural institution with national and international projection."
+
+msgid ""
+"O Slaviero Full Jazz está no Batel, bairro nobre de Curitiba, estando "
+"pŕoximo a uma grande variedade de bares, restaurantes, shoppings e casas "
+"noturnas."
+msgstr ""
+"Slaviero Full Jazz is located at Batel, a noble region in Curitiba, being "
+"next to a great variety of pubs, restaurants, shopping malls and nightclubs."
 
 # # enroll ##
 msgid "até 14/08"
-msgstr "until 14/08"
+msgstr "until 08/14"
 
 msgid "a partir de 15/08"
-msgstr "from 15/08"
+msgstr "from 08/15"
 
 msgid "Inscrever-se"
 msgstr "Enroll"

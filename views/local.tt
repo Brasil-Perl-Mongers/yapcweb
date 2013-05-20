@@ -14,13 +14,13 @@
 <div class="largura6">
 	<h4> <% l('O YAPC::Brasil 2013 será em Curitiba,') %> <br> <% l('no Hotel Slaviero Full Jazz') %> </h4><br>
 		<p>
-			O <a href="http://goo.gl/z1kcX" target="_blank">Hotel Slaviero</a>, local da edição deste ano do YAPC::Brasil 
-			foi escolhido pelas excelentes instalações e ambientes disponíveis para a realização do evento. O hotel é singular pela sua temática que remete aos 
-			famosos bares e pubs de Jazz de antigamente. O hotel conta ainda com o melhor bar de Jazz da cidade, podendo ser um ótimo local para botar o papo em dia.
+			<% l('O Hotel Slaviero, local da edição deste ano do YAPC::Brasil foi escolhido pelas excelentes instalações e ambientes disponíveis para a realização do evento.') %>
+			<% l('O hotel é singular pela sua temática que remete aos famosos bares e pubs de Jazz de antigamente.') %> 
+			<% l('O hotel conta ainda com o melhor bar de Jazz da cidade, podendo ser um ótimo local para botar o papo em dia.') %>
 			
 			<br>
 
-			O Slaviero Full Jazz está no Batel, bairro nobre de Curitiba, estando pŕoximo a uma grande variedade de bares, restaurantes, shoppings e casas noturnas.
+			<% l('O Slaviero Full Jazz está no Batel, bairro nobre de Curitiba, estando próximo a uma grande variedade de bares, restaurantes, shoppings e casas noturnas.') %>
 		</p>
 		
 		<br>
@@ -34,14 +34,13 @@
     		<div class="largura6">
     			<h4> <% l('Andando por Curitiba') %> </h4><br>
     				<p>
-    					A Rede Integrada de Transporte permite ao usuário a utilização de mais de uma linha de ônibus com o pagamento de apenas uma tarifa. 
-					O processo de integração ocorre a partir de terminais de integração onde o cidadão pode desembarcar de uma linha e embarcar em qualquer 
-					outra dentro daquele espaço sem um novo pagamento. 
+    					<% l('A Rede Integrada de Transporte permite ao usuário a utilização de mais de uma linha de ônibus com o pagamento de apenas uma tarifa.') %> 
+					<% l('O processo de integração ocorre a partir de terminais de integração onde a pessoa pode trocar de linha de ônibus sem custo adicional.') %> 
 				</p>
 				<br />
 				<p>
-					Aconselhamos você a utiliza o aplicativo <a target="_blank" href="http://busaocuritibano.com.br/#!/">Busão Curitibano</a>, 
-					assim você poderá achar as melhores linhas de ônibus, conferir os horários e acompanhar em tempo real a posição dos ônibus pela cidade.
+					<% l('Aconselhamos você a utiliza o aplicativo <a target="_blank" href="http://busaocuritibano.com.br/#!/">Busão Curitibano</a>,') %> 
+					<% l('assim você poderá achar as melhores linhas de ônibus, conferir os horários e acompanhar em tempo real a posição dos ônibus pela cidade.') %>
 				</p>
 
 			<br>
@@ -56,10 +55,9 @@
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
-						A Linha Turismo é uma linha de ônibus especial que percorre os principais pontos turísticos da cidade, em um percurso de aproximadamente 
-						45 km, que dura cerca de duas horas e meia. A linha funciona de terça-feira a domingo das 9h às 17h30, e o valor do passeio é de R$ 27,00. 
-						Esse preço garante ao passageiro um embarque e quatro reembarques, possibilitando que o viajante escolha alguns dos pontos que queira 
-						conhecer melhor.
+						<% l('Uma linha de ônibus especial que percorre os principais pontos turísticos da cidade, em um percurso de aproximadamente 45 km.') %>
+						<% l(' A linha funciona de terça-feira a domingo das 9h às 17h30, e o valor do passeio é de R$ 27,00.') %>
+						<% l(' Esse preço garante ao passageiro um embarque e quatro reembarques, possibilitando que o viajante escolha os pontos que queira conhecer melhor.') %>
 					</p>
 				</div>
     				<p> <% l('Linha Turismo') %> <a class="bt-mais bt-lilas float-right">–</a></p>
@@ -71,8 +69,8 @@
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
-						A Torre Panorâmica de Curitiba é uma torre de telecomunicações que abriga o museu do Telefone e um mirante de 360° aberto a visitação publica. 
-						Inaugurada em 1991 a torre possui 109,5 metros de altura, funcionando de terça a domingo das 10h às 19h. A entrada custa R$ 3,00 por pessoa.
+						<% l('A Torre Panorâmica de Curitiba é uma torre de telecomunicações que abriga o museu do Telefone e um mirante de 360° aberto a visitação publica.') %> 
+						<% l(' Inaugurada em 1991 a torre possui 109,5 metros de altura, funcionando de terça a domingo das 10h às 19h. A entrada custa R$ 3,00 por pessoa.') %>
 					</p>
 				</div>
     				<p> <% l('Torre Panorâmica') %> <a class="bt-mais bt-lilas float-right">–</a></p>
@@ -84,9 +82,9 @@
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
-						Um dos principais cartões postais de Curitiba. Com uma área de cerca de 245 mil m², possui vastos jardins geométricos, 
-						além de um bosque de araucárias e de uma estufa de três abóbadas, que abriga plantas característica da Floresta Atlântica. 
-						O Jardim Botânico funciona de terça a domingo das 06h às 21h.
+						<% l('Um dos principais cartões postais de Curitiba. Com uma área de cerca de 245 mil m², possui vastos jardins geométricos,') %> 
+						<% l(' além de um bosque de araucárias e de uma estufa de três abóbadas, que abriga plantas característica da Floresta Atlântica.') %> 
+						<% l(' O Jardim Botânico funciona de terça a domingo das 06h às 21h.') %>
 					</p>
 				</div>
     				<p><% l('Jardim Botânico') %><a class="bt-mais bt-lilas float-right">–</a></p>
@@ -98,9 +96,10 @@
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
-						 Um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente. Situada no local onde funcionava 
-						 uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras, e o acesso anfiteatro se da por meio de uma ponte de 
-						 ferro que passa sobre um lago e chega ao segundo piso do teatro. Está aberto para visitação de terça a domingo, das 8h às 20h.
+						 <% l('Um anfiteatro todo construído de tubos de aço e estruturas metálicas e com de policarbonato transparente.') %>
+						 <% l(' Situada no local onde funcionava uma antiga pedreira, a Ópera do Arame se encontra no chamado Parque das Pedreiras,') %>
+						 <% l(' e o acesso anfiteatro se da por meio de uma ponte de ferro que passa sobre um lago e chega ao segundo piso do teatro.') %>
+						 <% l(' Está aberto para visitação de terça a domingo, das 8h às 20h.') %>
 					</p>
 				</div>
     				<p><% l('Ópera de Arame') %><a class="bt-mais bt-lilas float-right">–</a></p>
@@ -112,8 +111,8 @@
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
-						Situada no chamado Centro Histórico de Curitiba, é composta por diversas barracas que contam com os mais diversos produtos de artesanato, 
-						além de comidas variadas. A feira só funciona aos domingos, das 9h às 14h.
+						<% l('Situada no chamado Centro Histórico de Curitiba, é composta por diversas barracas que contam com os mais diversos produtos de artesanato,') %> 
+						<% l(' além de comidas variadas. A feira só funciona aos domingos, das 9h às 14h.') %>
 					</p>
 				</div>
     				<p><% l('Feirinha do Largo da Ordem') %><a class="bt-mais bt-lilas float-right">–</a></p>
@@ -125,9 +124,9 @@
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
-						O Barigui é um dos maiores e o mais freqüentado parque de Curitiba. Sábados, domingos e feriados o parque é um dos principais pontos
-						de encontro da cidade e, durante a semana, é muito comum as caminhadas em volta do lago. São muitas as opções de 
-						entretenimento e lazer no Barigui.						
+						<% l('O Barigui é um dos maiores e o mais frequentado parque de Curitiba.') %>
+						<% l(' Sábados, domingos e feriados o parque é um dos principais pontos de encontro da cidade e, durante a semana,') %>
+						<% l(' é muito comum as caminhadas em volta do lago. São muitas as opções de entretenimento e lazer no Barigui.') %>						
 					</p>
 				</div>
 				<p><% l('Parque Barigui') %><a class="bt-mais bt-lilas float-right">–</a></p>
@@ -139,9 +138,9 @@
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
-						Fundado em 02 de agosto de 1958, até hoje o Mercado Municipal é o principal e mais tradicional endereço para compras de Curitiba. 
-						Nas bancas de hortigranjeiros e nas lojas de delicatessens, é possível encontrar produtos como: bebidas, queijos e vinhos de diversas 
-						procedências, ervas medicinais, temperos e especiarias, iguarias, conservas, pescados, embutidos, carnes exóticas e com cortes especiais.
+						<% l('Fundado em 02 de agosto de 1958, até hoje o Mercado Municipal é o principal e mais tradicional endereço para compras de Curitiba.') %>
+						<% l(' Nas bancas de hortigranjeiros e nas lojas de delicatessens, é possível encontrar produtos como:') %>
+						<% l(' bebidas, queijos e vinhos de diversas procedências, temperos e especiarias, iguarias, pescados, carnes exóticas e com cortes especiais.') %>
 					</p>
 				</div>
 				<p><% l('Mercado Municipal') %><a class="bt-mais bt-lilas float-right">–</a></p>
@@ -153,10 +152,9 @@
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
-						Primeiro parque público de Curitiba, foi inaugurado pelo presidente da Província do Paraná, Alfredo d’Escragnolle Taunay, 
-						em 2 de maio de 1886. Foi a primeira grande obra de saneamento da cidade, transformando um charco num espaço de lazer, com lagos, 
-						pontes e ilhas em meio ao verde. Zoológico pioneiro de Curitiba, abriga até hoje pequenos animais. Seu portão é cópia do que 
-						existiu no Cemitério de Cães de Paris. 
+						<% l('Primeiro parque público de Curitiba, foi inaugurado pelo presidente da Província do Paraná, Alfredo d’Escragnolle Taunay, em 2 de maio de 1886.') %>
+						<% l(' Foi a primeira grande obra de saneamento da cidade, transformando um charco num espaço de lazer, com lagos, pontes e ilhas em meio ao verde.') %>
+						<% l(' Zoológico pioneiro de Curitiba, abriga até hoje pequenos animais. Seu portão é cópia do que existiu no Cemitério de Cães de Paris.') %> 
 					</p>
 				</div>
 				<p><% l('Passeio Público') %><a class="bt-mais bt-lilas float-right">–</a></p>
@@ -168,10 +166,9 @@
 				</figure>
 				<div class="o-que-mais bg-cinza">
 					<p>
-						O complexo de dois prédios, instalado em uma área de trinta e cinco mil metros quadrados (dos quais dezenove mil dedicados 
-						à área de exposições), é um verdadeiro exemplo da Arquitetura aliada à Arte. A instituição tem como foco as artes visuais, 
-						a arquitetura e o design. Pela sua grandiosidade, beleza e pela importância do acervo, atualmente representa uma instituição 
-						cultural com projeção nacional e internacional.
+						<% l('O complexo de dois prédios, instalado em uma área de trinta e cinco mil metros quadrados (dos quais dezenove mil dedicados à área de exposições)') %>
+						<% l(', é um verdadeiro exemplo da Arquitetura aliada à Arte. A instituição tem como foco as artes visuais, a arquitetura e o design.') %>
+						<% l(' Pela sua grandiosidade, beleza e pela importância do acervo, atualmente representa uma instituição cultural com projeção nacional e internacional.') %>
 					</p>
 				</div>
 				<p><% l('Museu Oscar Niemeyer') %><a class="bt-mais bt-lilas float-right">–</a></p>
