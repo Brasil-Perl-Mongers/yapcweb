@@ -247,7 +247,7 @@ header,
 	margin-bottom:-3px;
 }
 nav {
-	font-size: 18px;
+	font-size: 15px;
 	color: white;
 }
 nav a {
@@ -267,9 +267,12 @@ figure {
 /*Inserido por Leprevost 05-15-13
 * Para ajustar a posição da bandeira'
 * efeito: aumntou a barra do menu abaixo.
-*/
 #bandeira-menu {
  	padding-top:23px;
+}
+*/
+#bandeira-menu img {
+	margin-top:23px;
 }
 .bg-cinza {
 	background: #dddddd;
@@ -458,6 +461,9 @@ iframe {
 	}
 	#quer-palestrar-form {
 		width:39.667%;
+	}
+	#bandeira-menu img {
+		margin-top: 19px;
 	}
 }
 @media (max-width:640px) {

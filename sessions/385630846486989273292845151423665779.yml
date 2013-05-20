@@ -1,0 +1,14 @@
+--- !!perl/hash:Dancer::Session::YAML
+id: 385630846486989273292845151423665779
+language: en
+user_lang: !!perl/hash:HTTP::AcceptLanguage
+  header: 'en-US,en;q=0.5'
+  parsed_header:
+    - language: en-US
+      language_lc: en-us
+      language_primary_lc: en
+      quality: 1
+    - language: en
+      language_lc: en
+      language_primary_lc: en
+      quality: 0.5
