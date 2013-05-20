@@ -41,6 +41,8 @@ post '/' => sub {
 
 		$talk{name}		= params->{nomePalestrante};
 		$talk{email}	= params->{emailPalestrante};
+		$talk{dia}		= params->{diaPalestrante};
+		$talk{tempo}	= params->{tempoPalestrante};
 		$talk{title}	= params->{tituloPalestrante};
 		$talk{abstract}	= params->{resumoPalestrante};
 	
@@ -49,7 +51,7 @@ post '/' => sub {
 			from 	=> 'mailer@hexabio.com.br',
 			to   	=> 'yapc-curitiba@googlegroups.com',
 			subject	=> 'Nova Palestra',
-			body	=> "Nome: $talk{name}\nE-mail: $talk{email}\nTítulo: $talk{title}\nResumo: $talk{abstract}\n",
+			body	=> "Nome: $talk{name}\nE-mail: $talk{email}\nDia de preferência: $talk{dia}\nDuração: $talk{tempo}\nTítulo: $talk{title}\nResumo: $talk{abstract}\n",
 		};
 	
 		# para o palestrante
