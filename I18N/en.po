@@ -51,7 +51,7 @@ msgstr ""
 "Perl,"
 
 msgid "seus usuários e interessados na área de tecnologia."
-msgstr "ts users and other people interested in IT."
+msgstr "its users and other people interested in IT."
 
 msgid ""
 "Buscamos este ano promover o diálogo e a colaboração entre desenvolvedores "
@@ -188,7 +188,7 @@ msgstr "The integrated bus network allows anyone to use more than one bus line b
 msgid "O processo de integração ocorre a partir de terminais de integração onde a pessoa pode trocar de linha de ônibus sem custo adicional."
 msgstr "The integration process happens when passing by one of the bus terminals, that way people can swich bus lines. "
 
-msgid "Aconselhamos você a utiliza o aplicativo <a target="_blank" href="http://busaocuritibano.com.br/#!/">Busão Curitibano</a>,"
+msgid "Aconselhamos você a utilizar o aplicativo <a target="_blank" href="http://busaocuritibano.com.br/#!/">Busão Curitibano</a>,"
 msgstr "We suggest the use of the app called <a target="_blank" href="http://busaocuritibano.com.br/#!/">Busão Curitibano</a>,"
 
 msgid ""

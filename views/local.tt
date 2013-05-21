@@ -39,7 +39,7 @@
 				</p>
 				<br />
 				<p>
-					<% l('Aconselhamos você a utiliza o aplicativo <a target="_blank" href="http://busaocuritibano.com.br/#!/">Busão Curitibano</a>,') %> 
+					<% l('Aconselhamos você a utilizar o aplicativo <a target="_blank" href="http://busaocuritibano.com.br/#!/">Busão Curitibano</a>,') %> 
 					<% l('assim você poderá achar as melhores linhas de ônibus, conferir os horários e acompanhar em tempo real a posição dos ônibus pela cidade.') %>
 				</p>
 
