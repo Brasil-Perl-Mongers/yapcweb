@@ -1,6 +1,10 @@
 <% languages(session.user_lang) %>
 
-<a id="body-bg"></a>
+	<div id="idiomas">
+		<a id="" href="/pt "><img src="images/br.png"></a>
+		<a id="" href="/en "><img src="images/us.png"></a>
+	</div>
+
 	<div id"page">
    	<section class="full shadow-top" id="o-evento">
     		<div><!-- wrapper -->
@@ -20,11 +24,6 @@
 			<a id="local-menu"> <% l('Local') %> </a>
 			<a id="inscricoes-menu"> <% l('Inscrições') %> </a>
 			<a id="patrocinadores-menu"> <% l('Patrocinadores') %> </a>
-			<% IF session.user_lang == 'pt' %>
-			<a id="bandeira-menu" href="<% uri_base %>/en "><img src="images/us.png"></a>
-			<% ELSE %>
-			<a id="bandeira-menu" href="<% uri_base %>/pt "><img src="images/br.png"></a>
-			<% END %>
 		</nav>
 	</div><!-- /wrapper -->
     	</header><!-- /.full -->    	

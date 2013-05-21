@@ -219,11 +219,11 @@ header,
 	color:#ffffff;
 }
 /* Modificado por Leprevost 11-05-13
- * modificação: inserção
+ * modificaÃ§Ã£o: inserÃ§Ã£o
  * atributo: text-align:justify
  * atributo: text-justify:inter-word
  * atributo: line-height
- * razão: deixar o texto sobre o evento justificado e espaçado
+ * razÃ£o: deixar o texto sobre o evento justificado e espaÃ§ado
  * */
 #o-evento p {
 	color:#ffffff;
@@ -265,7 +265,7 @@ figure {
 	display:inline-block;
 }
 /*Inserido por Leprevost 05-15-13
-* Para ajustar a posição da bandeira'
+* Para ajustar a posiÃ§Ã£o da bandeira'
 * efeito: aumntou a barra do menu abaixo.
 #bandeira-menu {
  	padding-top:23px;
@@ -428,6 +428,18 @@ textarea {
 iframe {
 	margin-bottom:40px !important;
 }
+#idiomas {
+position: fixed;
+z-index: 99999;
+top: 20px;
+width: 50px;
+right: 20px;
+}
+#idiomas a {
+width: 20px;
+height: auto;
+display: inline-block;
+}
 @media (max-width:768px) {
 	h1,
 	h3 {
@@ -464,6 +476,10 @@ iframe {
 	}
 	#bandeira-menu img {
 		margin-top: 19px;
+	}
+	#idiomas {
+		top:15px;
+		right:5px;
 	}
 }
 @media (max-width:640px) {
@@ -592,7 +608,7 @@ iframe {
 		margin: 0;
 	}
 	nav a {
-		width: 50%;
+		width: 42%;
 		text-align: center;
 		margin: 0;
 		padding: 0;
@@ -609,6 +625,9 @@ iframe {
 	}
 	body {
 		background:#ffffff;
+	}
+	#idiomas {
+		top:20px;
 	}
 }
 @media (max-width:240px) {
