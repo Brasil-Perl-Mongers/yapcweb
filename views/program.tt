@@ -7,11 +7,7 @@
 	<a class="bt-lilas float-right" id="programacao-sexta"> <% l('15 :: sexta') %> </a>
 </div>
 <div class="largura12 programacao-tabela">
-	<ul class= "header bg-cinza align-center">
-		<li class="largura6">Em Breve!</li>
-	</ul>
 
-	<!--
 	<ul class="header bg-cinza align-center">
 		<li class="largura2"> <% l('QUANDO?') %> </li>
 		<li class="largura4"> <% l('QUEM?') %> </li>
@@ -21,26 +17,26 @@
     	<div id="programacao-sexta-content">
 	
     		<ul class="align-center">
-    			<li class="largura2 quando">hora</li>
-    			<li class="largura4 quem">Palestrante</li>
-    			<li class="largura5 o-que">Título</li>
+    			<li class="largura2 quando"> </li>
+    			<li class="largura4 quem"> </li>
+    			<li class="largura5 o-que"> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
     			<li class="largura12 o-que-mais-content">
-    				Descrição
+    				 
     			</li>
     		</ul>
     		
 		<ul class="align-center">
-    			<li class="largura2 quando">hora</li>
-    			<li class="largura4 quem">Palestrante</li>
-    			<li class="largura5 o-que">Título</li>
+    			<li class="largura2 quando"> </li>
+    			<li class="largura4 quem"> </li>
+    			<li class="largura5 o-que"> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
     			<li class="largura12 o-que-mais-content">
-    				Descrição
+    				 
     			</li>
     		</ul>
 	
@@ -48,30 +44,30 @@
 
 	<div id="programacao-sabado-content">
     		<ul class="align-center">
-    			<li class="largura2 quando">hora</li>
-    			<li class="largura4 quem">Palestrante</li>
-    			<li class="largura5 o-que">Título</li>
+    			<li class="largura2 quando"> </li>
+    			<li class="largura4 quem"> </li>
+    			<li class="largura5 o-que"> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
     			<li class="largura12 o-que-mais-content">
-    				Descrição
+    				 
     			</li>
     		</ul>
     		<ul class="align-center">
-    			<li class="largura2 quando">hora</li>
-    			<li class="largura4 quem">Palestrante</li>
-    			<li class="largura5 o-que">Título</li>
+    			<li class="largura2 quando"> </li>
+    			<li class="largura4 quem"> </li>
+    			<li class="largura5 o-que"> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
     			<li class="largura12 o-que-mais-content">
-    				Descrição
+    				 
     			</li>
     		</ul>
 	</div>
 </div>
--->
+
 <div class="largura12">
    <a class="bt-lilas float-right" id="quer-palestrar"> <% l('Quer palestrar? Clique aqui') %> </a>
    	<div class="largura4 bg-cinza" id="quer-palestrar-form">
