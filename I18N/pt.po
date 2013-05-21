@@ -175,7 +175,7 @@ msgstr ""
 msgid "O processo de integração ocorre a partir de terminais de integração onde a pessoa pode trocar de linha de ônibus sem custo adicional."
 msgstr ""
 
-msgid "Aconselhamos você a utiliza o aplicativo <a target="_blank" href="http://busaocuritibano.com.br/#!/">Busão Curitibano</a>,"
+msgid "Aconselhamos você a utilizar o aplicativo <a target="_blank" href="http://busaocuritibano.com.br/#!/">Busão Curitibano</a>,"
 msgstr ""
 
 msgid ""

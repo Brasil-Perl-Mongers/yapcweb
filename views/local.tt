@@ -31,26 +31,26 @@
 	<h3 class="largura6 float-none">Curitiba</h3><br><br>
 </div>
 	<figure class="largura6"><img src="images/curitiba.png" alt="Mapa da Rede Integrada de Transporte" title="Mapa da Rede Integrada de Transporte"></figure>
-    		<div class="largura6">
-    			<h4> <% l('Andando por Curitiba') %> </h4><br>
-    				<p>
-    					<% l('A Rede Integrada de Transporte permite ao usuário a utilização de mais de uma linha de ônibus com o pagamento de apenas uma tarifa.') %> 
-					<% l('O processo de integração ocorre a partir de terminais de integração onde a pessoa pode trocar de linha de ônibus sem custo adicional.') %> 
+			<div class="largura6">
+				<h4><% l('Andando por Curitiba') %></h4><br>
+					<p>
+						<% l('A Rede Integrada de Transporte permite ao usuário a utilização de mais de uma linha de ônibus com o pagamento de apenas uma tarifa.') %>
+					<% l('O processo de integração ocorre a partir de terminais de integração onde a pessoa pode trocar de linha de ônibus sem custo adicional.') %>
 				</p>
 				<br />
 				<p>
-					<% l('Aconselhamos você a utiliza o aplicativo <a target="_blank" href="http://busaocuritibano.com.br/#!/">Busão Curitibano</a>,') %> 
+					<% l('Aconselhamos você a utilizar o aplicativo <a target="_blank" href="http://busaocuritibano.com.br/#!/">Busão Curitibano</a>,') %> 
 					<% l('assim você poderá achar as melhores linhas de ônibus, conferir os horários e acompanhar em tempo real a posição dos ônibus pela cidade.') %>
 				</p>
 
 			<br>
 
 			<a href="http://www.urbs.curitiba.pr.gov.br/" class="bt-lilas" target="_blank"> <% l('Clique para ver mais informações') %> </a>
-    		</div>
+			</div>
 		<h4 class="largura12 align-center"><br><br> <% l('Quer trazer a família junto? Veja alguns dos lugares para visitar em Curitiba') %> <br><br></h4>
 		<div class="largura12">
-    			<div class="largura4 local-lugares bg-cinza">
-    				<figure>
+				<div class="largura4 local-lugares bg-cinza">
+					<figure>
 					<img src="images/turismo-1.png" alt="<% l('Linha Turismo') %>" title="<% l('Linha Turismo') %>">
 				</figure>
 				<div class="o-que-mais bg-cinza">
@@ -60,11 +60,11 @@
 						<% l(' Esse preço garante ao passageiro um embarque e quatro reembarques, possibilitando que o viajante escolha os pontos que queira conhecer melhor.') %>
 					</p>
 				</div>
-    				<p> <% l('Linha Turismo') %> <a class="bt-mais bt-lilas float-right">–</a></p>
-    			</div>
+					<p> <% l('Linha Turismo') %> <a class="bt-mais bt-lilas float-right">–</a></p>
+				</div>
 
-    			<div class="largura4 local-lugares bg-cinza">
-    				<figure>
+				<div class="largura4 local-lugares bg-cinza">
+					<figure>
 					<img src="images/turismo-2.png" alt="<% l('Torre Panorâmica') %>" title="<% l('Torre Panorâmica') %>">
 				</figure>
 				<div class="o-que-mais bg-cinza">
@@ -73,11 +73,11 @@
 						<% l(' Inaugurada em 1991 a torre possui 109,5 metros de altura, funcionando de terça a domingo das 10h às 19h. A entrada custa R$ 3,00 por pessoa.') %>
 					</p>
 				</div>
-    				<p> <% l('Torre Panorâmica') %> <a class="bt-mais bt-lilas float-right">–</a></p>
-    			</div>
-    			
+					<p> <% l('Torre Panorâmica') %> <a class="bt-mais bt-lilas float-right">–</a></p>
+				</div>
+				
 			<div class="largura4 local-lugares bg-cinza">
-    				<figure>
+					<figure>
 					<img src="images/turismo-3.png" alt="<% l('Jardim Botânico') %>" title="<% l('Jardim Botânico') %>">
 				</figure>
 				<div class="o-que-mais bg-cinza">
@@ -87,11 +87,11 @@
 						<% l(' O Jardim Botânico funciona de terça a domingo das 06h às 21h.') %>
 					</p>
 				</div>
-    				<p><% l('Jardim Botânico') %><a class="bt-mais bt-lilas float-right">–</a></p>
-    			</div>
+					<p><% l('Jardim Botânico') %><a class="bt-mais bt-lilas float-right">–</a></p>
+				</div>
 
-    			<div class="largura4 local-lugares bg-cinza">
-    				<figure>
+				<div class="largura4 local-lugares bg-cinza">
+					<figure>
 					<img src="images/turismo-4.png" alt="<% l('Ópera de Arame') %>" title="<% l('Ópera de Arame') %>">
 				</figure>
 				<div class="o-que-mais bg-cinza">
@@ -102,11 +102,11 @@
 						 <% l(' Está aberto para visitação de terça a domingo, das 8h às 20h.') %>
 					</p>
 				</div>
-    				<p><% l('Ópera de Arame') %><a class="bt-mais bt-lilas float-right">–</a></p>
-    			</div>
+					<p><% l('Ópera de Arame') %><a class="bt-mais bt-lilas float-right">–</a></p>
+				</div>
 
-    			<div class="largura4 local-lugares bg-cinza">
-    				<figure>
+				<div class="largura4 local-lugares bg-cinza">
+					<figure>
 					<img src="images/turismo-5.png" alt="<% l('Feirinha do Largo da Ordem') %>" title="<% l('Feirinha do Largo da Ordem') %>">
 				</figure>
 				<div class="o-que-mais bg-cinza">
@@ -115,11 +115,11 @@
 						<% l(' além de comidas variadas. A feira só funciona aos domingos, das 9h às 14h.') %>
 					</p>
 				</div>
-    				<p><% l('Feirinha do Largo da Ordem') %><a class="bt-mais bt-lilas float-right">–</a></p>
-    			</div>
+					<p><% l('Feirinha do Largo da Ordem') %><a class="bt-mais bt-lilas float-right">–</a></p>
+				</div>
 
-    			<div class="largura4 local-lugares bg-cinza">
-    				<figure>
+				<div class="largura4 local-lugares bg-cinza">
+					<figure>
 					<img src="images/turismo-6.png" alt="<% l('Parque Barigui') %>" title="<% l('Parque Barigui') %>">
 				</figure>
 				<div class="o-que-mais bg-cinza">
@@ -146,7 +146,7 @@
 				<p><% l('Mercado Municipal') %><a class="bt-mais bt-lilas float-right">–</a></p>
 			</div>
 
-                        <div class="largura4 local-lugares bg-cinza">
+						<div class="largura4 local-lugares bg-cinza">
 				<figure>
 					<img src="images/turismo-8.png" alt="<% l('Passeio Público') %>" title="<% l('Passeio Público') %>">
 				</figure>
@@ -158,9 +158,9 @@
 					</p>
 				</div>
 				<p><% l('Passeio Público') %><a class="bt-mais bt-lilas float-right">–</a></p>
-                        </div>
+						</div>
 
-                        <div class="largura4 local-lugares bg-cinza">
+						<div class="largura4 local-lugares bg-cinza">
 				<figure>
 					<img src="images/turismo-9.png" alt="<% l('Museu Oscar Niemeyer') %>" title="<% l('Museu Oscar Niemeyer') %>">
 				</figure>
@@ -172,6 +172,6 @@
 					</p>
 				</div>
 				<p><% l('Museu Oscar Niemeyer') %><a class="bt-mais bt-lilas float-right">–</a></p>
-                        </div>
+						</div>
 		</div>															
-    	</div>
+		</div>
