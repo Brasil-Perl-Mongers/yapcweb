@@ -351,9 +351,9 @@ figure {
 input,
 textarea,
 select {
-	height: 40px;
+	height: 25px;
 	width: 96%;
-	margin: 5px 0;
+	margin: 2px 0;
 	padding: 0 2%;
 	line-height: 20px;
 	font-size: 12px;
