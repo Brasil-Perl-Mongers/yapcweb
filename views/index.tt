@@ -1,8 +1,8 @@
 <% languages(session.user_lang) %>
 
 	<div id="idiomas">
-		<a id="" href="/pt "><img src="images/br.png"></a>
-		<a id="" href="/us "><img src="images/us.png"></a>
+		<a id="" href=" <% uri_base %>/pt "><img src="images/br.png"></a>
+		<a id="" href=" <% uri_base %>/en "><img src="images/us.png"></a>
 	</div>
 	<div id="eduardo-miura"></div>
 
