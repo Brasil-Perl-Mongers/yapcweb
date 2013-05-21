@@ -75,12 +75,12 @@
     			 <% l('Sua proposta será avaliada e em breve entraremos em contato.') %> <br><br>
     			<input type="text" placeholder=" <% l('Nome') %> " name="nomePalestrante" required>
     			<input type="mail" placeholder=" <% l('E-mail') %> " name="emailPalestrante" required>
-			<select style=float:left name="tempoPalestrante">
+			<select name="tempoPalestrante">
 				<option value="20">20 minutos</option>
 				<option value="40">40 minutos</option>
 			</select>
     			<input type="text" placeholder=" <% l('Título da palestra') %> " name="tituloPalestrante" required>
-			<select style=float:left name="diaPalestrante">
+			<select name="diaPalestrante">
 				<option value="15">Sexta-feira </option>
 				<option value="16">Sábado</option>
 			</select>

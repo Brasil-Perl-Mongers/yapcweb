@@ -349,13 +349,17 @@ figure {
 	text-align: right;
 }
 input,
-textarea {
+textarea,
+select {
 	height: 40px;
 	width: 96%;
 	margin: 5px 0;
 	padding: 0 2%;
 	line-height: 20px;
 	font-size: 12px;
+}
+select {
+	width: 100%;
 }
 input[type="text"] {
 	
@@ -430,7 +434,7 @@ iframe {
 }
 #idiomas {
 position: fixed;
-z-index: 99999;
+z-index: 999;
 top: 20px;
 width: 50px;
 right: 20px;
