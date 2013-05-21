@@ -104,6 +104,21 @@ msgstr ""
 msgid "Sua proposta será avaliada e em breve entraremos em contato."
 msgstr ""
 
+msgid "20 minutos"
+msgstr ""
+
+msgid "40 minutos"
+msgstr ""
+
+msgid "Sexta-feira"
+msgstr ""
+
+msgid "Sábado"
+msgstr ""
+
+msgid "Escreva o resultado: 15 - 10"
+msgstr ""
+
 msgid "Fechar formulário"
 msgstr ""
 

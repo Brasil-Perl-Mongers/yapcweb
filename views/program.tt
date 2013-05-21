@@ -71,18 +71,18 @@
 <div class="largura12">
    <a class="bt-lilas float-right" id="quer-palestrar"> <% l('Quer palestrar? Clique aqui') %> </a>
    	<div class="largura4 bg-cinza" id="quer-palestrar-form">
-    		<form action="" method="post">
+    		<form action="<% yapcweb %>" method="post">
     			 <% l('Sua proposta será avaliada e em breve entraremos em contato.') %> <br><br>
     			<input type="text" placeholder=" <% l('Nome') %> " name="nomePalestrante" required>
     			<input type="mail" placeholder=" <% l('E-mail') %> " name="emailPalestrante" required>
 			<select name="tempoPalestrante">
-				<option value="20">20 minutos</option>
-				<option value="40">40 minutos</option>
+				<option value="20"> <% l('20 minutos') %> </option>
+				<option value="40"> <% l('40 minutos') %> </option>
 			</select>
     			<input type="text" placeholder=" <% l('Título da palestra') %> " name="tituloPalestrante" required>
 			<select name="diaPalestrante">
-				<option value="15">Sexta-feira </option>
-				<option value="16">Sábado</option>
+				<option value="15"> <% l('Sexta-feira') %> </option>
+				<option value="16"> <% l('Sábado') %> </option>
 			</select>
     			<textarea placeholder=" <% l('Resumo da palestra') %> " name="resumoPalestrante" required></textarea>
 			<input type="text" placeholder=" <% l('Escreva o resultado: 15 - 10') %> " name="verificaPalestrante" required>

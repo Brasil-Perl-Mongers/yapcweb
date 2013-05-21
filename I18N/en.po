@@ -78,10 +78,10 @@ msgid "O Universo Científico"
 msgstr "The Scientific Universe"
 
 msgid "15 :: sexta"
-msgstr "15 :: friday"
+msgstr "15 :: Friday"
 
 msgid "16 :: sábado"
-msgstr "16 :: saturday"
+msgstr "16 :: Saturday"
 
 msgid "QUANDO?"
 msgstr "WHEN?"
@@ -112,6 +112,21 @@ msgstr "Send"
 
 msgid "Sua proposta será avaliada e em breve entraremos em contato."
 msgstr "Your proposal will be evaluated and soon we will be contacting you."
+
+msgid "20 minutos"
+msgstr "20 minutes"
+
+msgid "40 minutos"
+msgstr "40 minutes"
+
+msgid "Sexta-feira"
+msgstr "Friday"
+
+msgid "Sábado"
+msgstr "Saturday"
+
+msgid "Escreva o resultado: 15 - 10"
+msgstr "What is the result? 15 - 10"
 
 msgid "Fechar formulário"
 msgstr "Close"
