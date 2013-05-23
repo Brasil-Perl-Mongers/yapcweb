@@ -13,59 +13,79 @@
 		<li class="largura4"> <% l('QUEM?') %> </li>
 		<li class="largura6"> <% l('O QUE?') %> </li>
     	</ul>
-
     	<div id="programacao-sexta-content">
 	
     		<ul class="align-center">
-    			<li class="largura2 quando"> </li>
-    			<li class="largura4 quem"> </li>
-    			<li class="largura5 o-que"> </li>
+    			<li class="largura2 quando">08:00</li>
+    			<li class="largura4 quem"> <% l('Curitiba PM') %> </li>
+    			<li class="largura5 o-que"> <% l('Credenciamento') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
     			<li class="largura12 o-que-mais-content">
-    				 
+    				<% l('Recebimento dos convidados e entrega do material do evento.') %>
     			</li>
-    		</ul>
-    		
-		<ul class="align-center">
-    			<li class="largura2 quando"> </li>
-    			<li class="largura4 quem"> </li>
-    			<li class="largura5 o-que"> </li>
+    		</ul>	
+    		<ul class="align-center">
+    			<li class="largura2 quando">10:00</li>
+    			<li class="largura4 quem"> <% l('Hotel Salviero') %> </li>
+    			<li class="largura5 o-que"> <% l('Cofee Break') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
     			<li class="largura12 o-que-mais-content">
-    				 
+    				<% l('Intervalo para o Cofee Break.') %>
     			</li>
-    		</ul>
-	
+    		</ul>	
+   		<ul class="align-center">
+    			<li class="largura2 quando">15:00</li>
+    			<li class="largura4 quem"> <% l('Hotel Salviero') %> </li>
+    			<li class="largura5 o-que"> <% l('Cofee Break') %> </li>
+    			<li class="largura1 o-que-mais">
+    				<a class="bt-mais bt-lilas float-right"></a>
+    			</li>
+    			<li class="largura12 o-que-mais-content">
+    				<% l('Intervalo para o Cofee Break.') %>
+    			</li>
+    		</ul>	
     	</div>
 
 	<div id="programacao-sabado-content">
     		<ul class="align-center">
-    			<li class="largura2 quando"> </li>
-    			<li class="largura4 quem"> </li>
-    			<li class="largura5 o-que"> </li>
+    			<li class="largura2 quando">10:00</li>
+    			<li class="largura4 quem"> <% l('Hotel Salviero') %> </li>
+    			<li class="largura5 o-que"> <% l('Cofee Break') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
     			<li class="largura12 o-que-mais-content">
-    				 
+    				<% l('Intervalo para o Cofee Break.') %>
+    			</li>
+    		</ul>	
+   		<ul class="align-center">
+    			<li class="largura2 quando">15:00</li>
+    			<li class="largura4 quem"> <% l('Hotel Salviero') %> </li>
+    			<li class="largura5 o-que"> <% l('Cofee Break') %> </li>
+    			<li class="largura1 o-que-mais">
+    				<a class="bt-mais bt-lilas float-right"></a>
+    			</li>
+    			<li class="largura12 o-que-mais-content">
+    				<% l('Intervalo para o Cofee Break.') %>
     			</li>
     		</ul>
-    		<ul class="align-center">
-    			<li class="largura2 quando"> </li>
-    			<li class="largura4 quem"> </li>
-    			<li class="largura5 o-que"> </li>
+   		<ul class="align-center">
+    			<li class="largura2 quando">17:40</li>
+    			<li class="largura4 quem"> <% l('Felipe Leprevost') %> </li>
+    			<li class="largura5 o-que"> <% l('Encerramento') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
     			<li class="largura12 o-que-mais-content">
-    				 
+    				<% l('Encerramento do evento e escolha da cidade sede de 2014.') %>
     			</li>
     		</ul>
 	</div>
+
 </div>
 
 <div class="largura12">
