@@ -1,6 +1,6 @@
 <div class="largura12 float-none">
 	<h3 class="largura6" > <% l('Patrocinadores') %> </h3>
-	<% IF session.user_lang == 'pt' %>
+	<% IF session.user_lang == 'pt' || session.user_lang == 'empty' %>
 	<a href="/docs/patrocinio-pt.pdf" download="patrocinio.pdf" class="bt-lilas"> <% l('Quer Patrocinar? Clique e saiba mais') %> </a>
 	<% ELSE %>
 	<a href="/docs/patrocinio-en.pdf" download="sponsorship.pdf" class="bt-lilas"> <% l('Quer Patrocinar? Clique e saiba mais') %> </a>
