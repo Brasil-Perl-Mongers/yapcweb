@@ -17,14 +17,16 @@
 	
 		<h4>Data:</h4>	
 			<p>
-			Sexta dia 16
+			Sexta-feira 15, 11:00
 			</p>
 		
 		<br><br>
 
 		<h4>Resumo:</h4>	
 		<p>
-O palestrante apresenta um roteiro para empacotamento e distribuição de aplicativos desenvolvimento em Catalyst com esquema de banco de dados versionado gerado pelo DBIx::Class::DeploymentHandler. Os pacotes são gerados para o Debian 7.0 pelo dh-make-perl e com dependência do dbconfig-common. Demais componentes da pilha: PostgreSQL, DBIx::Class e Catalyst.
+			O palestrante apresenta um roteiro para empacotamento e distribuição de aplicativos desenvolvimento em Catalyst com esquema de banco de dados versionado 
+			gerado pelo DBIx::Class::DeploymentHandler. Os pacotes são gerados para o Debian 7.0 pelo dh-make-perl e com dependência do dbconfig-common. 
+			Demais componentes da pilha: PostgreSQL, DBIx::Class e Catalyst.
 		</p>
 
 		<br><br>

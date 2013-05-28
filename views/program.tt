@@ -36,7 +36,20 @@
     			<li class="largura12 o-que-mais-content">
     				<% l('Intervalo para o Cofee Break.') %>
     			</li>
-    		</ul>	
+    		</ul>
+                <ul class="align-center">
+                        <li class="largura2 quando">11:00</li>
+                        <li class="largura4 quem">Leonardo Ruoso</li>
+                        <li class="largura5 o-que"><a href="<% request.uri_base %>/talk/15-11" target="_blank">Empacotamento e distribuição de aplicativos dependentes de bancos de dados</a></li>
+                        <li class="largura1 o-que-mais">
+	                        <a class="bt-mais bt-lilas float-right"></a>
+	                </li>
+                        <li class="largura12 o-que-mais-content">
+		                O palestrante apresenta um roteiro para empacotamento e distribuição de aplicativos desenvolvimento em Catalyst com esquema de banco de dados versionado
+				gerado pelo DBIx::Class::DeploymentHandler. Os pacotes são gerados para o Debian 7.0 pelo dh-make-perl e com dependência do dbconfig-common. 
+				Demais componentes da pilha: PostgreSQL, DBIx::Class e Catalyst.
+	                </li>
+                </ul>
    		<ul class="align-center">
     			<li class="largura2 quando">15:00</li>
     			<li class="largura4 quem"> <% l('Hotel Salviero') %> </li>
