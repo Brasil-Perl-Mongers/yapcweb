@@ -12,32 +12,40 @@ prefix '/';
 hook before_template => sub {
 	my $tokens = shift;
 	$tokens->{uri_base} = request->base->path eq '/' ? '' : request->base->path;	
-	$tokens->{'index'}  = uri_for('/');
+	$tokens->{'index'}  = uri_for('/index');
 };
 
 
 get '/' => sub {
-
 	# gets the language of preference from http request header
 	# and sets the session variable
 	my $accept_language = HTTP::AcceptLanguage->new(request->accept_language);
 	session user_lang => $accept_language->languages;
-	
 	template 'index';
 };
 
-get '/:opt_lang' => sub {
 
+get '/talk/:id' => sub {
+	my $page = param('id') || 'empty';
+	template "$page";
+};
+
+
+get qr{/(?<lang> pt | en)}x, sub {
 	# changes the prefered language by demand
-	my $opt_lang = param('opt_lang');
-	session user_lang => $opt_lang;
-
+	my $captures = captures;
+	session user_lang => $$captures{lang};
 	template 'index';
 };
 
-post '/:opt_lang?' => sub {
+post qr{/(?<lang> .*)}x, sub {
+	#my $opt_lang = ( param('opt_lang') || 'empty' );
+	my $captures = captures;
+	my $opt_lang = $$captures{lang};
 
-	my $opt_lang = ( param('opt_lang') || 'empty' );
+	if ($opt_lang !~ m/\w/g) {
+		$opt_lang = 'empty';
+	}
 
 	# verify if the "captcha" in the form is correct
 	if (params->{verificaPalestrante} eq '5') {
@@ -81,8 +89,11 @@ post '/:opt_lang?' => sub {
 		}
 	}
 
-	return redirect "/";
+	return redirect "/index";
 
 };
 
 true;
+
+
+

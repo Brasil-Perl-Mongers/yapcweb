@@ -1,0 +1,82 @@
+<% languages(session.user_lang) %>
+    	<section class="full shadow-top" id="inscricoes">
+	<div><!-- wrapper -->
+		<div class="largura12">
+			<h4 class="largura12 float-none"> Empacotamento e distribuição de aplicativos dependentes de bancos de dados</h4>
+			<br><br>
+		</div>
+
+		<div class="largura12" >
+	
+		<h4>Palestrante:</h4>	
+			<p>
+			Leonardo Ruoso
+			</p>
+	
+			<br><br>
+	
+		<h4>Data:</h4>	
+			<p>
+			Sexta dia 16
+			</p>
+		
+		<br><br>
+
+		<h4>Resumo:</h4>	
+		<p>
+O palestrante apresenta um roteiro para empacotamento e distribuição de aplicativos desenvolvimento em Catalyst com esquema de banco de dados versionado gerado pelo DBIx::Class::DeploymentHandler. Os pacotes são gerados para o Debian 7.0 pelo dh-make-perl e com dependência do dbconfig-common. Demais componentes da pilha: PostgreSQL, DBIx::Class e Catalyst.
+		</p>
+
+		<br><br>
+
+		<!-- Place this tag where you want the +1 button to render. -->
+		<div class="g-plusone" data-href="http://2013.yapcbrasil.org.br"></div>
+
+		<!-- Place this tag after the last +1 button tag. -->
+		<script type="text/javascript">
+		  (function() {
+		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		    po.src = 'https://apis.google.com/js/plusone.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		  })();
+		</script>
+		
+		<br><br>
+	
+		<div class="largura6">
+		<div class="fb-like" data-href="http://2013.yapcbrasil.org.br" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+		
+		<br>
+		<br>
+	
+	<a href="https://twitter.com/share" class="twitter-share-button" data-related="yapcbrasil" data-hashtags="yapcbrasil">Tweet</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+		</div>
+
+		<br><br>
+		<br><br>
+
+		</div>
+    	
+		</div><!-- /wrapper -->
+	    	</section><!-- /.full -->
+
+    	<hr>
+    	
+    	<section class="full shadow-top" id="patrocinadores">
+    		<div><!-- wrapper -->
+		
+		<% INCLUDE sponsors.tt %>		
+
+    		</div><!-- /wrapper -->
+    	</section><!-- /.full -->
+    	<hr>
+    	<section class="full" id="patrocinadores-barra">
+    		<div>
+    			<h5 class="largura6 align-right" > <% l('Patrocinadores') %> </h5>
+                        <figure class="largura2"><img src="<% request.uri_base %>/images/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+                        <figure class="largura2"><img src="<% request.uri_base %>/images/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+			<!--<a class="bt-mais bt-lilas float-right">+</a>-->
+    		</div>
+    	</section>    	
