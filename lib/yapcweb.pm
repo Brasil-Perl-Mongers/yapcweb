@@ -63,7 +63,7 @@ post qr{/(?<lang> .*)}x, sub {
 		email {
 			from 	=> 'mailer@hexabio.com.br',
 			to   	=> 'yapc-curitiba@googlegroups.com',
-			subject	=> 'Nova Palestra',
+			subject	=> '[YAPC] Nova Palestra',
 			body	=> "Nome: $talk{name}\nE-mail: $talk{email}\nDia de preferência: $talk{dia}\nDuração: $talk{tempo}\nTítulo: $talk{title}\nResumo: $talk{abstract}\n",
 		};
 
