@@ -89,7 +89,7 @@ post qr{/(?<lang> .*)}x, sub {
 		}
 	}
 
-	return redirect "/index";
+	return redirect "/";
 
 };
 
