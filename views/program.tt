@@ -121,7 +121,7 @@
     			<input type="text" placeholder=" <% l('Nome') %> " name="nomePalestrante" required>
     			<input type="mail" placeholder=" <% l('E-mail') %> " name="emailPalestrante" required>
 			<select name="tempoPalestrante">
-				<option value="20"> <% l('20 minutos') %> </option>
+				<!--<option value="20"> <% l('20 minutos') %> </option>-->
 				<option value="40"> <% l('40 minutos') %> </option>
 			</select>
     			<input type="text" placeholder=" <% l('Título da palestra') %> " name="tituloPalestrante" required>
