@@ -28,7 +28,7 @@
     		</ul>	
     		<ul class="align-center">
     			<li class="largura2 quando">10:00</li>
-    			<li class="largura4 quem"> <% l('Hotel Salviero') %> </li>
+    			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>
     			<li class="largura5 o-que"> <% l('Cofee Break') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
@@ -52,7 +52,7 @@
                 </ul>
    		<ul class="align-center">
     			<li class="largura2 quando">15:30</li>
-    			<li class="largura4 quem"> <% l('Hotel Salviero') %> </li>
+    			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>
     			<li class="largura5 o-que"> <% l('Cofee Break') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
@@ -66,7 +66,7 @@
 	<div id="programacao-sabado-content">
     		<ul class="align-center">
     			<li class="largura2 quando">10:00</li>
-    			<li class="largura4 quem"> <% l('Hotel Salviero') %> </li>
+    			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>
     			<li class="largura5 o-que"> <% l('Cofee Break') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
@@ -89,7 +89,7 @@
                 </ul>
    		<ul class="align-center">
     			<li class="largura2 quando">15:30</li>
-    			<li class="largura4 quem"> <% l('Hotel Salviero') %> </li>
+    			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>
     			<li class="largura5 o-que"> <% l('Cofee Break') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
