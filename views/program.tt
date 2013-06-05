@@ -136,6 +136,43 @@
  				Google API, Catalyst e PostgreSQL ou como não se deve produzir análises quantitativas sem entender para que servem aquelas fórmulas do Excell.
 	                </li>
                 </ul>
+                <ul class="align-center">
+                        <li class="largura2 quando">11:20</li>
+                        <li class="largura4 quem">Hailton David Lemos</li>
+                        <li class="largura5 o-que"><a href="<% request.uri_base %>/talk/16-5" target="_blank">Aplicando Perl à Grafologia</a></li>
+                        <li class="largura1 o-que-mais">
+	                        <a class="bt-mais bt-lilas float-right"></a>
+	                </li>
+                        <li class="largura12 o-que-mais-content">
+		                O objetivo desta palestra é apresentar, de forma sucinta, como aplicar o Processamento de Imagens Digitais usando Perl em Analise Grafológica.
+				O objetivo é identificar padrões de comportamento, personalidade, capacidade individual e de liderança dentre outras características, 
+				sendo os resultados aplicados à área de Recrutamento e Seleção, muito utilizada no departamento de Recursos Humanos das empresas, ou mesmo 
+				por pequenos e médios empresários que pretendem contratar profissionais competentes para executar e desempenhar funções em suas empresas ou departamentos.
+	                </li>
+                </ul>
+                <ul class="align-center">
+                        <li class="largura2 quando">13:00</li>
+                        <li class="largura4 quem">Daniel Mascarenhas</li>
+                        <li class="largura5 o-que"><a href="<% request.uri_base %>/talk/16-7" target="_blank">Simplificando seu projeto com Moose</a></li>
+                        <li class="largura1 o-que-mais">
+	                        <a class="bt-mais bt-lilas float-right"></a>
+	                </li>
+                        <li class="largura12 o-que-mais-content">
+		                Em preparo.
+	                </li>
+                </ul>
+                <ul class="align-center">
+                        <li class="largura2 quando">13:50</li>
+                        <li class="largura4 quem">Diogo Borges Lima</li>
+                        <li class="largura5 o-que"><a href="<% request.uri_base %>/talk/16-8" target="_blank"> As Redes Neurais Artificiais e a Bioinformática. Como eles se entrelaçam ?</a></li>
+                        <li class="largura1 o-que-mais">
+	                        <a class="bt-mais bt-lilas float-right"></a>
+	                </li>
+                        <li class="largura12 o-que-mais-content">
+		                Utilização de Redes Neurais Artificiais no âmbito da bioinformática, assim como Reconhecimentos de Padrões que hoje são amplamente
+				 empregados em várias áreas da computação bem como a bioinformática
+	                </li>
+                </ul>
    		<ul class="align-center">
     			<li class="largura2 quando">15:30</li>
     			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>
