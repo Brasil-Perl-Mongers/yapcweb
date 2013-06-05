@@ -17,7 +17,7 @@
 	
     		<ul class="align-center">
     			<li class="largura2 quando">08:00</li>
-    			<li class="largura4 quem"> <% l('Curitiba PM') %> </li>
+    			<li class="largura4 quem"> <% l('Curitiba Perl Mongers') %> </li>
     			<li class="largura5 o-que"> <% l('Credenciamento') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
@@ -48,6 +48,44 @@
 		                O palestrante apresenta um roteiro para empacotamento e distribuição de aplicativos desenvolvimento em Catalyst com esquema de banco de dados versionado
 				gerado pelo DBIx::Class::DeploymentHandler. Os pacotes são gerados para o Debian 7.0 pelo dh-make-perl e com dependência do dbconfig-common. 
 				Demais componentes da pilha: PostgreSQL, DBIx::Class e Catalyst.
+	                </li>
+                </ul>
+                <ul class="align-center">
+                        <li class="largura2 quando">11:20</li>
+                        <li class="largura4 quem">Renato Cron</li>
+                        <li class="largura5 o-que"><a href="<% request.uri_base %>/talk/15-5" target="_blank">Consultando a plataforma Iota com Perl.</a></li>
+                        <li class="largura1 o-que-mais">
+	                        <a class="bt-mais bt-lilas float-right"></a>
+	                </li>
+                        <li class="largura12 o-que-mais-content">
+				Indicadores sociais são usados geralmente traduzir quantitativamente um conceito social abstrado e informar algo sobre determinado
+				 aspecto da realidade social para realização de pesquisas, monitoramento, avaliação ou formulação de políticas públicas.
+				O Iota é uma plataforma para gerenciar indicadores e disponibilizar eles em dados abertos desenvolvida pela Aware Tecnologia.
+				Atualmente já é utilizada pelo Programa Cidades Sustentaveis, Rede Brasileira e Rede Nossa São Paulo, além um plano de expansão
+				 para o uso na America Latina pela Fundação Avina. Nesta apresentação iremos abordar as tecnologias utilizadas para elaboração da plataforma,
+				 especificamente na linguagem Perl, e exemplos de uso dos dados hospedados nesta plataforma podem ser feitos para pesquisas de maneira trivial.
+	                </li>
+                </ul>
+                <ul class="align-center">
+                        <li class="largura2 quando">13:00</li>
+                        <li class="largura4 quem">Ramiro Luz</li>
+                        <li class="largura5 o-que"><a href="<% request.uri_base %>/talk/15-7" target="_blank">Ensinando TDD através de Coding Dojos</a></li>
+                        <li class="largura1 o-que-mais">
+	                        <a class="bt-mais bt-lilas float-right"></a>
+	                </li>
+                        <li class="largura12 o-que-mais-content">
+			
+	                </li>
+                </ul>
+                <ul class="align-center">
+                        <li class="largura2 quando">13:50</li>
+                        <li class="largura4 quem">Felipe Leprevost</li>
+                        <li class="largura5 o-que"><a href="<% request.uri_base %>/talk/15-8" target="_blank">Entre o laboratório e o escritório: modelos de negócios na biologia computacional</a></li>
+                        <li class="largura1 o-que-mais">
+	                        <a class="bt-mais bt-lilas float-right"></a>
+	                </li>
+                        <li class="largura12 o-que-mais-content">
+			
 	                </li>
                 </ul>
    		<ul class="align-center">
