@@ -32,18 +32,24 @@
 			<img src="<% request.uri_base %>/images/aware.png" alt="Aware" title="Aware">
 		</figure>
 	</a>
-	<figure class="largura2"><img src="<% request.uri_base %>/images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
-	<figure class="largura2"><img src="<% request.uri_base %>/images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
-	<figure class="largura2"><img src="<% request.uri_base %>/images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+
+	<a href="http://www.hexabio.com.br" target="_blank">
+		<figure class="largura2">
+			<img src="<% request.uri_base %>/images/hexabio-1.png" alt="Hexabio Bioinformática" title="Hexabio Bioinformática">
+		</figure>
+	</a>
+
+	<a>
+		<figure class="largura2"><img src="<% request.uri_base %>/images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	</a>
+
+	<a>
+		<figure class="largura2"><img src="<% request.uri_base %>/images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	</a>
 </div>
 
 <div class="align-center">
 	
-	<a href="http://www.hexabio.com.br" target="_blank">
-	<figure class="largura1">
-		<img src="<% request.uri_base %>/images/hexabio.png" alt="Hexabio Bioinformática" title="Hexabio Bioinformática">
-	</figure>
-	</a>
 
 	<a href="http://www.softwarepublico.gov.br/ver-comunidade?community_id=11809545" target="_blank">
 	<figure class="largura1">
@@ -60,4 +66,9 @@
 	<a>
 	<figure class="largura1"><img src="<% request.uri_base %>/images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 	</a>
+
+	<a>
+	<figure class="largura1"><img src="<% request.uri_base %>/images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	</a>
+
 </div>

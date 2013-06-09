@@ -11,7 +11,7 @@
 	<ul class="header bg-cinza align-center">
 		<li class="largura2"> <% l('QUANDO?') %> </li>
 		<li class="largura4"> <% l('QUEM?') %> </li>
-		<li class="largura6"> <% l('O QUE?') %> </li>
+		<li class="largura5"> <% l('O QUE?') %> </li>
     	</ul>
     	<div id="programacao-sexta-content">
 	
