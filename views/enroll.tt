@@ -18,6 +18,6 @@
 		</span>
 	</div>
 	<div class="largura4 inscricoes-bt">
-		<a href="#" class="bt-lilas" target="_blank"> <% l('Inscrever-se') %> </a>
+		<a href="http://yapcbrasil.eventbrite.com/" class="bt-lilas" target="_blank"> <% l('Inscrever-se') %> </a>
 	</div>
 </div>
