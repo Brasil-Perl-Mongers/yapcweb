@@ -9,21 +9,27 @@
 </div>
 
 <div class="align-center">
+<!--	
 	<figure class="largura6"><img src="<% request.uri_base %>/images/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 	<figure class="largura6"><img src="<% request.uri_base %>/images/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+-->
 </div>
 
 <div class="align-center">
+<!--
 	<figure class="largura4"><img src="<% request.uri_base %>/images/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 	<figure class="largura4"><img src="<% request.uri_base %>/images/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 	<figure class="largura4"><img src="<% request.uri_base %>/images/patrocinador-platina.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+-->
 </div>
 
 <div class="align-center">
+<!--
 	<figure class="largura3"><img src="<% request.uri_base %>/images/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 	<figure class="largura3"><img src="<% request.uri_base %>/images/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 	<figure class="largura3"><img src="<% request.uri_base %>/images/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 	<figure class="largura3"><img src="<% request.uri_base %>/images/patrocinador-ouro.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+-->
 </div>
 
 <div class="align-center">
@@ -40,11 +46,11 @@
 	</a>
 
 	<a>
-		<figure class="largura2"><img src="<% request.uri_base %>/images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+		<!--<figure class="largura2"><img src="<% request.uri_base %>/images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>-->
 	</a>
 
 	<a>
-		<figure class="largura2"><img src="<% request.uri_base %>/images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+		<!--<figure class="largura2"><img src="<% request.uri_base %>/images/patrocinador-prata.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>-->
 	</a>
 </div>
 
@@ -64,11 +70,11 @@
 	</a>
 
 	<a>
-	<figure class="largura1"><img src="<% request.uri_base %>/images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<!--<figure class="largura1"><img src="<% request.uri_base %>/images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>-->
 	</a>
 
 	<a>
-	<figure class="largura1"><img src="<% request.uri_base %>/images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
+	<!--<figure class="largura1"><img src="<% request.uri_base %>/images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>-->
 	</a>
 
 </div>
