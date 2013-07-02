@@ -216,7 +216,7 @@
 				<option value="16"> <% l('Sábado') %> </option>
 			</select>
     			<textarea placeholder=" <% l('Resumo da palestra') %> " name="resumoPalestrante" required></textarea>
-			<input type="text" placeholder=" <% l('Escreva o resultado: 15 - 10') %> " name="verificaPalestrante" required>
+			<input type="text" placeholder=" <% l('Escreva o resultado da equação: 15 - 10 = x') %> " name="verificaPalestrante" required>
 			<input type="submit" value=" <% l('Enviar') %> " name="submit" class="bt-lilas">
     		</form>
     		<a id="quer-fechar"> <% l('Fechar formulário') %> </a>
