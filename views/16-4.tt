@@ -2,7 +2,7 @@
     	<section class="full shadow-top" id="inscricoes">
 	<div><!-- wrapper -->
 		<div class="largura12">
-			<h4 class="largura12 float-none"> Empacotamento e distribuição de aplicativos dependentes de bancos de dados</h4>
+			<h4 class="largura12 float-none"> Asyncalyst </h4>
 			<br><br>
 		</div>
 
@@ -10,7 +10,7 @@
 	
 		<h4>Palestrante:</h4>	
 			<p>
-			Leonardo Ruoso
+			Gabriel Andrade de Santana
 			</p>
 	
 			<br><br>
@@ -24,8 +24,7 @@
 
 		<h4>Resumo:</h4>	
 		<p>
-			Considerações elementares sobre estatística distributiva de populações ou amostras não gaussianas com exemplos de relatórios construídos com Estatítica Robusta,
-			 Google API, Catalyst e PostgreSQL ou como não se deve produzir análises quantitativas sem entender para que servem aquelas fórmulas do Excell.
+			Tornando sua aplicação Catalyst assíncrona e não-bloqueante, apresentando exemplos com aplicações que usam WebSockets.
 		</p>
 
 		<br><br>
