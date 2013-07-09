@@ -73,10 +73,12 @@
     	</section><!-- /.full -->
     	<hr>
     	<section class="full" id="patrocinadores-barra">
-    		<div>
+		<!--    		
+		<div>
     			<h5 class="largura6 align-right" > <% l('Patrocinadores') %> </h5>
                         <figure class="largura2"><img src="<% request.uri_base %>/images/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
                         <figure class="largura2"><img src="<% request.uri_base %>/images/patrocinador-diamante.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>
 			<!--<a class="bt-mais bt-lilas float-right">+</a>-->
     		</div>
+		-->
     	</section>    	
