@@ -69,7 +69,7 @@
 	</figure>
 	</a>
 
-	<a>
+	<a href="http://www.perldelux.com.br" target="_blank">
 	<figure class="largura1">
 		<img style="padding-bottom: 0.8em" src="<% request.uri_base %>/images/perldelux.png" alt="PerlDelux" title="PerlDelux">
 	</figure>
