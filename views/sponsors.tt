@@ -65,12 +65,14 @@
 
 	<a href="http://bivee.com.br" target="_blank">
 	<figure class="largura1">
-		<img src="<% request.uri_base %>/images/bivee.png" alt="Bivee" title="Bivee">
+		<img style="padding-bottom: 0.4em" src="<% request.uri_base %>/images/bivee.png" alt="Bivee" title="Bivee">
 	</figure>
 	</a>
 
 	<a>
-	<!--<figure class="largura1"><img src="<% request.uri_base %>/images/patrocinador-bronze.jpg" alt="Nome do patrocinador" title="Nome do patrocinador"></figure>-->
+	<figure class="largura1">
+		<img style="padding-bottom: 0.8em" src="<% request.uri_base %>/images/perldelux.png" alt="PerlDelux" title="PerlDelux">
+	</figure>
 	</a>
 
 	<a>
