@@ -110,16 +110,30 @@
     				<% l('Intervalo para o Cofee Break.') %>
     			</li>
     		</ul>	
-                </ul>
    		<ul class="align-center">
     			<li class="largura2 quando">16:10</li>
     			<li class="largura4 quem"> Thiago Rondon </li>
-    			<li class="largura5 o-que"><a href="<% request.uri_base %>/talk/15-9" target="_blank">Dados abertos em 2013</a></li>
+    			<li class="largura5 o-que"><a href="<% request.uri_base %>/talk/15-11" target="_blank">Dados abertos em 2013</a></li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
     			<li class="largura12 o-que-mais-content">
     				Abordando a utilização de dados abertos em todos os setores e provocações sobre o uso da linguagem perl e no universo científico.
+    			</li>
+    		</ul>	
+   		<ul class="align-center">
+    			<li class="largura2 quando">17:00</li>
+    			<li class="largura4 quem"> Daniel Mantovani </li>
+    			<li class="largura5 o-que"><a href="<% request.uri_base %>/talk/15-12" target="_blank"> PostgreSQL para Massively Parallel Processing</a></li>
+    			<li class="largura1 o-que-mais">
+    				<a class="bt-mais bt-lilas float-right"></a>
+    			</li>
+    			<li class="largura12 o-que-mais-content">
+			Em Data Warehouse os bancos de dados são optimizados para OLAP(On-line Analytical Processing) nos quais muitas vezeso gargalo não é o disk I/O
+			devido aos sistemas possuirem SAN(Storage Area Network) com uma grande quantidade de SSD's fazendo stripping conectado ao DBMS por fibra óptica.
+			É conhecido que o PostgreSQL utiliza apenas um processador por consulta, e isso acaba se tornando o gargalo. É nesse cenario que o PostgreSQL 
+			falha e outros DBMS's como Teradata, Netezza, DB2, Oracle, Greenplum e Amazon Redshift começam a brilhar, porque eles conseguem usar vários
+			processadores para processar uma única consulta. Nessa palestra eu vou ensinar o PostgreSQL a brilhar também.
     			</li>
     		</ul>	
     	</div>
