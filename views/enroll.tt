@@ -5,14 +5,14 @@
 <div class="largura12">
 	<div class="largura4 bg-cinza align-center inscricoes-valores">
 		<span>
-			<% l('até 14/08') %>
+			<% l('até 14/09') %>
 			<br>
 			<span>R$ 75,00</span>
 		</span>
 	</div>
 	<div class="largura4 bg-cinza align-center inscricoes-valores">
 		<span>
-			<% l('a partir de 15/08') %>
+			<% l('a partir de 15/09') %>
 			<br>
 			<span>R$ 150,00</span>
 		</span>
