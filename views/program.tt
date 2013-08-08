@@ -27,6 +27,27 @@
     			</li>
     		</ul>	
     		<ul class="align-center">
+    			<li class="largura2 quando">09:00</li>
+    			<li class="largura4 quem"> Joel Berger </li>
+    			<li class="largura5 o-que"> <a href="<% request.uri_base %>/talk/15-1" target="_blank">The Scientific API: Designing your scientific code with your future user in mind</a> </li>
+    			<li class="largura1 o-que-mais">
+    				<a class="bt-mais bt-lilas float-right"></a>
+    			</li>
+    			<li class="largura12 o-que-mais-content">
+    				We all know that one of the basic tenets of science is the sharing of information. We share data, method, results, interpretation; 
+				so why don't we share our scientific code? Because our code is in no fit state to share.
+
+				The complexity of science usually demands too many parameters to be easily understood, or else it is too tightly coupled to be adapted 
+				for use by others. In many cases, the initial code is written quickly, is just meant for immediate use, and then suffers as as the subject 
+				of inquiry evolves. Indeed it is often hard to share our code with co-workers and collaborators, let alone the outside world. 
+				Why don't more scientists share their code? Because it wasn't written with sharing in mind.
+
+				In this talk, I will share how I have used modern object-oriented Perl to write clean, understandable, reusable and shareable simulations. 
+				The simulations are designed as toolkits to allow the code to conform to the needs of others. This lowers the barriers for users and will 					encourage them to share their improvements in the same open-source model common in other programming circles. I will also discuss the 
+				important roles that CPAN and GitHub can play in a vibrant scientific community.
+    			</li>
+    		</ul>	
+    		<ul class="align-center">
     			<li class="largura2 quando">10:00</li>
     			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>
     			<li class="largura5 o-que"> <% l('Cofee Break') %> </li>
