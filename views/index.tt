@@ -4,10 +4,16 @@
 		<a id="" href=" <% uri_base %>/pt "><img src="images/br.png"></a>
 		<a id="" href=" <% uri_base %>/en "><img src="images/us.png"></a>
 	</div>
+
+	<div id="perl">
+		<p>Perl ?</p>
+	</div>
+
 	<div id="eduardo-miura"></div>
 
-	<div id"page">
+	<div id="page">
    	<section class="full shadow-top" id="o-evento">
+		
     		<div><!-- wrapper -->
 
 		<% INCLUDE about.tt %>

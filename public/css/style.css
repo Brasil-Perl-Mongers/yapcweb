@@ -432,6 +432,7 @@ textarea {
 iframe {
 	margin-bottom:40px !important;
 }
+
 #idiomas {
 position: fixed;
 z-index: 999;
@@ -444,6 +445,17 @@ width: 20px;
 height: auto;
 display: inline-block;
 }
+
+#perl {
+position: fixed;
+z-index: 999;
+top: 20px;
+width: 150px;
+left: 20px;
+text-align: left;
+color: #ffffff;
+}
+
 @media (max-width:768px) {
 	h1,
 	h3 {
