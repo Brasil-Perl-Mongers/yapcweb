@@ -19,7 +19,6 @@
 	</p>
 
 	<br />
-	<br />
 	
 	<p>
 	<% l('Conheça os responsáveis por trás das principais <strong>Empresas</strong> e <strong>Startups</strong> que contratam programadores Perl') %>
@@ -27,13 +26,11 @@
 	</p>
 
 	<br />
-	<br />
 
 	<p>
 	<% l('Descubra o uso de Perl em áreas científicas como Física e <strong>Bioinformática</strong>.') %>
 	</p>
 
-	<br />
 	<br />
 
 	<p>
