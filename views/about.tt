@@ -6,37 +6,37 @@
 	<h2 class="align-right">Yet Another Perl Conference 2013<br> <% l('15 e 16 de Novembro, em Curitiba, PR') %> </h2>
 </div>
 <div class="largura6">
-	<h1 style="text-align: left;">O maior evento Perl do Brasil!</h1>
-	<h2 class="align-right">... e dessa vez,&nbsp em Curitiba!</h2>
+	<h1 style="text-align: left;"><% l('O maior evento Perl do Brasil!') %></h1>
+	<h2 class="align-right"><% l('... e dessa vez,&nbsp em Curitiba!') %></h2>
 	
 	<br />
 	<br />
 	<br />
 
 	<p>
-	Venha discutir sobre o <strong>Universo Científico</strong> e Perl Hacking com os maiores especialistas da área, como 
-	o <strong>Joel Berger</strong>, criador do Perl 4 Science e <strong>Gabor Szabo</strong> com mais de 14 anos de experiência no ensino de Perl.
+	<% l('Venha discutir sobre o <strong>Universo Científico</strong> e Perl Hacking com os maiores especialistas da área, como') %>
+	<% l('o <strong>Joel Berger</strong>, criador do Perl 4 Science e <strong>Gabor Szabo</strong> com mais de 14 anos de experiência no ensino de Perl.') %>
 	</p>
 
 	<br />
 	<br />
 	
 	<p>
-	Conheça os responsáveis por trás das principais <strong>Empresas</strong> e <strong>Startups</strong> que contratam programadores Perl 
-	no Brasil: Estante Virtual, Aware, Hexabio, Bivee, perldelux, entre outras.
+	<% l('Conheça os responsáveis por trás das principais <strong>Empresas</strong> e <strong>Startups</strong> que contratam programadores Perl') %>
+	<% l('no Brasil: Estante Virtual, Aware, Hexabio, Bivee, perldelux, entre outras.') %>
 	</p>
 
 	<br />
 	<br />
 
 	<p>
-	Descubra o uso de Perl em áreas científicas como Física e <strong>Bioinformática</strong>.
+	<% l('Descubra o uso de Perl em áreas científicas como Física e <strong>Bioinformática</strong>.') %>
 	</p>
 
 	<br />
 	<br />
 
 	<p>
-	Prestigie os indicados ao <strong>prêmio YAPC::Brasil 2013</strong> pelas contribuições nacionais ao Perl e celebre com o ganhador dessa grande homenagem.
+	<% l('Prestigie os indicados ao <strong>prêmio YAPC::Brasil 2013</strong> pelas contribuições nacionais ao Perl e celebre com o ganhador dessa grande homenagem.') %>
 	</p>
 </div>
