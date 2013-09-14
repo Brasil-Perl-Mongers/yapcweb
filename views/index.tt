@@ -5,8 +5,8 @@
 		<a id="" href=" <% uri_base %>/en "><img src="images/us.png"></a>
 	</div>
 
-	<div id="perl">
-		<p>Perl ?</p>
+	<div id="perl" >
+		<a onclick="$.alert('TEXTO');">Perl ?</a>
 	</div>
 
 	<div id="eduardo-miura"></div>
