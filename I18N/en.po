@@ -29,6 +29,25 @@ msgstr "Enrollment"
 msgid "Patrocinadores"
 msgstr "Sponsors"
 
+# # dialog box ##
+msgid "Top 5 razões para você participar!"
+msgstr "Top 5 reasons to participate!"
+
+msgid "1- <a target=_blank href=http://pt.wikipedia.org/wiki/Perl >Perl</a> é uma das linguagens mais <b>flexíveis</b> e <b>otimizadas</b> já inventadas;"
+msgstr ""
+
+msgid "2- Mesmo que você <b>não seja um programador Perl</b>, irá aprender muita coisa no evento;"
+msgstr ""
+
+msgid "3- Perl <b>influenciou</b> diversas outras linguagens como: Python, PHP, Ruby, Javascript, Windows Powershell e outras menos conhecidas."
+msgstr ""
+
+msgid "4- Perl possui o <b>maior repositório</b> de códigos da Internet! O famoso <a target=_blank href=http://www.cpan.org >CPAN</a>, com mais de 124 mil módulos / bibliotecas."
+msgstr ""
+
+msgid "5- <b>Curitiba</b> é uma cidade excelente para se visitar!"
+msgstr ""
+
 # # about ##
 msgid "15 e 16 de Novembro, em Curitiba, PR"
 msgstr "November 15-16, Curitiba, PR"
@@ -42,8 +61,8 @@ msgstr "The biggest Perl event in Brazil!"
 msgid "... e dessa vez,&nbsp em Curitiba!"
 msgstr "… and this time,&nbsp in Curitiba"
 
-msgid "Venha discutir sobre o <strong>Universo Científico</strong> e Perl Hacking com os maiores especialistas da área, como"
-msgstr "Come discuss the <strong>Scientific Universe</strong> and Perl Hacking along with leading experts in the field, like"
+msgid "Venha discutir sobre o <strong>Universo Científico</strong> e <b>Perl Hacking</b> com os maiores especialistas da área, como"
+msgstr "Come discuss the <strong>Scientific Universe</strong> and <b>Perl Hacking</b> along with leading experts in the field, like"
 
 msgid "o <strong>Joel Berger</strong>, criador do Perl 4 Science e <strong>Gabor Szabo</strong> com mais de 14 anos de experiência no ensino de Perl."
 msgstr "<strong>Joel Berger</strong>, creator of Perl 4 Science and <strong>Gabor Szabo</strong> with over 14 years of experience teaching Perl."

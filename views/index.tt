@@ -5,10 +5,6 @@
 		<a id="" href=" <% uri_base %>/en "><img src="images/us.png"></a>
 	</div>
 
-	<div id="perl" >
-		<a onclick="$.alert('TEXTO');">Perl ?</a>
-	</div>
-
 	<div id="eduardo-miura"></div>
 
 	<div id="page">
@@ -23,6 +19,15 @@
     	
     	<header class="full" id="nav">
 	<div><!-- wrapper -->
+		<div id="perl" >
+			<a onclick="$.alert('<h5 style=text-align:center;>Top 5 razões para você participar!</h5><br />\
+				<p>1- <a target=_blank href=http://pt.wikipedia.org/wiki/Perl >Perl</a> é uma das linguagens mais <b>flexíveis</b> e <b>otimizadas</b> já inventadas;<\p><br />\
+				<p>2- Mesmo que você <b>não seja um programador Perl</b>, irá aprender muita coisa no evento;<\p><br />\
+				<p>3- Perl <b>influenciou</b> diversas outras linguagens como: Python, PHP, Ruby, Javascript, Windows Powershell e outras menos conhecidas.<\p><br />\
+				<p>4- Perl possui o <b>maior repositório</b> de códigos da Internet! O famoso <a target=_blank href=http://www.cpan.org >CPAN</a>, com mais de 124 mil módulos / bibliotecas.<\p><br />\
+				<p>5- <b>Curitiba</b> é uma cidade excelente para se visitar!<\p>\
+			');">Perl ?</a>
+		</div>
 		<figure class="largura4" id="logo-yapc-sticky">
 			<img src="images/logo-yapc-sticky.png" alt="YAPC::Brasil 2013" alt="YAPC::Brasil 2013">
 		</figure>

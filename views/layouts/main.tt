@@ -14,28 +14,30 @@
     <link rel="stylesheet" href="<% request.uri_base %>/css/reset.css">
     <link rel="stylesheet" href="<% request.uri_base %>/css/style.css">
     <link href="<% request.uri_base %>/images/favicon.ico" rel="shortcut icon" />
-    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
     <script src="<% request.uri_base %>/javascripts/vendor/modernizr-2.6.2.min.js"></script>
     <script src="<% request.uri_base %>/javascripts/vendor/jquery-1.9.1.min.js"></script>
     <script src="<% request.uri_base %>/javascripts/jquery.sticky.js"></script>
     <script src="<% request.uri_base %>/javascripts/plugins.js"></script>
     <script src="<% request.uri_base %>/javascripts/main.js"></script>    
     <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
 
     <script type="text/javascript">
  	$.extend({
- 	alert: function (msg) {
- 	$("<div></div>").dialog( {
- 	buttons: { "OK": function () { $(this).dialog("close"); } },
- 	close: function (event, ui) { $(this).remove(); },
- 	draggable: false,
- 	closeOnEscape: true,
- 	resizable: true,
- 	modal: true,
- 	title: "Perl rocks!"
- 	}).html(msg);
- 	}
- 	});
+		alert: function (msg) {
+			$("<div class=shadow-top></div>").dialog( {
+				close: function (event, ui) { $(this).remove(); },
+				show: { effect: "slow", duration: 1000 },
+				hide: { effect: "explode", duration: 800 },
+				position: [10, 50],
+				height: 400, width: 220,
+				minWidth: 240, minHeight: 200,
+				maxWidth: 800, maxHeight: 600,
+				modal: true, closeOnEscape: true, resizable: true, draggable: false,
+				title: "Perl rocks!"
+			}).html(msg);
+		}
+	});
     </script>
 
     <script>
