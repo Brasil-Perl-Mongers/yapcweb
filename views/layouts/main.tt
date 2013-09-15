@@ -30,7 +30,7 @@
 				show: { effect: "slow", duration: 1000 },
 				hide: { effect: "explode", duration: 800 },
 				position: [10, 50],
-				height: 400, width: 220,
+				width: 220, height: 500,
 				minWidth: 240, minHeight: 200,
 				maxWidth: 800, maxHeight: 600,
 				modal: true, closeOnEscape: true, resizable: true, draggable: false,
