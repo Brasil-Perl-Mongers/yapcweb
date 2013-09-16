@@ -58,7 +58,7 @@ msgstr ""
 msgid "O maior evento Perl do Brasil!"
 msgstr ""
 
-msgid "... e dessa vez,&nbsp em Curitiba!"
+msgid "... e dessa vez,&nbsp em Curitiba !"
 msgstr ""
 
 msgid "Venha discutir sobre o <strong>Universo Científico</strong> e <strong>Perl Hacking</strong> com os maiores especialistas da área, como"
