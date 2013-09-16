@@ -48,6 +48,10 @@ msgstr ""
 msgid "5- <b>Curitiba</b> é uma cidade excelente para se visitar!"
 msgstr ""
 
+# # youtube # #
+msgid "YAPC pelo Mundo"
+msgstr ""
+
 # # about ##
 msgid "15 e 16 de Novembro, em Curitiba, PR"
 msgstr ""

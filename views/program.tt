@@ -10,15 +10,16 @@
 
 	<ul class="header bg-cinza align-center">
 		<li class="largura2"> <% l('QUANDO?') %> </li>
-		<li class="largura4"> <% l('QUEM?') %> </li>
-		<li class="largura5"> <% l('O QUE?') %> </li>
+		<li class="largura5"> <% l('QUEM?') %> </li>
+		<li class="largura4"> <% l('O QUE?') %> </li>
     	</ul>
     	<div id="programacao-sexta-content">
 	
     		<ul class="align-center">
     			<li class="largura2 quando">08:00</li>
-    			<li class="largura4 quem"> <% l('Curitiba Perl Mongers') %> </li>
-    			<li class="largura5 o-que"> <% l('Credenciamento') %> </li>
+    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura5 quem"> <% l('Curitiba Perl Mongers') %> </li>
+    			<li class="largura4 o-que"> <% l('Credenciamento') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
@@ -28,8 +29,9 @@
     		</ul>	
     		<ul class="align-center">
     			<li class="largura2 quando">09:00</li>
-    			<li class="largura4 quem"> Joel Berger </li>
-    			<li class="largura5 o-que"> <a href="<% request.uri_base %>/talk/15-1" target="_blank">The Scientific API: Designing your scientific code with your future user in mind</a> </li>
+    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura5 quem"> Joel Berger </li>
+    			<li class="largura4 o-que"> <a href="<% request.uri_base %>/talk/15-1" target="_blank">The Scientific API: Designing your scientific code with your future user in mind</a> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
@@ -49,8 +51,9 @@
     		</ul>	
     		<ul class="align-center">
     			<li class="largura2 quando">10:00</li>
-    			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>
-    			<li class="largura5 o-que"> <% l('Cofee Break') %> </li>
+    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura5 quem"> <% l('Hotel Slaviero') %> </li>
+    			<li class="largura4 o-que"> <% l('Cofee Break') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
@@ -60,8 +63,9 @@
     		</ul>
                 <ul class="align-center">
                         <li class="largura2 quando">10:30</li>
-                        <li class="largura4 quem">Leonardo Ruoso</li>
-                        <li class="largura5 o-que"><a href="<% request.uri_base %>/talk/15-4" target="_blank">Empacotamento e distribuição de aplicativos dependentes de bancos de dados</a></li>
+    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+                        <li class="largura5 quem">Leonardo Ruoso</li>
+                        <li class="largura4 o-que"><a href="<% request.uri_base %>/talk/15-4" target="_blank">Empacotamento e distribuição de aplicativos dependentes de bancos de dados</a></li>
                         <li class="largura1 o-que-mais">
 	                        <a class="bt-mais bt-lilas float-right"></a>
 	                </li>
@@ -73,8 +77,9 @@
                 </ul>
                 <ul class="align-center">
                         <li class="largura2 quando">11:20</li>
-                        <li class="largura4 quem">Renato Cron</li>
-                        <li class="largura5 o-que"><a href="<% request.uri_base %>/talk/15-5" target="_blank">Consultando a plataforma Iota com Perl.</a></li>
+    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+                        <li class="largura5 quem">Renato Cron</li>
+                        <li class="largura4 o-que"><a href="<% request.uri_base %>/talk/15-5" target="_blank">Consultando a plataforma Iota com Perl.</a></li>
                         <li class="largura1 o-que-mais">
 	                        <a class="bt-mais bt-lilas float-right"></a>
 	                </li>
@@ -89,8 +94,9 @@
                 </ul>
                 <ul class="align-center">
                         <li class="largura2 quando">13:00</li>
-                        <li class="largura4 quem">Ramiro Luz</li>
-                        <li class="largura5 o-que"><a href="<% request.uri_base %>/talk/15-7" target="_blank">Ensinando TDD através de Coding Dojos</a></li>
+    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+                        <li class="largura5 quem">Ramiro Luz</li>
+                        <li class="largura4 o-que"><a href="<% request.uri_base %>/talk/15-7" target="_blank">Ensinando TDD através de Coding Dojos</a></li>
                         <li class="largura1 o-que-mais">
 	                        <a class="bt-mais bt-lilas float-right"></a>
 	                </li>
@@ -100,8 +106,9 @@
                 </ul>
                 <ul class="align-center">
                         <li class="largura2 quando">13:50</li>
-                        <li class="largura4 quem">Felipe Leprevost</li>
-                        <li class="largura5 o-que"><a href="<% request.uri_base %>/talk/15-8" target="_blank">Entre o laboratório e o escritório: modelos de negócios na biologia computacional</a></li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/leprevost.jpg"></li>
+                        <li class="largura5 quem">Felipe Leprevost</li>
+                        <li class="largura4 o-que"><a href="<% request.uri_base %>/talk/15-8" target="_blank">Entre o laboratório e o escritório: modelos de negócios na biologia computacional</a></li>
                         <li class="largura1 o-que-mais">
 	                        <a class="bt-mais bt-lilas float-right"></a>
 	                </li>
@@ -111,8 +118,9 @@
                 </ul>
                 <ul class="align-center">
                         <li class="largura2 quando">14:40</li>
-                        <li class="largura4 quem">Leonel Sanches da Silva</li>
-                        <li class="largura5 o-que"><a href="<% request.uri_base %>/talk/15-9" target="_blank">Perl e Seus Herdeiros: As Linguagens Influenciadas por Perl</a></li>
+    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+                        <li class="largura5 quem">Leonel Sanches da Silva</li>
+                        <li class="largura4 o-que"><a href="<% request.uri_base %>/talk/15-9" target="_blank">Perl e Seus Herdeiros: As Linguagens Influenciadas por Perl</a></li>
                         <li class="largura1 o-que-mais">
 	                        <a class="bt-mais bt-lilas float-right"></a>
 	                </li>
@@ -122,8 +130,9 @@
                 </ul>
    		<ul class="align-center">
     			<li class="largura2 quando">15:30</li>
-    			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>
-    			<li class="largura5 o-que"> <% l('Cofee Break') %> </li>
+    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura5 quem"> <% l('Hotel Slaviero') %> </li>
+    			<li class="largura4 o-que"> <% l('Cofee Break') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
@@ -133,8 +142,9 @@
     		</ul>	
    		<ul class="align-center">
     			<li class="largura2 quando">16:10</li>
-    			<li class="largura4 quem"> Thiago Rondon </li>
-    			<li class="largura5 o-que"><a href="<% request.uri_base %>/talk/15-11" target="_blank">Dados abertos em 2013</a></li>
+    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura5 quem"> Thiago Rondon </li>
+    			<li class="largura4 o-que"><a href="<% request.uri_base %>/talk/15-11" target="_blank">Dados abertos em 2013</a></li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
@@ -144,8 +154,9 @@
     		</ul>	
    		<ul class="align-center">
     			<li class="largura2 quando">17:00</li>
-    			<li class="largura4 quem"> Daniel Mantovani </li>
-    			<li class="largura5 o-que"><a href="<% request.uri_base %>/talk/15-12" target="_blank"> PostgreSQL para Massively Parallel Processing</a></li>
+    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura5 quem"> Daniel Mantovani </li>
+    			<li class="largura4 o-que"><a href="<% request.uri_base %>/talk/15-12" target="_blank"> PostgreSQL para Massively Parallel Processing</a></li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
@@ -162,8 +173,9 @@
 	<div id="programacao-sabado-content">
     		<ul class="align-center">
     			<li class="largura2 quando">10:00</li>
-    			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>
-    			<li class="largura5 o-que"> <% l('Cofee Break') %> </li>
+    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura5 quem"> <% l('Hotel Slaviero') %> </li>
+    			<li class="largura4 o-que"> <% l('Cofee Break') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
@@ -173,8 +185,9 @@
     		</ul>	
                 <ul class="align-center">
                         <li class="largura2 quando">10:30</li>
-                        <li class="largura4 quem">Gabriel Andrade de Santana</li>
-                        <li class="largura5 o-que"><a href="<% request.uri_base %>/talk/16-4" target="_blank">Asyncalyst</a></li>
+    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+                        <li class="largura5 quem">Gabriel Andrade de Santana</li>
+                        <li class="largura4 o-que"><a href="<% request.uri_base %>/talk/16-4" target="_blank">Asyncalyst</a></li>
                         <li class="largura1 o-que-mais">
 	                        <a class="bt-mais bt-lilas float-right"></a>
 	                </li>
@@ -184,8 +197,9 @@
                 </ul>
                 <ul class="align-center">
                         <li class="largura2 quando">11:20</li>
-                        <li class="largura4 quem">Hailton David Lemos</li>
-                        <li class="largura5 o-que"><a href="<% request.uri_base %>/talk/16-5" target="_blank">Aplicando Perl à Grafologia</a></li>
+    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+                        <li class="largura5 quem">Hailton David Lemos</li>
+                        <li class="largura4 o-que"><a href="<% request.uri_base %>/talk/16-5" target="_blank">Aplicando Perl à Grafologia</a></li>
                         <li class="largura1 o-que-mais">
 	                        <a class="bt-mais bt-lilas float-right"></a>
 	                </li>
@@ -198,8 +212,9 @@
                 </ul>
                 <ul class="align-center">
                         <li class="largura2 quando">13:00</li>
-                        <li class="largura4 quem">Daniel Mascarenhas</li>
-                        <li class="largura5 o-que"><a href="<% request.uri_base %>/talk/16-7" target="_blank">Simplificando seu projeto com Moose</a></li>
+    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+                        <li class="largura5 quem">Daniel Mascarenhas</li>
+                        <li class="largura4 o-que"><a href="<% request.uri_base %>/talk/16-7" target="_blank">Simplificando seu projeto com Moose</a></li>
                         <li class="largura1 o-que-mais">
 	                        <a class="bt-mais bt-lilas float-right"></a>
 	                </li>
@@ -209,8 +224,9 @@
                 </ul>
                 <ul class="align-center">
                         <li class="largura2 quando">13:50</li>
-                        <li class="largura4 quem">Diogo Borges Lima</li>
-                        <li class="largura5 o-que"><a href="<% request.uri_base %>/talk/16-8" target="_blank"> As Redes Neurais Artificiais e a Bioinformática. Como eles se entrelaçam ?</a></li>
+    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+                        <li class="largura5 quem">Diogo Borges Lima</li>
+                        <li class="largura4 o-que"><a href="<% request.uri_base %>/talk/16-8" target="_blank"> As Redes Neurais Artificiais e a Bioinformática. Como eles se entrelaçam ?</a></li>
                         <li class="largura1 o-que-mais">
 	                        <a class="bt-mais bt-lilas float-right"></a>
 	                </li>
@@ -221,8 +237,9 @@
                 </ul>
    		<ul class="align-center">
     			<li class="largura2 quando">15:30</li>
-    			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>
-    			<li class="largura5 o-que"> <% l('Cofee Break') %> </li>
+    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura5 quem"> <% l('Hotel Slaviero') %> </li>
+    			<li class="largura4 o-que"> <% l('Cofee Break') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
@@ -232,8 +249,9 @@
     		</ul>
    		<ul class="align-center">
     			<li class="largura2 quando">17:40</li>
-    			<li class="largura4 quem"> <% l('Felipe Leprevost') %> </li>
-    			<li class="largura5 o-que"> <% l('Encerramento') %> </li>
+    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura5 quem"> <% l('Felipe Leprevost') %> </li>
+    			<li class="largura4 o-que"> <% l('Encerramento') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
