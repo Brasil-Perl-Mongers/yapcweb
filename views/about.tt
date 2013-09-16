@@ -7,7 +7,7 @@
 </div>
 <div class="largura6">
 	<h1 style="text-align: left;"><% l('O maior evento Perl do Brasil!') %></h1>
-	<h2 class="align-right"><% l('... e dessa vez,&nbsp em Curitiba!') %></h2>
+	<h2 class="align-right"><% l('... e dessa vez,&nbsp em Curitiba !') %></h2>
 	
 	<br />
 	<br />
