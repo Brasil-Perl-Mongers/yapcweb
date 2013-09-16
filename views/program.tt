@@ -17,7 +17,7 @@
 	
     		<ul class="align-center">
     			<li class="largura2 quando">08:00</li>
-    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/camel.jpg"></li>
     			<li class="largura4 quem"> <% l('Curitiba Perl Mongers') %> </li>
     			<li class="largura4 o-que"> <% l('Credenciamento') %> </li>
     			<li class="largura1 o-que-mais">
@@ -51,7 +51,7 @@
     		</ul>	
     		<ul class="align-center">
     			<li class="largura2 quando">10:00</li>
-    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/slaviero.jpg"></li>
     			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>
     			<li class="largura4 o-que"> <% l('Coffee Break') %> </li>
     			<li class="largura1 o-que-mais">
@@ -94,7 +94,7 @@
                 </ul>
                 <ul class="align-center">
                         <li class="largura2 quando">13:00</li>
-    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/luz.jpg"></li>
                         <li class="largura4 quem">Ramiro Luz</li>
                         <li class="largura4 o-que"><a href="<% request.uri_base %>/talk/15-7" target="_blank">Ensinando TDD através de Coding Dojos</a></li>
                         <li class="largura1 o-que-mais">
@@ -118,7 +118,7 @@
                 </ul>
                 <ul class="align-center">
                         <li class="largura2 quando">14:40</li>
-    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/sanchez.jpg"></li>
                         <li class="largura4 quem">Leonel Sanches da Silva</li>
                         <li class="largura4 o-que"><a href="<% request.uri_base %>/talk/15-9" target="_blank">Perl e Seus Herdeiros: As Linguagens Influenciadas por Perl</a></li>
                         <li class="largura1 o-que-mais">
@@ -130,7 +130,7 @@
                 </ul>
    		<ul class="align-center">
     			<li class="largura2 quando">15:30</li>
-    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/slaviero.jpg"></li>
     			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>
     			<li class="largura4 o-que"> <% l('Coffee Break') %> </li>
     			<li class="largura1 o-que-mais">
@@ -142,7 +142,7 @@
     		</ul>	
    		<ul class="align-center">
     			<li class="largura2 quando">16:10</li>
-    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/rondon.jpg"></li>
     			<li class="largura4 quem"> Thiago Rondon </li>
     			<li class="largura4 o-que"><a href="<% request.uri_base %>/talk/15-11" target="_blank">Dados abertos em 2013</a></li>
     			<li class="largura1 o-que-mais">
@@ -154,7 +154,7 @@
     		</ul>	
    		<ul class="align-center">
     			<li class="largura2 quando">17:00</li>
-    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/mantovani.jpg"></li>
     			<li class="largura4 quem"> Daniel Mantovani </li>
     			<li class="largura4 o-que"><a href="<% request.uri_base %>/talk/15-12" target="_blank"> PostgreSQL para Massively Parallel Processing</a></li>
     			<li class="largura1 o-que-mais">
@@ -173,7 +173,7 @@
 	<div id="programacao-sabado-content">
     		<ul class="align-center">
     			<li class="largura2 quando">10:00</li>
-    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/slaviero.jpg"></li>
     			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>
     			<li class="largura4 o-que"> <% l('Coffee Break') %> </li>
     			<li class="largura1 o-que-mais">
@@ -237,7 +237,7 @@
                 </ul>
    		<ul class="align-center">
     			<li class="largura2 quando">15:30</li>
-    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/slaviero.jpg"></li>
     			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>
     			<li class="largura4 o-que"> <% l('Coffee Break') %> </li>
     			<li class="largura1 o-que-mais">
@@ -249,7 +249,7 @@
     		</ul>
    		<ul class="align-center">
     			<li class="largura2 quando">17:40</li>
-    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/leprevost.jpg"></li>
     			<li class="largura4 quem"> <% l('Felipe Leprevost') %> </li>
     			<li class="largura4 o-que"> <% l('Encerramento') %> </li>
     			<li class="largura1 o-que-mais">
