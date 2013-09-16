@@ -21,11 +21,11 @@
 	<div><!-- wrapper -->
 		<div id="perl" >
 			<a onclick="$.alert('<h5 style=text-align:center;>Top 5 razões para você participar!</h5><br />\
-				<p>1- <a target=_blank href=http://pt.wikipedia.org/wiki/Perl >Perl</a> é uma das linguagens mais <b>flexíveis</b> e <b>otimizadas</b> já inventadas;<\p><br />\
-				<p>2- Mesmo que você <b>não seja um programador Perl</b>, irá aprender muita coisa no evento;<\p><br />\
-				<p>3- Perl <b>influenciou</b> diversas outras linguagens como: Python, PHP, Ruby, Javascript, Windows Powershell e outras menos conhecidas.<\p><br />\
-				<p>4- Perl possui o <b>maior repositório</b> de códigos da Internet! O famoso <a target=_blank href=http://www.cpan.org >CPAN</a>, com mais de 124 mil módulos / bibliotecas.<\p><br />\
-				<p>5- <b>Curitiba</b> é uma cidade excelente para se visitar!<\p>\
+				<p>1- <a target=_blank href=http://pt.wikipedia.org/wiki/Perl >Perl</a> é uma das linguagens mais <strong>flexíveis</strong> e <strong>otimizadas</strong> já inventadas;<\p><br />\
+				<p>2- Mesmo que você <strong>não seja um programador Perl</strong>, irá aprender muita coisa no evento;<\p><br />\
+				<p>3- Perl <strong>influenciou</strong> diversas outras linguagens como: Python, PHP, Ruby, Javascript, Windows Powershell e outras menos conhecidas.<\p><br />\
+				<p>4- Perl possui o <strong>maior repositório</strong> de códigos da Internet! O famoso <a target=_blank href=http://www.cpan.org >CPAN</a>, com mais de 124 mil módulos / bibliotecas.<\p><br />\
+				<p>5- <strong>Curitiba</strong> é uma cidade excelente para se visitar!<\p>\
 			');">Perl ?</a>
 		</div>
 		<figure class="largura4" id="logo-yapc-sticky">
