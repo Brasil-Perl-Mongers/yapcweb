@@ -1,0 +1,13 @@
+<div class="largura12">
+	<h3 class="largura6 float-none"> <% l('YAPC pelo Mundo') %> </h3>
+	<br><br>
+</div>
+<div class="largura12">
+	
+	<div class="largura12 align-center inscricoes-valores">
+
+	<iframe width="640" height="360" src="//www.youtube.com/embed/videoseries?list=PLtMmBcjgHLVvrZAr91Xl1NjqHohMCct-Y" frameborder="0" allowfullscreen></iframe>
+
+	</div>
+	
+</div>

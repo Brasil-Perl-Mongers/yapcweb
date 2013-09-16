@@ -38,7 +38,15 @@
 			<a id="patrocinadores-menu"> <% l('Patrocinadores') %> </a>
 		</nav>
 	</div><!-- /wrapper -->
-    	</header><!-- /.full -->    	
+    	</header><!-- /.full -->
+
+	<section class="full shadow-top" id="youtube">
+		<div><!-- wrapper -->
+
+		<% INCLUDE youtube.tt %>
+
+		</div><!--/wrapper -->
+	</section>
 
     	<section class="full shadow-top" id="programacao">
     		<div><!-- wrapper -->
