@@ -609,8 +609,8 @@ color: #ffffff;
  	}
 	}
 @media (max-width:320px) {
-#patrocinadores-barra h5,
-#patrocinadores-barra a {
+	#patrocinadores-barra h5,
+	#patrocinadores-barra a {
  	margin-top: 10px;
  	width: 56.333%;
  	float:left;
