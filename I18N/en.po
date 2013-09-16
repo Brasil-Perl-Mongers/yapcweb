@@ -68,6 +68,9 @@ msgstr "Come discuss the <strong>Scientific Universe</strong> and <strong>Perl H
 msgid "o <strong>Joel Berger</strong>, criador do Perl 4 Science e o <strong>Gabor Szabo</strong> com mais de 14 anos de experiência no ensino de Perl."
 msgstr "<strong>Joel Berger</strong>, creator of Perl 4 Science and <strong>Gabor Szabo</strong> with over 14 years of experience teaching Perl."
 
+msgid "o <strong>Joel Berger</strong>, criador do Perl 4 Science."
+msgstr "<strong>Joel Berger</strong>, creator of Perl 4 Science."
+
 msgid "Conheça os responsáveis por trás das principais <strong>Empresas</strong> e <strong>Startups</strong> que contratam programadores Perl"
 msgstr "Meet the leaders behind the leading <strong>Companies</strong> and <strong>Startups</strong> hiring Perl programmers"
 

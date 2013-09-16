@@ -67,6 +67,9 @@ msgstr ""
 msgid "o <strong>Joel Berger</strong>, criador do Perl 4 Science e o <strong>Gabor Szabo</strong> com mais de 14 anos de experiência no ensino de Perl."
 msgstr ""
 
+msgid "o <strong>Joel Berger</strong>, criador do Perl 4 Science."
+msgstr ""
+
 msgid "Conheça os responsáveis por trás das principais <strong>Empresas</strong> e <strong>Startups</strong> que contratam programadores Perl"
 msgstr ""
 
