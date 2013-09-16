@@ -65,7 +65,7 @@ msgstr "… and this time,&nbsp in Curitiba"
 msgid "Venha discutir sobre o <strong>Universo Científico</strong> e <strong>Perl Hacking</strong> com os maiores especialistas da área, como"
 msgstr "Come discuss the <strong>Scientific Universe</strong> and <strong>Perl Hacking</strong> along with leading experts in the field, like"
 
-msgid "o <strong>Joel Berger</strong>, criador do Perl 4 Science e <strong>Gabor Szabo</strong> com mais de 14 anos de experiência no ensino de Perl."
+msgid "<strong>Joel Berger</strong>, criador do Perl 4 Science e <strong>Gabor Szabo</strong> com mais de 14 anos de experiência no ensino de Perl."
 msgstr "<strong>Joel Berger</strong>, creator of Perl 4 Science and <strong>Gabor Szabo</strong> with over 14 years of experience teaching Perl."
 
 msgid "Conheça os responsáveis por trás das principais <strong>Empresas</strong> e <strong>Startups</strong> que contratam programadores Perl"
