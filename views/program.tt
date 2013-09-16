@@ -63,7 +63,7 @@
     		</ul>
                 <ul class="align-center">
                         <li class="largura2 quando">10:30</li>
-    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/ruoso.jpg"></li>
                         <li class="largura4 quem">Leonardo Ruoso</li>
                         <li class="largura4 o-que"><a href="<% request.uri_base %>/talk/15-4" target="_blank">Empacotamento e distribuição de aplicativos dependentes de bancos de dados</a></li>
                         <li class="largura1 o-que-mais">
@@ -77,7 +77,7 @@
                 </ul>
                 <ul class="align-center">
                         <li class="largura2 quando">11:20</li>
-    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/cron.jpg"></li>
                         <li class="largura4 quem">Renato Cron</li>
                         <li class="largura4 o-que"><a href="<% request.uri_base %>/talk/15-5" target="_blank">Consultando a plataforma Iota com Perl.</a></li>
                         <li class="largura1 o-que-mais">
