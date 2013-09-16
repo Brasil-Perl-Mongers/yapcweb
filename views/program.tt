@@ -17,7 +17,7 @@
 	
     		<ul class="align-center">
     			<li class="largura2 quando">08:00</li>
-    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/berger.jpg"></li>
+    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
     			<li class="largura4 quem"> <% l('Curitiba Perl Mongers') %> </li>
     			<li class="largura4 o-que"> <% l('Credenciamento') %> </li>
     			<li class="largura1 o-que-mais">
@@ -29,7 +29,7 @@
     		</ul>	
     		<ul class="align-center">
     			<li class="largura2 quando">09:00</li>
-    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/berger.jpg"></li>
     			<li class="largura4 quem"> Joel Berger </li>
     			<li class="largura4 o-que"> <a href="<% request.uri_base %>/talk/15-1" target="_blank">The Scientific API: Designing your scientific code with your future user in mind</a> </li>
     			<li class="largura1 o-que-mais">
