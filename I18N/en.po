@@ -33,20 +33,20 @@ msgstr "Sponsors"
 msgid "Top 5 razões para você participar!"
 msgstr "Top 5 reasons to participate!"
 
-msgid "1- <a target=_blank href=http://pt.wikipedia.org/wiki/Perl >Perl</a> é uma das linguagens mais <b>flexíveis</b> e <b>otimizadas</b> já inventadas;"
-msgstr ""
+msgid "1- <a target=_blank href=http://pt.wikipedia.org/wiki/Perl >Perl</a> é uma das linguagens mais <strong>flexíveis</strong> e <strong>otimizadas</strong> já inventadas;"
+msgstr "1- <a target=_blank href=http://pt.wikipedia.org/wiki/Perl >Perl</a> is one of the most <strong>flexible</strong> and <strong>optimized</strong> languages ever made;"
 
-msgid "2- Mesmo que você <b>não seja um programador Perl</b>, irá aprender muita coisa no evento;"
-msgstr ""
+msgid "2- Mesmo que você <strong>não seja um programador Perl</strong>, irá aprender muita coisa no evento;"
+msgstr "2- Even if you <strong>are not a Perl programmer</strong>, you’ll learn a lot of new things;"
 
-msgid "3- Perl <b>influenciou</b> diversas outras linguagens como: Python, PHP, Ruby, Javascript, Windows Powershell e outras menos conhecidas."
-msgstr ""
+msgid "3- Perl <strong>influenciou</strong> diversas outras linguagens como: Python, PHP, Ruby, Javascript, Windows Powershell e outras menos conhecidas."
+msgstr "3- Perl <strong>influenced</strong> a bunch of other languages like: Python, PHP, Ruby, Javascript, Windows Powershell and others less known."
 
-msgid "4- Perl possui o <b>maior repositório</b> de códigos da Internet! O famoso <a target=_blank href=http://www.cpan.org >CPAN</a>, com mais de 124 mil módulos / bibliotecas."
-msgstr ""
+msgid "4- Perl possui o <strong>maior repositório de códigos</strong> da Internet! O famoso <a target=_blank href=http://www.cpan.org >CPAN</a>, com mais de 124 mil módulos / bibliotecas."
+msgstr "4- Perl has the <strong>biggest code repository</strong> over the Internet! The famous CPAN, that has more than 124 thousand modules / libraries."
 
-msgid "5- <b>Curitiba</b> é uma cidade excelente para se visitar!"
-msgstr ""
+msgid "5- <strong>Curitiba</strong> é uma cidade excelente para se visitar!"
+msgstr "5- <strong>Curitiba</strong> is a great touristic city to visit in Brazil!"
 
 # # youtube # #
 msgid "YAPC pelo Mundo"
@@ -55,9 +55,6 @@ msgstr "YAPC around the World."
 # # about ##
 msgid "15 e 16 de Novembro, em Curitiba, PR"
 msgstr "November 15-16, Curitiba, PR"
-
-msgid "15 e 16 de Novembro, em Curitiba, PR"
-msgstr ""
 
 msgid "O maior evento Perl do Brasil!"
 msgstr "The biggest Perl event in Brazil!"
@@ -68,7 +65,7 @@ msgstr "… and this time,&nbsp in Curitiba"
 msgid "Venha discutir sobre o <strong>Universo Científico</strong> e <strong>Perl Hacking</strong> com os maiores especialistas da área, como"
 msgstr "Come discuss the <strong>Scientific Universe</strong> and <strong>Perl Hacking</strong> along with leading experts in the field, like"
 
-msgid "o <strong>Joel Berger</strong>, criador do Perl 4 Science e <strong>Gabor Szabo</strong> com mais de 14 anos de experiência no ensino de Perl."
+msgid "<strong>Joel Berger</strong>, criador do Perl 4 Science e <strong>Gabor Szabo</strong> com mais de 14 anos de experiência no ensino de Perl."
 msgstr "<strong>Joel Berger</strong>, creator of Perl 4 Science and <strong>Gabor Szabo</strong> with over 14 years of experience teaching Perl."
 
 msgid "Conheça os responsáveis por trás das principais <strong>Empresas</strong> e <strong>Startups</strong> que contratam programadores Perl"

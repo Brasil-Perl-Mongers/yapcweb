@@ -1,6 +1,5 @@
 # yapcweb pt.po file
-msgid ""
-msgstr ""
+
 "Project-Id-Version: YAPC::Brasil 1.0\n"
 "Report-Msgid-Bugs-To: leprevost@cpan.org\n"
 "POT-Creation-Date: 2013-16-42 03:05\n"
@@ -33,19 +32,19 @@ msgstr ""
 msgid "Top 5 razões para você participar!"
 msgstr ""
 
-msgid "1- <a target=_blank href=http://pt.wikipedia.org/wiki/Perl >Perl</a> é uma das linguagens mais <b>flexíveis</b> e <b>otimizadas</b> já inventadas;"
+msgid "1- <a target=_blank href=http://pt.wikipedia.org/wiki/Perl >Perl</a> é uma das linguagens mais <strong>flexíveis</strong> e <strong>otimizadas</strong> já inventadas;"
 msgstr ""
 
-msgid "2- Mesmo que você <b>não seja um programador Perl</b>, irá aprender muita coisa no evento;"
+msgid "2- Mesmo que você <strong>não seja um programador Perl</strong>, irá aprender muita coisa no evento;"
 msgstr ""
 
-msgid "3- Perl <b>influenciou</b> diversas outras linguagens como: Python, PHP, Ruby, Javascript, Windows Powershell e outras menos conhecidas."
+msgid "3- Perl <strong>influenciou</strong> diversas outras linguagens como: Python, PHP, Ruby, Javascript, Windows Powershell e outras menos conhecidas."
 msgstr ""
 
-msgid "4- Perl possui o <b>maior repositório</b> de códigos da Internet! O famoso <a target=_blank href=http://www.cpan.org >CPAN</a>, com mais de 124 mil módulos / bibliotecas."
+msgid "4- Perl possui o <strong>maior repositório de códigos</strong> da Internet! O famoso <a target=_blank href=http://www.cpan.org >CPAN</a>, com mais de 124 mil módulos / bibliotecas."
 msgstr ""
 
-msgid "5- <b>Curitiba</b> é uma cidade excelente para se visitar!"
+msgid "5- <strong>Curitiba</strong> é uma cidade excelente para se visitar!"
 msgstr ""
 
 # # youtube # #
@@ -65,7 +64,7 @@ msgstr ""
 msgid "Venha discutir sobre o <strong>Universo Científico</strong> e <strong>Perl Hacking</strong> com os maiores especialistas da área, como"
 msgstr ""
 
-msgid "o <strong>Joel Berger</strong>, criador do Perl 4 Science e <strong>Gabor Szabo</strong> com mais de 14 anos de experiência no ensino de Perl."
+msgid "<strong>Joel Berger</strong>, criador do Perl 4 Science e <strong>Gabor Szabo</strong> com mais de 14 anos de experiência no ensino de Perl."
 msgstr ""
 
 msgid "Conheça os responsáveis por trás das principais <strong>Empresas</strong> e <strong>Startups</strong> que contratam programadores Perl"
