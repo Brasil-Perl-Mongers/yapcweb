@@ -53,12 +53,12 @@
     			<li class="largura2 quando">10:00</li>
     			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
     			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>
-    			<li class="largura4 o-que"> <% l('Cofee Break') %> </li>
+    			<li class="largura4 o-que"> <% l('Coffee Break') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
     			<li class="largura12 o-que-mais-content">
-    				<% l('Intervalo para o Cofee Break.') %>
+    				<% l('Intervalo para o Coffee Break.') %>
     			</li>
     		</ul>
                 <ul class="align-center">
@@ -132,12 +132,12 @@
     			<li class="largura2 quando">15:30</li>
     			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
     			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>
-    			<li class="largura4 o-que"> <% l('Cofee Break') %> </li>
+    			<li class="largura4 o-que"> <% l('Coffee Break') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
     			<li class="largura12 o-que-mais-content">
-    				<% l('Intervalo para o Cofee Break.') %>
+    				<% l('Intervalo para o Coffee Break.') %>
     			</li>
     		</ul>	
    		<ul class="align-center">
@@ -175,12 +175,12 @@
     			<li class="largura2 quando">10:00</li>
     			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
     			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>
-    			<li class="largura4 o-que"> <% l('Cofee Break') %> </li>
+    			<li class="largura4 o-que"> <% l('Coffee Break') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
     			<li class="largura12 o-que-mais-content">
-    				<% l('Intervalo para o Cofee Break.') %>
+    				<% l('Intervalo para o Coffee Break.') %>
     			</li>
     		</ul>	
                 <ul class="align-center">
@@ -239,12 +239,12 @@
     			<li class="largura2 quando">15:30</li>
     			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
     			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>
-    			<li class="largura4 o-que"> <% l('Cofee Break') %> </li>
+    			<li class="largura4 o-que"> <% l('Coffee Break') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
     			<li class="largura12 o-que-mais-content">
-    				<% l('Intervalo para o Cofee Break.') %>
+    				<% l('Intervalo para o Coffee Break.') %>
     			</li>
     		</ul>
    		<ul class="align-center">
