@@ -1,5 +1,5 @@
 <div class="largura12">
-	<h3 class="largura6 float-none"> <% l('YAPC pelo Mundo') %> </h3>
+	<h3 class="largura8 float-none"> <% l('YAPC pelo Mundo') %> </h3>
 	<br><br>
 </div>
 <div class="largura12">
