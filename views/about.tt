@@ -14,7 +14,7 @@
 	<br />
 
 	<p>
-	<% l('Venha discutir sobre o <strong>Universo Científico</strong> e Perl Hacking com os maiores especialistas da área, como ') %>
+	<% l('Venha discutir sobre o <strong>Universo Científico</strong> e <strong>Perl Hacking</strong> com os maiores especialistas da área, como ') %>
 	<% l('o <strong>Joel Berger</strong>, criador do Perl 4 Science e <strong>Gabor Szabo</strong> com mais de 14 anos de experiência no ensino de Perl.') %>
 	</p>
 
