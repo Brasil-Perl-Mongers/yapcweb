@@ -274,7 +274,7 @@
    		<ul class="align-center">
     			<li class="largura2 quando">17:40</li>
     			<li class="largura1 foto"><img src="<% request.uri_base %>/images/leprevost.jpg"></li>
-    			<li class="largura4 quem"> <% l('Felipe Leprevost') %> </li>
+    			<li class="largura4 quem"> Felipe da Veiga Leprevost </li>
     			<li class="largura4 o-que"> <% l('Encerramento') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
