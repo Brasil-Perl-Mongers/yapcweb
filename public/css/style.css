@@ -619,8 +619,14 @@ iframe {
 	.inscricoes-valores > span {
 		margin: 0;
 	}
+	nav {
+		width:70% !important;
+		margin:0 auto !important;
+		display:inline-block;
+		padding:0 15%;
+	}
 	nav a {
-		width: 42%;
+		width: 50%;
 		text-align: center;
 		margin: 0;
 		padding: 0;
@@ -639,7 +645,13 @@ iframe {
 		background: #ffffff;
 	}
 	#idiomas {
-		top: 20px;
+		top: 15px;
+		width:20px;
+	}
+	#perl {
+		width:40px;
+		left:10px;
+		font-size:14px;
 	}
 }
 @media (max-width: 240px) {
