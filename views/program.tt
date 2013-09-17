@@ -18,7 +18,7 @@
     		<ul class="align-center">
     			<li class="largura2 quando">08:00</li>
     			<li class="largura1 foto"><img src="<% request.uri_base %>/images/camel.jpg"></li>
-    			<li class="largura4 quem"> <% l('Curitiba Perl Mongers') %> </li>
+    			<li class="largura4 quem"> Curitiba Perl Mongers </li>
     			<li class="largura4 o-que"> <% l('Credenciamento') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
@@ -106,8 +106,8 @@
                 </ul>
                 <ul class="align-center">
                         <li class="largura2 quando">13:50</li>
-    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/leprevost.jpg"></li>
-                        <li class="largura4 quem">Felipe Leprevost</li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/lemons.jpg"></li>
+                        <li class="largura4 quem">Eduardo Lemons Francisco</li>
                         <li class="largura4 o-que"><a href="<% request.uri_base %>/talk/15-8" target="_blank">Entre o laboratório e o escritório: modelos de negócios na biologia computacional</a></li>
                         <li class="largura1 o-que-mais">
 	                        <a class="bt-mais bt-lilas float-right"></a>
@@ -197,7 +197,7 @@
                 </ul>
                 <ul class="align-center">
                         <li class="largura2 quando">11:20</li>
-    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/lemos.jpg"></li>
                         <li class="largura4 quem">Hailton David Lemos</li>
                         <li class="largura4 o-que"><a href="<% request.uri_base %>/talk/16-5" target="_blank">Aplicando Perl à Grafologia</a></li>
                         <li class="largura1 o-que-mais">
@@ -212,7 +212,7 @@
                 </ul>
                 <ul class="align-center">
                         <li class="largura2 quando">13:00</li>
-    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/mascarenhas.jpg"></li>
                         <li class="largura4 quem">Daniel Mascarenhas</li>
                         <li class="largura4 o-que"><a href="<% request.uri_base %>/talk/16-7" target="_blank">Simplificando seu projeto com Moose</a></li>
                         <li class="largura1 o-que-mais">
@@ -224,7 +224,7 @@
                 </ul>
                 <ul class="align-center">
                         <li class="largura2 quando">13:50</li>
-    			<li class="largura1 foto"><img src="http://placehold.it/60x60"></li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/lima.jpg"></li>
                         <li class="largura4 quem">Diogo Borges Lima</li>
                         <li class="largura4 o-que"><a href="<% request.uri_base %>/talk/16-8" target="_blank"> As Redes Neurais Artificiais e a Bioinformática. Como eles se entrelaçam ?</a></li>
                         <li class="largura1 o-que-mais">
@@ -233,6 +233,18 @@
                         <li class="largura12 o-que-mais-content">
 		                Utilização de Redes Neurais Artificiais no âmbito da bioinformática, assim como Reconhecimentos de Padrões que hoje são amplamente
 				 empregados em várias áreas da computação bem como a bioinformática
+	                </li>
+                </ul>
+                <ul class="align-center">
+                        <li class="largura2 quando">14:40</li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/leprevost.jpg"></li>
+                        <li class="largura4 quem">Felipe da Veiga Leprevost</li>
+                        <li class="largura4 o-que"><a href="<% request.uri_base %>/talk/16-9" target="_blank"> Iniciativa BioCoders </a></li>
+                        <li class="largura1 o-que-mais">
+	                        <a class="bt-mais bt-lilas float-right"></a>
+	                </li>
+                        <li class="largura12 o-que-mais-content">
+		                em preparo.
 	                </li>
                 </ul>
    		<ul class="align-center">
@@ -248,15 +260,27 @@
     			</li>
     		</ul>
    		<ul class="align-center">
+    			<li class="largura2 quando">16:10</li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/camel.jpg"></li>
+    			<li class="largura4 quem"> Brasil Perl Mongers </li>
+    			<li class="largura4 o-que"><a href="<% request.uri_base %>/talk/16-10" target="_blank"> Mesa Redonda: O papel e a presença do Perl nas empresas e startups brasileiras</a></li>
+    			<li class="largura1 o-que-mais">
+    				<a class="bt-mais bt-lilas float-right"></a>
+    			</li>
+    			<li class="largura12 o-que-mais-content">
+    				<% l('Intervalo para o Coffee Break.') %>
+    			</li>
+    		</ul>
+   		<ul class="align-center">
     			<li class="largura2 quando">17:40</li>
     			<li class="largura1 foto"><img src="<% request.uri_base %>/images/leprevost.jpg"></li>
-    			<li class="largura4 quem"> <% l('Felipe Leprevost') %> </li>
+    			<li class="largura4 quem"> Felipe da Veiga Leprevost </li>
     			<li class="largura4 o-que"> <% l('Encerramento') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
     			<li class="largura12 o-que-mais-content">
-    				<% l('Encerramento do evento e escolha da cidade sede de 2014.') %>
+    				em preparo
     			</li>
     		</ul>
 	</div>
