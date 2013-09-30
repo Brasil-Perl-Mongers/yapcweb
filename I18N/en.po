@@ -318,3 +318,9 @@ msgstr "from 08/15"
 
 msgid "Inscrever-se"
 msgstr "Enroll"
+
+msgid "estudante"
+msgstr "students"
+
+msgid "profissional"
+msgstr "professionals"
