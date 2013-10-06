@@ -172,6 +172,18 @@
 
 	<div id="programacao-sabado-content">
     		<ul class="align-center">
+    			<li class="largura2 quando">09:00</li>
+    			<li class="largura1 foto"><img src="<% request.uri_base %>/images/szabgab.jpg"></li>
+    			<li class="largura4 quem">Gabor Szabo</li>
+    			<li class="largura4 o-que"><a href="<% request.uri_base %>/talk/16-1" target="_blank">to be defined.</a></li>
+    			<li class="largura1 o-que-mais">
+    				<a class="bt-mais bt-lilas float-right"></a>
+    			</li>
+    			<li class="largura12 o-que-mais-content">
+    				to be defined.
+    			</li>
+    		</ul>	
+    		<ul class="align-center">
     			<li class="largura2 quando">10:00</li>
     			<li class="largura1 foto"><img src="<% request.uri_base %>/images/slaviero.jpg"></li>
     			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>

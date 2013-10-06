@@ -19,15 +19,6 @@
     	
     	<header class="full" id="nav">
 	<div><!-- wrapper -->
-		<div id="perl" >
-			<a onclick="$.alert('<h5 style=text-align:center;><% l('Top 5 razões para você participar!') %></h5><br />\
-				<p><% l('1- <a target=_blank href=http://pt.wikipedia.org/wiki/Perl >Perl</a> é uma das linguagens mais <strong>flexíveis</strong> e <strong>otimizadas</strong> já inventadas;') %><\p><br />\
-				<p><% l('2- Mesmo que você <strong>não seja um programador Perl</strong>, irá aprender muita coisa no evento;') %><\p><br />\
-				<p><% l('3- Perl <strong>influenciou</strong> diversas outras linguagens como: Python, PHP, Ruby, Javascript, Windows Powershell e outras menos conhecidas.') %><\p><br />\
-				<p><% l('4- Perl possui o <strong>maior repositório de códigos</strong> da Internet! O famoso <a target=_blank href=http://www.cpan.org >CPAN</a>, com mais de 124 mil módulos / bibliotecas.') %><\p><br />\
-				<p><% l('5- <strong>Curitiba</strong> é uma cidade excelente para se visitar!') %><\p>\
-			');">Perl ?</a>
-		</div>
 		<figure class="largura4" id="logo-yapc-sticky">
 			<img src="images/logo-yapc-sticky.png" alt="YAPC::Brasil 2013" alt="YAPC::Brasil 2013">
 		</figure>
