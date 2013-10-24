@@ -171,7 +171,8 @@
     	</div>
 
 	<div id="programacao-sabado-content">
-    		<ul class="align-center">
+		<!--    		
+		<ul class="align-center">
     			<li class="largura2 quando">09:00</li>
     			<li class="largura1 foto"><img src="<% request.uri_base %>/images/szabgab.jpg"></li>
     			<li class="largura4 quem">Gabor Szabo</li>
@@ -183,16 +184,17 @@
     				to be defined.
     			</li>
     		</ul>	
+		-->
     		<ul class="align-center">
     			<li class="largura2 quando">10:00</li>
     			<li class="largura1 foto"><img src="<% request.uri_base %>/images/slaviero.jpg"></li>
     			<li class="largura4 quem"> <% l('Hotel Slaviero') %> </li>
-    			<li class="largura4 o-que"> <% l('Coffee Break') %> </li>
+    			<li class="largura4 o-que"> <% l('Social Coffee') %> </li>
     			<li class="largura1 o-que-mais">
     				<a class="bt-mais bt-lilas float-right"></a>
     			</li>
     			<li class="largura12 o-que-mais-content">
-    				<% l('Intervalo para o Coffee Break.') %>
+    				<% l('Um bom café da manhã onde todos podem socializar') %>
     			</li>
     		</ul>	
                 <ul class="align-center">
