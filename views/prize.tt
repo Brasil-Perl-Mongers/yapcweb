@@ -28,8 +28,12 @@
 			<label for="voter-uf">Estado (UF) onde seu RG foi expedido:</label><br/>
 			<input type="text" id="voter-uf" placeholder="UF do seu RG"/>
 			<br/><br/>
-			<label for="vote-radio">Selecione um candidato na lista ou indique outro abaixo:</label><br/>
-			<input type="radio" id="vote-radio" name="felipe-teste" value="Felipe - teste">
+			<h4>Selecione um candidato na lista ou indique outro abaixo:</h4><br/>
+			
+			<% FOREACH nome IN name %>
+				<input type="radio" id="vote-radio-<% nome %>" name="nomes" value="<% nome %>"> <% nome %>
+			<% END %>
+			<br/>
 			<label for="candidate">Digite o Nome Completo do seu candidato:</label><br/>
 			<input type="text" id="candidate" placeholder="Nome do seu indicado ao Prêmio"/>
 			<input type="submit" value="Votar" action=""/>

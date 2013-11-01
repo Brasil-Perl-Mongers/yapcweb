@@ -1,2 +1,5 @@
-foo 1
-bar 5
+Foo	1
+Bar	5
+test	2
+Eduardo Lemons Francisco	0
+Felipe da Veiga Leprevost	3
