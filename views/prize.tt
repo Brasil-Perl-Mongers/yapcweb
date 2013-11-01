@@ -1,5 +1,5 @@
 <% languages(session.user_lang) %>
-    	<section class="full shadow-top" id="inscricoes">
+<section class="full shadow-top" id="inscricoes">
 	<div><!-- wrapper -->
 		<div class="largura12">
 			<center><h3 class="largura6"> Prêmio YAPC::Brasil 2013 </h3></center>
@@ -17,22 +17,26 @@
 				<li>Contribuição do indicado para a comunidade de programadores Perl, com a criação ou melhorias de módulos do CPAN, em 2013.</li>
 				<li>Criação de empresa ou projeto grande voltados para o uso ou treinamento na linguagem.</li>
 			</ul>
-		<h4>Data:</h4>
-			<p>
-			Sexta-feira 15, 16:10
-			</p>
+		<br/><br/><br/><br/>
+		<form id="vote-form">
+			<label for="voter-name">Seu nome:</label>
+			<input type="text" id="voter-name" placeholder="Seu nome"/>
+			<br/><br/>
+			<label for="voter-rg">RG:</label>
+			<input type="text" id="voter-rg" placeholder="Seu RG"/>
+			<br/><br/>
+			<label for="voter-uf">Estado (UF) onde seu RG foi expedido:</label><br/>
+			<input type="text" id="voter-uf" placeholder="UF do seu RG"/>
+			<br/><br/>
+			<label for="vote-radio">Selecione um candidato na lista ou indique outro abaixo:</label><br/>
+			<input type="radio" id="vote-radio" name="felipe-teste" value="Felipe - teste">
+			<label for="candidate">Digite o Nome Completo do seu candidato:</label><br/>
+			<input type="text" id="candidate" placeholder="Nome do seu indicado ao Prêmio"/>
+			<input type="submit" value="Votar" action=""/>
+		</form>
 		
-		<br><br>
-
-		<h4>Resumo:</h4>	
-		<p>
-			Abordando a utilização de dados abertos em todos os setores e provocações sobre o uso da linguagem perl e no universo científico.
-		</p>
-
-		<br><br>
-
 		<!-- Place this tag where you want the +1 button to render. -->
-		<div class="g-plusone" data-href="http://2013.yapcbrasil.org.br/talk/15-11"></div>
+		<div class="g-plusone" data-href="http://2013.yapcbrasil.org.br/premio"></div>
 
 		<!-- Place this tag after the last +1 button tag. -->
 		<script type="text/javascript">
@@ -42,35 +46,22 @@
 		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
 		  })();
 		</script>
+		<br/><br/>
 		
-		<br><br>
-	
 		<div class="largura6">
-		<div class="fb-like" data-href="http://2013.yapcbrasil.org.br/talk/15-11" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
-		
-		<br>
-		<br>
-	
-	<a href="https://twitter.com/share" class="twitter-share-button" data-related="yapcbrasil" data-hashtags="yapcbrasil">Tweet</a>
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
+			<div class="fb-like" data-href="http://2013.yapcbrasil.org.br/premio" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+			<br/><br/>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-related="yapcbrasil" data-hashtags="yapcbrasil">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 		</div>
-
-		<br><br>
-		<br><br>
-
-		</div>
-    	
-		</div><!-- /wrapper -->
-	    	</section><!-- /.full -->
-
-    	<hr>
-    	
-    	<section class="full shadow-top" id="patrocinadores">
-    		<div><!-- wrapper -->
-		
-		<% INCLUDE sponsors.tt %>		
-
-    		</div><!-- /wrapper -->
-    	</section><!-- /.full -->
-    	<hr>
+		<br/><br/><br/><br/>
+	</div>
+	</div><!-- /wrapper -->
+</section><!-- /.full -->
+<hr>
+<section class="full shadow-top" id="patrocinadores">
+	<div><!-- wrapper -->
+	<% INCLUDE sponsors.tt %>		
+	</div><!-- /wrapper -->
+</section><!-- /.full -->
+<hr>
