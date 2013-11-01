@@ -38,11 +38,10 @@ get '/premio' => sub {
 	
     my @keys = sort { $rank{$b} <=> $rank{$a} } keys(%rank);
     my @vals = $rank{@keys};
-	#my %hash = (nome => @keys, num => @vals);
+	
     template 'prize' => {
     	name => \@keys,
     	vote => \@vals,
-    	#name => \%hash
     };
 };
 

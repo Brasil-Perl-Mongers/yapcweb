@@ -1,5 +1,6 @@
 Foo	1
 Bar	5
 test	2
+Teste	4
 Eduardo Lemons Francisco	0
 Felipe da Veiga Leprevost	3
