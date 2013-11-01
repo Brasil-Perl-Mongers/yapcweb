@@ -28,20 +28,18 @@ get '/premio' => sub {
     
     my %rank;
 
-    open(my $prize_file, '<', '/public/docs/prize.txt');
+    open(my $prize_file, '<', 'public/docs/premio.txt') or die "** file not found **";
 
     while (my $line = <$prize_file>) {
         chomp $line;
-        my ($name, $vote) = split(/\t/, $line);
-        $rank{$name} = $vote;
+        my @elems = split(/\t/, $line);
+        $rank{$elems[0]} = $elems[1];
     }
 
-    my @keys = sort { $h{$a} <=> $h{$b} } keys(%h);
-    my @vals = @h{@keys};
-    
-    template 'prize';
+    my @keys = sort { $rank{$a} cmp $rank{$b} } keys(%rank);
+    my @vals = @rank{@keys};
 
-
+    template 'prize', {name => @keys, vote => @vals};
 };
 
 post '/premio' => sub {
