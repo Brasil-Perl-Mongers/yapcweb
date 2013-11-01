@@ -24,6 +24,29 @@ get '/' => sub {
 	template 'index';
 };
 
+get '/premio' => sub {
+    
+    my %rank;
+
+    open(my $prize_file, '<', '/public/docs/prize.txt');
+
+    while (my $line = <$prize_file>) {
+        chomp $line;
+        my ($name, $vote) = split(/\t/, $line);
+        $rank{$name} = $vote;
+    }
+
+    my @keys = sort { $h{$a} <=> $h{$b} } keys(%h);
+    my @vals = @h{@keys};
+    
+    template 'prize';
+
+
+};
+
+post '/premio' => sub {
+    template 'prize';
+};
 
 get '/talk/:id' => sub {
 	my $page = param('id') || 'empty';
