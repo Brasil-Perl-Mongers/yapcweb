@@ -35,11 +35,14 @@ get '/premio' => sub {
         my @elems = split(/\t/, $line);
         $rank{$elems[0]} = $elems[1];
     }
-
-    my @keys = sort { $rank{$a} cmp $rank{$b} } keys(%rank);
-    my @vals = @rank{@keys};
-
-    template 'prize', {name => @keys, vote => @vals};
+	
+    my @keys = sort { $rank{$b} <=> $rank{$a} } keys(%rank);
+    my @vals = $rank{@keys};
+	
+    template 'prize' => {
+    	name => \@keys,
+    	vote => \@vals,
+    };
 };
 
 post '/premio' => sub {
