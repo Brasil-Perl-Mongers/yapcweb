@@ -1,15 +1,15 @@
 <script>
 function toggleStatus() {
-    if ($('#toggle-radio').is(':checked')) {
-      $('#toggle-candidate').attr('checked', false);
-      $('#radio-list :radio').attr('disabled', false);
-      $('#name-candidate :input').attr('disabled', true);
+    if ($('#toggle_radio').is(':checked')) {
+      $('#toggle_candidate').attr('checked', false);
+      $('#radio_list :radio').attr('disabled', false);
+      $('#name_candidate :input').attr('disabled', true);
     }
 	
-    if ($('#toggle-candidate').is(':checked')) {
-      $('#toggle-radio').attr('checked', false);
-      $('#radio-list :radio').attr('disabled', true);
-      $('#name-candidate :input').attr('disabled', false);
+    if ($('#toggle_candidate').is(':checked')) {
+      $('#toggle_radio').attr('checked', false);
+      $('#radio_list :radio').attr('disabled', true);
+      $('#name_candidate :input').attr('disabled', false);
     }
 }
 </script>
@@ -36,40 +36,41 @@ function toggleStatus() {
 		<br/><br/>
 		<br/><br/>
 
-		<form id="vote-form">
-			<label for="voter-name">Seu nome:</label>
-			<input type="text" id="voter-name" placeholder="Seu nome"/>
+		<form id="vote_form" method="post" action="<% yapcweb %>">
+
+			<label for="voter_name">Seu nome:</label>
+			<input type="text" id="voter_name" placeholder="Seu nome"/>
 
 			<br/><br/>
 
-			<label for="voter-rg">RG:</label>
-			<input type="text" id="voter-rg" placeholder="Seu RG"/>
+			<label for="voter_rg">RG:</label>
+			<input type="text" id="voter_rg" placeholder="Seu RG"/>
 
 			<br/><br/>
 			<h4>Selecione um candidato na lista abaixo ou indique um novo candidato...</h4><br/>
 
 			<br/>
 
-			<input id="toggle-radio" type="radio" name="toggle" onchange="toggleStatus()" checked/> Selecionar candidato já existente:<br/><br/>
+			<input id="toggle_radio" type="radio" name="toggle" onchange="toggleStatus()" checked/> Selecionar candidato já existente:<br/><br/>
 			<p>N.º de</p>
 			<p>Votos:</p>
-			<div id="radio-list">
+			<div id="radio_list">
 				<ul>
 				<% FOREACH n IN name %>
 					<li style="margin-bottom: 15px;"> &nbsp;&nbsp; <% n.replace('.+#','') %> &nbsp;&nbsp;&nbsp;
-					<input type="radio" id="vote-radio" name="vote-radio" value="<% n %>" style=" margin-left: 10px;"> <% n.replace('#\d','') %> </li>
+					<input type="radio" name="radio_opt" id="radio_opt" value="<% n.replace('#\d','') %>" style=" margin-left: 10px;"> <% n.replace('#\d','') %> </li>
 				<% END %>
 				</ul>
 			</div>
 
 			<br/><br />
-			<h4>Digite o nome completo do seu candidato (se não estiver na lista acima):</h4>	
+			<h4>Ou digite o nome completo do seu candidato (se não estiver na lista acima):</h4>	
 		
 			<br/>
-			<input id="toggle-candidate" type="radio" name="toggle" onchange="toggleStatus()"/> Indicar novo candidato para a lista:
+			<input id="toggle_candidate" type="radio" name="toggle" onchange="toggleStatus()"/> Indicar novo candidato para a lista:
 
-			<div id="name-candidate">
-			<input type="text" id="vote-candidate" placeholder="Nome do seu indicado ao Prêmio" disabled="disabled"/>
+			<div id="name_candidate">
+			<input type="text" id="vote_candidate" placeholder="Nome do seu indicado ao Prêmio" disabled="disabled"/>
 			</div>
 
 			<br/><br />

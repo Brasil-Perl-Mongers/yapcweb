@@ -5,6 +5,8 @@ use Dancer::Plugin::I18N;
 use Dancer::Plugin::Email;
 use HTTP::AcceptLanguage;
 
+use Data::Printer;
+
 our $VERSION = '0.1';
 
 prefix '/';
@@ -32,7 +34,7 @@ get '/premio' => sub {
 
     while (my $line = <$prize_file>) {
         chomp $line;
-        my @elems = split(/\t/, $line);
+        my @elems = split(/\#/, $line);
         $rank{$elems[0]} = $elems[1];
     }
 
@@ -48,7 +50,34 @@ get '/premio' => sub {
 };
 
 post '/premio' => sub {
-    template 'prize';
+	
+	my $vote  = params->{radio_opt};
+	chomp $vote;
+
+	open(my $prize_file, '<', 'public/docs/premio.txt') or die "** file not found **";
+	
+	my %rank;
+
+    while (my $line = <$prize_file>) {
+		chomp $line;
+		my @elems = split(/\#/, $line);
+
+		if ($elems[0] eq $vote) {
+			$rank{$elems[0]} = $elems[1] + 1;
+		} else {
+			$rank{$elems[0]} = $elems[1];
+		}
+	}
+
+	open(my $write_file, '>', 'public/docs/premio.txt') or die "** file not found **";
+
+	for my $key (%rank) {
+		chomp $key;
+		my @elems = split(/\#/, $key);
+		print $write_file "$elems[0]#$elems[1]\n";
+	}
+
+    redirect '/';
 };
 
 get '/talk/:id' => sub {
