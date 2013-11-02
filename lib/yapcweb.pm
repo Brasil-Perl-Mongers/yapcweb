@@ -35,13 +35,15 @@ get '/premio' => sub {
         my @elems = split(/\t/, $line);
         $rank{$elems[0]} = $elems[1];
     }
-	
-    my @keys = sort { $rank{$b} <=> $rank{$a} } keys(%rank);
-    my @vals = $rank{@keys};
+
+	my @opts;
+
+	foreach my $key (sort { $rank{$b} <=> $rank{$a} } keys (%rank)) {
+		push(@opts, "$key#$rank{$key}");	
+	}
 	
     template 'prize' => {
-    	name => \@keys,
-    	vote => \@vals,
+    	name => \@opts,
     };
 };
 
