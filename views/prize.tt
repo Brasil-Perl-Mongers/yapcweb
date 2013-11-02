@@ -1,3 +1,20 @@
+<script>
+function toggleStatus() {
+    if ($('#toggle-radio').is(':checked')) {
+      $('#toggle-candidate').attr('checked', false);
+      $('#radio-list :radio').attr('disabled', false);
+      $('#name-candidate :input').attr('disabled', true);
+    }
+
+    if ($('#toggle-candidate').is(':checked')) {
+      $('#toggle-radio').attr('checked', false);
+      $('#radio-list :radio').attr('disabled', true);
+      $('#name-candidate :input').attr('disabled', false);
+    }
+   
+}
+</script>
+
 <% languages(session.user_lang) %>
 <section class="full shadow-top" id="inscricoes">
 	<div><!-- wrapper -->
@@ -30,24 +47,31 @@
 			<input type="text" id="voter-rg" placeholder="Seu RG"/>
 
 			<br/><br/>
-
 			<h4>Selecione um candidato na lista ou indique outro abaixo...</h4><br/>
 
 			<br/>
+
+			<input id="toggle-radio" type="checkbox" name="toggle" onchange="toggleStatus()" checked/>
 			
-			<ul>
-			<% FOREACH n IN name %>
-				<li style="margin-bottom: 15px;"> <% n.replace('.+#','') %> <input type="radio" id="vote-radio" name="vote-radio" value="<% n %>" style=" margin-left: 10px;"> <% n.replace('#\d','') %> </li>
-			<% END %>
-			</ul>
+			<div id="radio-list">
+				<ul>
+				<% FOREACH n IN name %>
+					<li style="margin-bottom: 15px;"> <% n.replace('.+#','') %> 
+					<input type="radio" id="vote-radio" name="vote-radio" value="<% n %>" style=" margin-left: 10px;"> <% n.replace('#\d','') %> </li>
+				<% END %>
+				</ul>
+			</div>
 
 			<br/><br />
-
-			<h4>Ou digite o nome completo do seu candidato:</h4>
-			
+			<h4>Ou digite o nome completo do seu candidato:</h4>	
+		
 			<br/>
 
-			<input type="text" id="candidate" placeholder="Nome do seu indicado ao Prêmio"/>
+			<input id="toggle-candidate" type="checkbox" name="toggle" onchange="toggleStatus()"/>
+
+			<div id="name-candidate">
+			<input type="text" id="vote-candidate" placeholder="Nome do seu indicado ao Prêmio" disabled="disabled"/>
+			</div>
 
 			<br/><br />
 
