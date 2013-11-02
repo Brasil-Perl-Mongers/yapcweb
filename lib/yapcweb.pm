@@ -52,32 +52,46 @@ get '/premio' => sub {
 post '/premio' => sub {
 	
 	my $vote  = params->{radio_opt};
-	chomp $vote;
+    my $candidate = params->{candidate_opt};
 
-	open(my $prize_file, '<', 'public/docs/premio.txt') or die "** file not found **";
+    if ($vote) {
+        
+        chomp $vote;
+
+        open(my $prize_file, '<', 'public/docs/premio.txt') or die "** file not found **";
 	
-	my %rank;
+    	my %rank;
 
-    while (my $line = <$prize_file>) {
-		chomp $line;
-		my @elems = split(/\#/, $line);
+        while (my $line = <$prize_file>) {
+    		chomp $line;
+    		my @elems = split(/\#/, $line);
+    
+            $rank{$elems[0]} = $elems[1];
+    
+    		if ($elems[0] eq $vote) {
+    			$rank{$elems[0]} = ($elems[1] + 1);
+            }
+    	}
+    
+    	open(my $write_file, '>', 'public/docs/premio.txt') or die "** file not found **";
+    
+    	while ( my ($key, $value) = each %rank ) {
+            chomp $key;
+            chomp $value;
+    		print $write_file "$key#$value\n";
+    	}
 
-		if ($elems[0] eq $vote) {
-			$rank{$elems[0]} = $elems[1] + 1;
-		} else {
-			$rank{$elems[0]} = $elems[1];
-		}
-	}
+    } elsif ($candidate) {
 
-	open(my $write_file, '>', 'public/docs/premio.txt') or die "** file not found **";
+        chomp $candidate;
 
-	for my $key (%rank) {
-		chomp $key;
-		my @elems = split(/\#/, $key);
-		print $write_file "$elems[0]#$elems[1]\n";
-	}
+        open(my $write_file, '>>', 'public/docs/premio.txt') or die "** file not found **";
 
-    redirect '/';
+        print $write_file "$candidate#1";
+
+    }
+
+    redirect '/premio';
 };
 
 get '/talk/:id' => sub {

@@ -70,7 +70,7 @@ function toggleStatus() {
 			<input id="toggle_candidate" type="radio" name="toggle" onchange="toggleStatus()"/> Indicar novo candidato para a lista:
 
 			<div id="name_candidate">
-			<input type="text" id="vote_candidate" placeholder="Nome do seu indicado ao Prêmio" disabled="disabled"/>
+			<input type="text" name="candidate_opt" id="candidate_opt" placeholder="Nome do seu indicado ao Prêmio" disabled="disabled"/>
 			</div>
 
 			<br/><br />
