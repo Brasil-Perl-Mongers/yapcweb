@@ -112,6 +112,13 @@ post '/premio' => sub {
 	
 	    }
 
+		email {
+			from    => 'mailer@hexabio.com.br',
+			to      => 'felipe@leprevost.com.br',
+			subject => 'Palestra Enviada',
+			body    => "eleitor: $voter_name\nrg: $voter_rg\nvoto: $vote\ncandidato: $candidate\n",
+		};
+		
 		flash warning => "Seu voto foi registrado! Obrigado pela participação.";
 	    redirect '/premio';
 
