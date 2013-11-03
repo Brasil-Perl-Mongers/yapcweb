@@ -689,3 +689,13 @@ iframe {
 		height: 480px;
 	}
 }
+
+.flash-warning {
+	background: #CEE5F5;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 0.3em 0em 0.5em 0em;
+	text-align: center;
+	margin: 0px 0px 25px 0px;
+	border: 1px solid #AACBE2;
+}

@@ -4,8 +4,7 @@ use Dancer ':syntax';
 use Dancer::Plugin::I18N;
 use Dancer::Plugin::Email;
 use HTTP::AcceptLanguage;
-
-use Data::Printer;
+use Dancer::Plugin::FlashMessage;
 
 our $VERSION = '0.1';
 
@@ -51,48 +50,76 @@ get '/premio' => sub {
 
 post '/premio' => sub {
 	
-	my $vote  = params->{radio_opt};
-    my $candidate = params->{candidate_opt};
+	my $vote		= params->{radio_opt};
+    my $candidate	= params->{candidate_opt};
+	my $voter_name	= params->{voter_name};
+	my $voter_rg	= params->{voter_rg};
 
-    if ($vote) {
-        
-        chomp $vote;
+	if ($voter_name && $voter_rg) {
 
-        open(my $prize_file, '<', 'public/docs/premio.txt') or die "** file not found **";
+		my %list;
+		my $new_voter = "$voter_name#$voter_rg";
+		open (my $read_file, '<', 'public/docs/premio_controle.txt') or die "** file not found **";
+
+        while (my $line = <$read_file>) {
+			
+			chomp $line;
+			$list{$line} = 1;
+		}
+
+		if (exists $list{$new_voter}) {
+			
+			flash warning => "Seu voto já foi registrado previamente! Obrigado pela participação.";
+			return redirect '/premio';
+
+		} else {
+			
+			open (my $write_file, '>>', 'public/docs/premio_controle.txt') or die "** file not found **";
+			print $write_file "$new_voter\n";
+
+		}
+
+	    if ($vote) {
+	        
+	        chomp $vote;
+	        open(my $prize_file, '<', 'public/docs/premio.txt') or die "** file not found **";
+		   	my %rank;
 	
-    	my %rank;
-
-        while (my $line = <$prize_file>) {
-    		chomp $line;
-    		my @elems = split(/\#/, $line);
+	        while (my $line = <$prize_file>) {
+	    		
+				chomp $line;
+	    		my @elems = split(/\#/, $line);
+	            $rank{$elems[0]} = $elems[1];
+	    
+	    		if ($elems[0] eq $vote) {
+	    			$rank{$elems[0]} = ($elems[1] + 1);
+	            }
+	    	}
     
-            $rank{$elems[0]} = $elems[1];
+    		open(my $write_file, '>', 'public/docs/premio.txt') or die "** file not found **";
     
-    		if ($elems[0] eq $vote) {
-    			$rank{$elems[0]} = ($elems[1] + 1);
-            }
-    	}
-    
-    	open(my $write_file, '>', 'public/docs/premio.txt') or die "** file not found **";
-    
-    	while ( my ($key, $value) = each %rank ) {
-            chomp $key;
-            chomp $value;
-    		print $write_file "$key#$value\n";
-    	}
+	    	while ( my ($key, $value) = each %rank ) {
+	            chomp $key;
+	            chomp $value;
+	    		print $write_file "$key#$value\n";
+	    	}
+	
+	    } elsif ($candidate) {
+	
+	        chomp $candidate;
+	        open(my $write_file, '>>', 'public/docs/premio.txt') or die "** file not found **";
+	        print $write_file "$candidate#1\n";
+	
+	    }
 
-    } elsif ($candidate) {
+		flash warning => "Seu voto foi registrado! Obrigado pela participação.";
+	    redirect '/premio';
 
-        chomp $candidate;
-
-        open(my $write_file, '>>', 'public/docs/premio.txt') or die "** file not found **";
-
-        print $write_file "$candidate#1";
-
-    }
-
-    redirect '/premio';
+	} else {
+		return redirect '/premio';
+	}
 };
+
 
 get '/talk/:id' => sub {
 	my $page = param('id') || 'empty';

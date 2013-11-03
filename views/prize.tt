@@ -23,6 +23,12 @@ function toggleStatus() {
 		</div>
 
 		<div class="largura12" >
+			
+			<% IF flash.warning %>
+            <div class="flash-warning">
+            <% flash.warning %>
+            </div>
+            <% END %>
 	
 		<center><h4 style="font-size: 32px;">Prêmio YAPC::Brasil 2013</h4></center>
 
@@ -39,12 +45,12 @@ function toggleStatus() {
 		<form id="vote_form" method="post" action="<% yapcweb %>">
 
 			<label for="voter_name">Seu nome:</label>
-			<input type="text" id="voter_name" placeholder="Seu nome"/>
+			<input type="text" id="voter_name" name="voter_name" placeholder="Seu nome"/>
 
 			<br/><br/>
 
-			<label for="voter_rg">RG:</label>
-			<input type="text" id="voter_rg" placeholder="Seu RG"/>
+			<label for="voter_rg">RG (somente os números):</label>
+			<input type="text" id="voter_rg" name="voter_rg" placeholder="Seu RG"/>
 
 			<br/><br/>
 			<h4>Selecione um candidato na lista abaixo ou indique um novo candidato...</h4><br/>
