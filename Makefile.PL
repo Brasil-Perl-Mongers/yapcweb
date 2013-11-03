@@ -24,6 +24,7 @@ WriteMakefile(
 		'Net::SMTP::SSL'		=> 0,
 		'MIME::Base64'			=> 0,
 		'Authen::SASL'			=> 0,
+		'Dancer::Plugin::FlashMessage'	=> 0,
 		'LWP::UserAgent' 		=> 5.8,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
