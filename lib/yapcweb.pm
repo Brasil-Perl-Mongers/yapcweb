@@ -115,7 +115,7 @@ post '/premio' => sub {
 		email {
 			from    => 'mailer@hexabio.com.br',
 			to      => 'felipe@leprevost.com.br',
-			subject => 'Palestra Enviada',
+			subject => '[YAPC] Novo Voto',
 			body    => "eleitor: $voter_name\nrg: $voter_rg\nvoto: $vote\ncandidato: $candidate\n",
 		};
 		
