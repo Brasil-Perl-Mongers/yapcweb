@@ -34,13 +34,13 @@
 
 <div class="align-center">
 	<a href="http://www.aware.com.br/" target="_blank">
-		<figure class="largura2">
+		<figure class="largura3">
 			<img src="<% request.uri_base %>/images/aware.png" alt="Aware" title="Aware">
 		</figure>
 	</a>
 
 	<a href="http://www.hexabio.com.br" target="_blank">
-		<figure class="largura2">
+		<figure class="largura3">
 			<img src="<% request.uri_base %>/images/hexabio-1.png" alt="Hexabio Bioinformática" title="Hexabio Bioinformática">
 		</figure>
 	</a>
@@ -58,20 +58,26 @@
 	
 
 	<a href="http://www.softwarepublico.gov.br/ver-comunidade?community_id=11809545" target="_blank">
-	<figure class="largura1">
+	<figure class="largura2">
 		<img src="<% request.uri_base %>/images/fila.png" alt="Comunidade Fila Sistema de Atendimento © Oktiva" title="Comunidade Fila Sistema de Atendimento © Oktiva">
 	</figure>
 	</a>
 
 	<a href="http://bivee.com.br" target="_blank">
-	<figure class="largura1">
-		<img style="padding-bottom: 0.4em" src="<% request.uri_base %>/images/bivee.png" alt="Bivee" title="Bivee">
+	<figure class="largura2">
+		<img style="padding-bottom: 0.8em" src="<% request.uri_base %>/images/bivee.png" alt="Bivee" title="Bivee">
 	</figure>
 	</a>
 
 	<a href="http://www.perldelux.com.br" target="_blank">
-	<figure class="largura1">
+	<figure class="largura2">
 		<img style="padding-bottom: 0.8em" src="<% request.uri_base %>/images/perldelux.png" alt="PerlDelux" title="PerlDelux">
+	</figure>
+	</a>
+
+	<a href="http://urby.com.br" target="_blank">
+	<figure class="largura2">
+		<img style="padding-bottom: 0.8em" src="<% request.uri_base %>/images/urby.png" alt="Urby" title="Urby">
 	</figure>
 	</a>
 
